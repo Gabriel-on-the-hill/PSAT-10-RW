@@ -628,6 +628,19 @@ header {
     overflow-y: auto;
 }
 
+.completion-time {
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    margin-top: 0.35rem;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+}
+.hist-time {
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    white-space: nowrap;
+    flex-shrink: 0;
+}
 .completion-header { text-align: center; margin-bottom: 1.25rem; }
 .completion-header h2 { font-size: 1.25rem; font-weight: 700; margin-bottom: 0.4rem; }
 .completion-score-row { display: flex; align-items: baseline; justify-content: center; gap: 0.65rem; }

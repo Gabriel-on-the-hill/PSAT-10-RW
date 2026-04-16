@@ -81,7 +81,7 @@ const STORAGE = {
     SPLIT:   'psat10_split',
 };
 
-const EXAM_DATE = new Date('2026-04-30');
+const EXAM_DATE = new Date('2026-10-15'); // PSAT/NMSQT — confirm exact date with College Board
 
 // ── State ──────────────────────────────────────────────────────────
 let currentQuestionIndex = 0;
@@ -94,6 +94,7 @@ let activeQuestions  = [];
 let missedQuestions  = [];
 let sessionResults   = [];
 let reviewMode       = false;
+let questionStartTime = 0;
 
 // ══════════════════════════════════════════════════════════════════
 // SETUP SCREEN
@@ -420,6 +421,7 @@ function tryBuildHTMLTable(dataLines) {
 
 function loadQuestion(index) {
     isAnswered = false;
+    questionStartTime = Date.now();
     const q    = activeQuestions[index];
 
     const feedbackEl  = document.getElementById('feedbackContainer');
@@ -613,7 +615,8 @@ function handleOptionClick(btn, selectedLetter, q) {
     const feedbackTitle = document.getElementById('feedbackTitle');
     const optionsEl  = document.getElementById('optionsContainer');
 
-    sessionResults.push({ q, selected: selectedLetter, correct: q.answer, isCorrect });
+    const secsOnQuestion = Math.round((Date.now() - questionStartTime) / 1000);
+    sessionResults.push({ q, selected: selectedLetter, correct: q.answer, isCorrect, secs: secsOnQuestion });
     if (!isCorrect) missedQuestions.push({ q, selected: selectedLetter });
 
     if (isCorrect) {
@@ -654,6 +657,20 @@ function showCompletion() {
     const pctEl = document.getElementById('completionPct');
     pctEl.textContent = `${pct}%`;
     pctEl.className   = 'completion-pct ' + (pct >= 80 ? 'pct-pass' : pct >= 60 ? 'pct-warn' : 'pct-fail');
+
+    // Time summary (Standard + Exam modes only)
+    const timeEl = document.getElementById('completionTime');
+    if (timeEl) {
+        if (secondsElapsed > 0) {
+            const m   = Math.floor(secondsElapsed / 60);
+            const s   = secondsElapsed % 60;
+            const avg = Math.round(secondsElapsed / total);
+            timeEl.textContent = `${m}m ${s}s total · avg ${avg}s / question`;
+            timeEl.style.display = 'block';
+        } else {
+            timeEl.style.display = 'none';
+        }
+    }
 
     // Per-skill breakdown
     const stats = {};
@@ -835,12 +852,17 @@ function logSession(skills, diffs, sessionScore, total) {
         if (r.isCorrect) skillStats[r.q.skill].correct++;
     });
 
+    const totalSecs = secondsElapsed;
+    const avgSecs   = totalSecs > 0 ? Math.round(totalSecs / total) : null;
+
     const record = {
         date: new Date().toISOString(),
         skills, diffs,
         score: sessionScore, total,
         pct:   Math.round((sessionScore / total) * 100),
         skillStats,
+        duration: totalSecs,   // seconds; 0 means Assisted (not tracked)
+        avgSecs,               // null if not tracked
     };
     let history = [];
     try { history = JSON.parse(localStorage.getItem(STORAGE.HISTORY)) || []; } catch(e) {}
@@ -866,10 +888,14 @@ function renderHistory() {
         const timeStr = d.toLocaleTimeString('en-GB', { hour:'2-digit', minute:'2-digit' });
         const labels  = r.skills.map(s => SKILL_ABBR[s] || s).join(' + ');
         const cls     = r.pct >= 80 ? 'hist-pass' : r.pct >= 60 ? 'hist-warn' : 'hist-fail';
+        const timePart = r.duration > 0
+            ? `<span class="hist-time">${Math.floor(r.duration/60)}m${r.duration%60}s · ${r.avgSecs}s/q</span>`
+            : '';
         return `
         <div class="hist-row">
             <span class="hist-date">${dateStr} ${timeStr}</span>
             <span class="hist-skills">${labels}</span>
+            ${timePart}
             <span class="hist-score ${cls}">${r.score}/${r.total} (${r.pct}%)</span>
         </div>`;
     }).join('');
@@ -1130,9 +1156,11 @@ function init() {
         clearSessionState();
         hideSetup();
         loadQuestion(0);
+        if (userMode === 'standard' || userMode === 'exam') {
+            startTimer(); // track time in Standard + Exam; Assisted excluded
+        }
         if (userMode === 'exam') {
             document.getElementById('timerDisplay').classList.remove('hidden');
-            startTimer();
         }
     });
 
