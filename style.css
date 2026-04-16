@@ -494,6 +494,36 @@ header {
     color: var(--primary);
 }
 
+/* Preset tooltip on hover */
+.preset-btn[data-tooltip] {
+    position: relative;
+}
+.preset-btn[data-tooltip]::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: calc(100% + 7px);
+    left: 50%;
+    transform: translateX(-50%);
+    background: #1a2533;
+    color: #f1f5f9;
+    font-size: 0.72rem;
+    font-weight: 400;
+    line-height: 1.45;
+    padding: 0.45rem 0.65rem;
+    border-radius: 0.4rem;
+    white-space: normal;
+    width: 200px;
+    text-align: center;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.15s;
+    z-index: 50;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 0.2);
+}
+.preset-btn[data-tooltip]:hover::after {
+    opacity: 1;
+}
+
 /* Priority presets (confirmed gap) */
 .preset-priority {
     background: #fef2f2;
