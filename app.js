@@ -81,7 +81,7 @@ const STORAGE = {
     SPLIT:   'psat10_split',
 };
 
-const EXAM_DATE = new Date('2026-10-15'); // PSAT/NMSQT — confirm exact date with College Board
+const EXAM_DATE = new Date('2026-08-25'); // SAT — confirm exact date with school
 
 // ── State ──────────────────────────────────────────────────────────
 let currentQuestionIndex = 0;
@@ -114,22 +114,23 @@ function getLimit() {
     return parseInt(document.getElementById('limitSelect').value);
 }
 
-function buildActiveQuestions() {
+let _activeTopicFilter = null; // set by preset; null means no filter
+
+function buildActiveQuestions(topicFilter) {
     const skills = getSelectedSkills();
     const diffs  = getSelectedDiffs();
     const limit  = getLimit();
+    const topic  = topicFilter !== undefined ? topicFilter : _activeTopicFilter;
 
-    let filtered = questionBank.filter(
-        q => skills.includes(q.skill) && diffs.includes(q.difficulty)
+    const filtered = questionBank.filter(q =>
+        skills.includes(q.skill) &&
+        diffs.includes(q.difficulty) &&
+        (topic === null || !topic || q.topic === topic)
     );
 
-    // Fisher-Yates shuffle
-    for (let i = filtered.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [filtered[i], filtered[j]] = [filtered[j], filtered[i]];
-    }
-
-    return limit > 0 ? filtered.slice(0, limit) : filtered;
+    // Adaptive order: struggling → unseen → mastered
+    const prioritized = prioritizePool(filtered);
+    return limit > 0 ? prioritized.slice(0, limit) : prioritized;
 }
 
 function updateSetupUI() {
@@ -164,6 +165,8 @@ function applyPreset(btn) {
     const skills = btn.dataset.skills.split(',').map(s => s.trim());
     const diffs  = btn.dataset.diffs.split(',').map(d => d.trim());
 
+    _activeTopicFilter = btn.dataset.topic || null;
+
     document.querySelectorAll('input[name="skill"]').forEach(el => {
         el.checked = skills.includes(el.value);
     });
@@ -171,14 +174,35 @@ function applyPreset(btn) {
         el.checked = diffs.includes(el.value);
     });
     document.getElementById('limitSelect').value = btn.dataset.limit;
+
+    // Show/hide topic badge on session summary
+    const badge = document.getElementById('topicFilterBadge');
+    if (badge) badge.style.display = _activeTopicFilter ? 'inline' : 'none';
+    if (badge && _activeTopicFilter) badge.textContent = _activeTopicFilter + ' passages only';
+
     updateSetupUI();
+}
+
+function showHub() {
+    stopTimer();
+    document.getElementById('hubScreen').style.display        = 'flex';
+    document.getElementById('setupScreen').style.display      = 'none';
+    document.getElementById('app').style.display              = 'none';
+    document.getElementById('completionScreen').style.display = 'none';
+    document.getElementById('timerDisplay').classList.add('hidden');
+}
+
+function enterPractice() {
+    document.getElementById('hubScreen').style.display = 'none';
+    showSetup();
 }
 
 function showSetup() {
     stopTimer();
     document.getElementById('timerDisplay').classList.add('hidden');
-    document.getElementById('setupScreen').style.display  = 'flex';
-    document.getElementById('app').style.display          = 'none';
+    document.getElementById('hubScreen').style.display        = 'none';
+    document.getElementById('setupScreen').style.display      = 'flex';
+    document.getElementById('app').style.display              = 'none';
     document.getElementById('completionScreen').style.display = 'none';
     updateSetupUI();
     renderHistory();
@@ -618,6 +642,7 @@ function handleOptionClick(btn, selectedLetter, q) {
     const secsOnQuestion = Math.round((Date.now() - questionStartTime) / 1000);
     sessionResults.push({ q, selected: selectedLetter, correct: q.answer, isCorrect, secs: secsOnQuestion });
     if (!isCorrect) missedQuestions.push({ q, selected: selectedLetter });
+    recordAnswer(q.id, isCorrect, userMode === 'exam' ? 'exam' : 'practice');
 
     if (isCorrect) {
         btn.classList.add('correct');
@@ -1095,6 +1120,15 @@ function initKeyboardShortcuts() {
     document.addEventListener('keydown', e => {
         if (['INPUT','SELECT','TEXTAREA'].includes(e.target.tagName)) return;
 
+        // Ctrl+Shift+P — toggle tutor progress panel from any screen
+        if (e.ctrlKey && e.shiftKey && e.key.toUpperCase() === 'P') {
+            e.preventDefault();
+            const panel = document.getElementById('progressPanel');
+            if (panel && panel.style.display !== 'none') closeProgressPanel();
+            else showProgressPanel();
+            return;
+        }
+
         const onSetup      = document.getElementById('setupScreen').style.display      !== 'none';
         const onCompletion = document.getElementById('completionScreen').style.display !== 'none';
         if (onSetup || onCompletion) return;
@@ -1140,14 +1174,19 @@ function initKeyboardShortcuts() {
 function init() {
     // Setup screen listeners
     document.querySelectorAll('input[name="skill"], input[name="diff"]')
-        .forEach(el => el.addEventListener('change', updateSetupUI));
+        .forEach(el => el.addEventListener('change', () => {
+            _activeTopicFilter = null;
+            const badge = document.getElementById('topicFilterBadge');
+            if (badge) badge.style.display = 'none';
+            updateSetupUI();
+        }));
     document.getElementById('limitSelect').addEventListener('change', updateSetupUI);
     document.querySelectorAll('.preset-btn')
         .forEach(btn => btn.addEventListener('click', () => applyPreset(btn)));
 
     // Start session
     document.getElementById('startSessionBtn').addEventListener('click', () => {
-        activeQuestions = buildActiveQuestions();
+        activeQuestions = buildActiveQuestions(_activeTopicFilter);
         if (activeQuestions.length === 0) return;
         reviewMode      = false;
         missedQuestions = [];
@@ -1164,7 +1203,7 @@ function init() {
         }
     });
 
-    document.getElementById('changeSessionBtn').addEventListener('click', showSetup);
+    document.getElementById('changeSessionBtn').addEventListener('click', showHub);
 
     document.getElementById('modeSelect').addEventListener('change', e => {
         userMode = e.target.value;
@@ -1201,7 +1240,7 @@ function init() {
     document.getElementById('reviewMissedBtn').addEventListener('click', startReviewMissed);
     document.getElementById('newSessionBtn').addEventListener('click', () => {
         reviewMode = false;
-        showSetup();
+        showHub();
     });
 
     // History toggle
@@ -1255,9 +1294,138 @@ function init() {
         chevron.textContent = open ? '\u25b8' : '\u25be';
     });
 
+    // Progress export / import
+    document.getElementById('exportProgressBtn').addEventListener('click', openExportProgressModal);
+    document.getElementById('importProgressBtn').addEventListener('click', openImportProgressModal);
+
     initResizablePanel();
     initKeyboardShortcuts();
-    showSetup();
+    showHub();
+}
+
+// ══════════════════════════════════════════════════════════════════
+// PROGRESS PANEL  (tutor view — Ctrl+Shift+P)
+// ══════════════════════════════════════════════════════════════════
+
+function showProgressPanel() {
+    const panel = document.getElementById('progressPanel');
+    const body  = document.getElementById('progressBody');
+    if (!panel || !body) return;
+
+    const global = getPoolSummary(questionBank);
+    const skills = [...new Set(questionBank.map(q => q.skill))];
+    const DIFFS  = ['Easy', 'Medium', 'Hard'];
+
+    const skillRows = skills.map(skill => {
+        const diffHtml = DIFFS.map(d => {
+            const pool = questionBank.filter(q => q.skill === skill && q.difficulty === d);
+            if (pool.length === 0) return '';
+            const s   = getPoolSummary(pool);
+            const pct = Math.round(s.mastered / s.total * 100);
+            const bar = Math.round(pct / 10);
+            return `<div style="display:grid;grid-template-columns:60px 100px 100px 70px;gap:0.4rem;align-items:center;font-size:0.77rem;padding:0.15rem 0">
+                <span style="color:var(--text-muted)">${d}</span>
+                <span style="font-family:monospace;font-size:0.7rem;color:#15803d">${'█'.repeat(bar)}${'░'.repeat(10 - bar)}</span>
+                <span style="color:#15803d;font-weight:600">${s.mastered}/${s.total}</span>
+                <span style="color:#c2410c;font-size:0.72rem">${s.struggling > 0 ? s.struggling + ' stuck' : ''}</span>
+            </div>`;
+        }).join('');
+        return `<div style="margin-bottom:0.9rem">
+            <div style="font-size:0.8rem;font-weight:700;color:var(--text);margin-bottom:0.25rem">${SKILL_ABBR[skill] || skill} &mdash; <span style="font-weight:400;color:var(--text-muted)">${skill}</span></div>
+            ${diffHtml}
+        </div>`;
+    }).join('');
+
+    body.innerHTML = `
+        <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:0.75rem;margin-bottom:1.25rem;text-align:center">
+            <div style="background:#f0fdf4;border:1px solid #bbf7d0;border-radius:0.6rem;padding:0.6rem">
+                <div style="font-size:1.4rem;font-weight:700;color:#15803d">${global.mastered}</div>
+                <div style="font-size:0.72rem;color:#15803d;font-weight:600">Mastered</div>
+            </div>
+            <div style="background:#fff7ed;border:1px solid #fed7aa;border-radius:0.6rem;padding:0.6rem">
+                <div style="font-size:1.4rem;font-weight:700;color:#c2410c">${global.struggling}</div>
+                <div style="font-size:0.72rem;color:#c2410c;font-weight:600">Struggling</div>
+            </div>
+            <div style="background:#f8fafc;border:1px solid var(--border);border-radius:0.6rem;padding:0.6rem">
+                <div style="font-size:1.4rem;font-weight:700;color:var(--text-muted)">${global.unseen}</div>
+                <div style="font-size:0.72rem;color:var(--text-muted);font-weight:600">Unseen</div>
+            </div>
+        </div>
+        <p style="font-size:0.71rem;color:var(--text-muted);text-align:center;margin-bottom:1.25rem">
+            Mastered = &ge;${MASTERY_THRESHOLD} correct &middot; within 21 days &middot; exam answer counts double
+        </p>
+        ${skillRows}
+        <div style="padding-top:1rem;border-top:1px solid var(--border);display:flex;justify-content:flex-end">
+            <button onclick="resetLedger();showProgressPanel();" class="btn"
+                style="font-size:0.8rem;border-color:#fecaca;color:#dc2626">
+                Reset All Progress
+            </button>
+        </div>`;
+
+    panel.style.display = 'block';
+}
+
+function closeProgressPanel() {
+    const panel = document.getElementById('progressPanel');
+    if (panel) panel.style.display = 'none';
+}
+
+// ══════════════════════════════════════════════════════════════════
+// PROGRESS EXPORT / IMPORT  (ledger portability)
+// ══════════════════════════════════════════════════════════════════
+
+function openExportProgressModal() {
+    const modal     = document.getElementById('dataModal');
+    const title     = document.getElementById('modalTitle');
+    const desc      = document.getElementById('modalDesc');
+    const textarea  = document.getElementById('modalTextarea');
+    const actionBtn = document.getElementById('modalActionBtn');
+
+    title.textContent     = 'Export Progress';
+    desc.textContent      = "Copy this to back up Joshua's mastery progress.";
+    desc.style.color      = '';
+    textarea.value        = JSON.stringify({ progress: getProgress() }, null, 2);
+    textarea.readOnly     = true;
+    actionBtn.textContent = 'Copy to Clipboard';
+    actionBtn.onclick     = () => {
+        navigator.clipboard.writeText(textarea.value)
+            .then(() => {
+                actionBtn.textContent = 'Copied!';
+                setTimeout(() => { actionBtn.textContent = 'Copy to Clipboard'; }, 2000);
+            })
+            .catch(() => { textarea.select(); document.execCommand('copy'); });
+    };
+    modal.style.display = 'flex';
+}
+
+function openImportProgressModal() {
+    const modal     = document.getElementById('dataModal');
+    const title     = document.getElementById('modalTitle');
+    const desc      = document.getElementById('modalDesc');
+    const textarea  = document.getElementById('modalTextarea');
+    const actionBtn = document.getElementById('modalActionBtn');
+
+    title.textContent     = 'Import Progress';
+    desc.textContent      = "Paste exported progress JSON. Records will be merged.";
+    desc.style.color      = '';
+    textarea.value        = '';
+    textarea.readOnly     = false;
+    textarea.placeholder  = 'Paste JSON here…';
+    actionBtn.textContent = 'Import';
+    actionBtn.onclick     = () => {
+        try {
+            const incoming = JSON.parse(textarea.value);
+            if (!incoming.progress || typeof incoming.progress !== 'object')
+                throw new Error('Invalid format — expected { progress: {...} }');
+            mergeProgress(incoming.progress);
+            modal.style.display = 'none';
+            updateSetupUI();
+        } catch(e) {
+            desc.textContent = 'Error: ' + e.message;
+            desc.style.color = 'var(--red, #e53e3e)';
+        }
+    };
+    modal.style.display = 'flex';
 }
 
 init();

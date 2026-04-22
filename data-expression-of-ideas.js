@@ -14,7 +14,8 @@ const questionBank_EOI = [
     "answer": "D",
     "explanation": "Strategy: Goal-First Filter\nChoice D is the best answer. It explains where the dinosaur's name came from.\nChoice A is incorrect. This choice does not explain the origin of the dinosaur's name. Choice B is incorrect. This choice does not\nexplain the origin of the dinosaur's name. Choice C is incorrect. This choice does not explain the origin of the dinosaur's name.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "social"
   },
   {
     "id": "07924f9d",
@@ -31,7 +32,8 @@ const questionBank_EOI = [
     "answer": "B",
     "explanation": "Strategy: Direction Check\nChoice B is the best answer. \"For example\" logically signals that the Siletz beeswax stories mentioned in this sentence are\nexamples consistent with the previous claim that Siletz stories support the shipwreck theory.\nChoice A is incorrect because \"for this reason\" illogically signals that the Siletz stories about the beeswax were caused by the\nprevious claim that Siletz stories support the shipwreck theory. Instead, the beeswax stories are examples consistent with the\nclaim. Choice C is incorrect because \"however\" illogically signals that the Siletz stories about the beeswax contrast with the\nprevious claim that Siletz stories support the shipwreck theory. Instead, the beeswax stories are examples consistent with the\nclaim. Choice D is incorrect because \"likewise\" illogically signals that the Siletz stories about the beeswax are similar to the\nprevious claim that Siletz stories support the shipwreck theory. Instead, the beeswax stories are examples consistent with the\nclaim.",
     "strategy": "Direction Check",
-    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast"
+    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast",
+    "topic": "social"
   },
   {
     "id": "80376fa1",
@@ -48,7 +50,8 @@ const questionBank_EOI = [
     "answer": "A",
     "explanation": "Strategy: Goal-First Filter\nChoice A is the best answer. This choice directly describes how fabric is used in Assertion of Will, by explaining that the fabric\npieces are part of the painting itself. \nChoice B is incorrect. This choice provides contextual information about the exhibition, but it doesn't mention anything about the\npainting or the fabric. Choice C is incorrect. This choice mentions that the figures are clothed, but it doesn't explain how the fabric\nis integrated into the painting. Choice D is incorrect. This choice provides contextual information about the painting, but it doesn't\nmention anything about the fabric or how it is used.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "humanities"
   },
   {
     "id": "5a538a86",
@@ -65,7 +68,8 @@ const questionBank_EOI = [
     "answer": "D",
     "explanation": "Strategy: Direction Check\nChoice D is the best answer. The first sentence claims that the number of sunspots can vary greatly. To support this claim, the\nnext two sentences compare two examples: one time when there were 180 sunspots and one time when there were only 2\nsunspots. So the transition \"by comparison\" fits perfectly.\nChoice A is incorrect. This choice uses a transition that indicates a restatement of the same idea, which doesn't make sense here.\nThis sentence doesn't restate the first example—it describes a totally different example. Choice B is incorrect. This choice uses a\ntransition that indicates the addition of a similar idea, which doesn't make sense here. This sentence describes a second example\nthat is very different from the first example. Choice C is incorrect. This choice uses a cause-and-effect transition, which doesn't\nmake sense here. The first example didn't result in the second example.",
     "strategy": "Direction Check",
-    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast"
+    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast",
+    "topic": "other"
   },
   {
     "id": "c2b23cf6",
@@ -82,7 +86,8 @@ const questionBank_EOI = [
     "answer": "A",
     "explanation": "Strategy: Direction Check\nChoice A is the best answer. This choice uses a transition that indicates a shift back in time. Since the first sentence talks about\nThaden's race win in 1929 and the second shifts back to talking about her record in 1928, this makes the most sense here.\nChoice B is incorrect. This choice uses a disagreement transition. But this sentence actually agrees with and expands on the\nprevious sentence by describing the earlier record that Thaden had \"already\" held. Choice C is incorrect. This choice uses a\ntransition that indicates a shift forward in time, which doesn't make sense here. A record in 1928 didn't come after Thaden's race\nwin in 1929. Choice D is incorrect. This choice uses a cause-and-effect transition, which doesn't make sense in this context—an\nevent in 1929 can't cause something in 1928.",
     "strategy": "Direction Check",
-    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast"
+    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast",
+    "topic": "social"
   },
   {
     "id": "53739046",
@@ -99,7 +104,8 @@ const questionBank_EOI = [
     "answer": "D",
     "explanation": "Strategy: Goal-First Filter\nChoice D is the best answer. The sentence emphasizes a difference between the behavior of jellyfish and that of black dragonfish,\nnoting that jellyfish and black dragonfish emit light as part of different behaviors (protection and predation, respectively).\nChoice A is incorrect. The sentence emphasizes a similarity between jellyfish and black dragonfish; it doesn't emphasize a\ndifference between the behavior of the two animals. Choice B is incorrect. The sentence emphasizes the type of bioluminescence\nexhibited by black dragonfish, noting that it's used in predation; it doesn't emphasize a difference between the behavior of the two\nanimals. Choice C is incorrect. The sentence defines bioluminescence and explains how it works; the sentence doesn't mention\neither animal or emphasize a difference between them.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "science"
   },
   {
     "id": "bfc5170b",
@@ -116,7 +122,8 @@ const questionBank_EOI = [
     "answer": "D",
     "explanation": "Strategy: Goal-First Filter\nChoice D is the best answer. This choice uses relevant information from the third bullet point to state the approximate number of\ngray wolves in Yellowstone.\nChoice A is incorrect. This choice mentions the year gray wolves in Yellowstone were reintroduced but not how many there are\ncurrently. Choice B is incorrect. This choice mentions the year gray wolves in Yellowstone were reintroduced but not how many\nthere are currently. Choice C is incorrect. This choice defines the term carrying capacity but doesn't connect it to the specific\nnumber of gray wolves currently living in Yellowstone.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "science"
   },
   {
     "id": "7809e7d1",
@@ -133,7 +140,8 @@ const questionBank_EOI = [
     "answer": "B",
     "explanation": "Strategy: Direction Check\nChoice B is the best answer. \"As a result\" logically signals that the information in this sentence—that many people in Switzerland\ngained a new opportunity to participate in their country's political process—is a result or consequence of the previous information\nabout the Swiss government lowering the voting age.\nChoice A is incorrect because \"nevertheless\" illogically signals that the information that follows is despite the information in the\nprevious sentence about the Swiss government lowering the voting age. Instead, people gained a new opportunity to participate in\nSwitzerland's political process as a result or consequence of that change. Choice C is incorrect because \"by contrast\" illogically\nsignals that the information in this sentence contrasts with the information in the previous sentence about the Swiss government\nlowering the voting age. Instead, people gained a new opportunity to participate in Switzerland's political process as a result or\nconsequence of that change. Choice D is incorrect because \"similarly\" illogically signals that the information in this sentence is\nsimilar to the information about the Swiss government lowering the voting age in the previous sentence. Instead, people gained a\nnew opportunity to participate in Switzerland's political process as a result or consequence of that change.",
     "strategy": "Direction Check",
-    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast"
+    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast",
+    "topic": "social"
   },
   {
     "id": "7be246a9",
@@ -150,7 +158,8 @@ const questionBank_EOI = [
     "answer": "B",
     "explanation": "Strategy: Direction Check\nChoice B is the best answer. \"For this reason\" is a cause-and-effect transition. The cause in this case is that the mother elephant\nwants to know that her calf is safe, so the effect is that she lets out an infrasonic call for the calf to hear. Therefore, \"for this\nreason\" fits perfectly in this context.\nChoice A is incorrect. This choice uses a transition that introduces an example of a previous idea. But the second sentence doesn't\nprovide an example of the events described in the first sentence. Instead, it describes what happens next: the mother elephant\ncalls for her calf. Choice C is incorrect. This choice uses a transition that indicates a shift from the past to the current time, which\ndoesn't make sense here. Both sentences use the present tense, as they're describing the same time period. Choice D is incorrect.\nThis choice uses a transition that indicates commonality or agreement between two ideas. But this sentence isn't similar to the\nevents in the first sentence. Instead, it describes the events that happen next.",
     "strategy": "Direction Check",
-    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast"
+    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast",
+    "topic": "other"
   },
   {
     "id": "96e20898",
@@ -167,7 +176,8 @@ const questionBank_EOI = [
     "answer": "C",
     "explanation": "Strategy: Direction Check\nChoice C is the best answer. \"However\" logically signals that the theory discussed in this sentence—that humans may have arrived\nin the Americas over 30,000 years ago—contrasts with the previously discussed theory that humans arrived around 13,000 years\nago.\nChoice A is incorrect because \"as a result\" illogically signals that the theory in this sentence is the result of the theory discussed in\nthe previous sentence. Instead, this theory contrasts with the previous one. Choice B is incorrect because \"similarly\" illogically\nsignals that the theory in this sentence is similar to the theory discussed in the previous sentence. Instead, this theory contrasts\nwith the previous one. Choice D is incorrect because \"in conclusion\" illogically signals that the theory in this sentence concludes or\nsummarizes the discussion of the previous theory. Instead, this theory contrasts with the previous one.",
     "strategy": "Direction Check",
-    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast"
+    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast",
+    "topic": "other"
   },
   {
     "id": "5df765c7",
@@ -184,7 +194,8 @@ const questionBank_EOI = [
     "answer": "A",
     "explanation": "Strategy: Direction Check\nChoice A is the best answer. The second sentence describes a consequence of the system laid out in the first sentence: because\nair is owned and sold by companies in this world, people have to buy it.\nChoice B is incorrect. This choice uses a transition that means \"no matter what happens\" or \"whatever the situation is,\" which\ndoesn't make sense here. There's only one situation described in the text: a fictional world in which companies own all the\nbreathable air, forcing people to buy it. Choice C is incorrect. This choice uses a disagreement transition. But this sentence doesn't\ndisagree with the previous sentence. They both describe the same fictional situation. Choice D is incorrect. This choice uses a\ntransition that indicates a shift back in time, which doesn't make sense here. Both sentences use the present tense, as they're\ndescribing the same fictional time period.",
     "strategy": "Direction Check",
-    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast"
+    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast",
+    "topic": "humanities"
   },
   {
     "id": "2cb7b153",
@@ -201,7 +212,8 @@ const questionBank_EOI = [
     "answer": "A",
     "explanation": "Strategy: Goal-First Filter\nChoice A is the best answer. This choice directly identifies the setting of Cather's novel My Ántonia as Nebraska.\nChoice B is incorrect. This choice mentions that Cather wrote about immigrants, but it doesn't indicate where they lived. Choice C\nis incorrect. This choice mentions that My Ántonia is one of Cather's best-known novels but doesn't state where it takes place.\nChoice D is incorrect. This choice mentions that some of Cather's novels are set in Nebraska, but it doesn't specify which ones, so\nwe can't be certain that My Ántonia is one of them. It also includes irrelevant information about Cather's education.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "social"
   },
   {
     "id": "16ce1d4f",
@@ -218,7 +230,8 @@ const questionBank_EOI = [
     "answer": "C",
     "explanation": "Strategy: Direction Check\nChoice C is the best answer. \"Eventually\" logically signals that the information in this sentence—that textile artists will remove the\ncloth when it has turned red—is the final step in the chronological sequence of the dyeing process described in the previous\nsentences.\nChoice A is incorrect because \"nevertheless\" illogically signals that the information in this sentence is true despite the previous\ninformation about simmering the cloth in the dyebath. Instead, the removal of the cloth is the final step in the dyeing process.\nChoice B is incorrect because \"likewise\" illogically signals that the information in this sentence is similar to the previous\ninformation about simmering the cloth in the dyebath. Instead, the removal of the cloth is the final step in the dyeing process.\nChoice D is incorrect because \"in other words\" illogically signals that the information in this sentence is a paraphrase or\nrestatement of the previous information about simmering the cloth in the dyebath. Instead, the removal of the cloth is the final\nstep in the dyeing process.",
     "strategy": "Direction Check",
-    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast"
+    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast",
+    "topic": "other"
   },
   {
     "id": "16a5f892",
@@ -235,7 +248,8 @@ const questionBank_EOI = [
     "answer": "D",
     "explanation": "Strategy: Goal-First Filter\nChoice D is the best answer. By identifying Kahlo as an influential artist from Mexico, and by describing the work she's best known\nfor, this choice provides the background information necessary to introduce Kahlo to an unfamiliar audience.\nChoice A is incorrect. This choice doesn't effectively introduce Kahlo. It doesn't include any background information about who\nKahlo is or where she's from. It simply identifies one of her paintings. Choice B is incorrect. This choice doesn't effectively\nintroduce Kahlo. It doesn't include any background information about who Kahlo is or where she's from. It simply identifies one of\nher paintings. Choice C is incorrect. This choice doesn't effectively introduce Kahlo. It doesn't include any background information\nabout who Kahlo is or where she's from. Instead, it describes one of her paintings in detail.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "social"
   },
   {
     "id": "dddcf229",
@@ -252,7 +266,8 @@ const questionBank_EOI = [
     "answer": "C",
     "explanation": "Strategy: Direction Check\nChoice C is the best answer. \"However\" logically signals that the claim in this sentence—that the weight of the gold rhinestones\nlikely limited Elvis's mobility—contrasts with the previous information about the material being flexible enough for Elvis's dance\nmoves.\nChoice A is incorrect because \"for this reason\" illogically signals that the claim in this sentence is caused by the previous\ninformation about the material being flexible enough for Elvis's dance moves. Instead, the claim that the weight of the suit's\nrhinestones limited movement contrasts with the previous information about the jumpsuit's flexibility. Choice B is incorrect\nbecause \"firstly\" illogically signals that the claim in this sentence is the first in a series of claims about the jumpsuit being flexible\nenough for Elvis's dance moves. Instead, the claim that the weight of the suit's rhinestones limited movement contrasts with the\nprevious information about the jumpsuit's flexibility. Choice D is incorrect because \"in other words\" illogically signals that the claim\nin this sentence is a paraphrase or restatement of the previous information about the material being flexible enough for Elvis's\ndance moves. Instead, the claim that the weight of the suit's rhinestones limited movement contrasts with the previous\ninformation about the jumpsuit's flexibility.",
     "strategy": "Direction Check",
-    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast"
+    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast",
+    "topic": "humanities"
   },
   {
     "id": "a8cf0a1e",
@@ -269,7 +284,8 @@ const questionBank_EOI = [
     "answer": "D",
     "explanation": "Strategy: Direction Check\nChoice D is the best answer. The previous sentence tells us that potters think about the look and use of a piece when selecting\nclay. This sentence provides a specific example of a type of clay selected for its appearance, so the transition \"for example\" fits\nperfectly.\nChoice A is incorrect. This choice uses a transition that indicates a restatement of the same idea. But this sentence does more\nthan just restate the previous idea. Instead, it provides a more specific example of the idea presented in the first sentence. Choice\nB is incorrect. This choice uses a disagreement transition. But this sentence actually agrees with the previous sentence. Both\nsentences suggest that desired look plays a role in the selection of clay types for pottery pieces. Choice C is incorrect. This choice\nuses a concluding transition. But this sentence doesn't sum up the previous sentence. Instead, it gives a specific example of the\nidea presented in the previous sentence.",
     "strategy": "Direction Check",
-    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast"
+    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast",
+    "topic": "social"
   },
   {
     "id": "1cfef917",
@@ -286,7 +302,8 @@ const questionBank_EOI = [
     "answer": "D",
     "explanation": "Strategy: Goal-First Filter\nChoice D is the best answer. This choice compares the Laas Geel paintings and the Dhagah Nabi Galay paintings to one another\nand emphasizes what they have in common: they are both ancient rock art found in the same region.\nChoice A is incorrect. This choice only mentions the Dhagah Nabi Galay paintings. It doesn't compare them to the Laas Geel\npaintings. Choice B is incorrect. This choice doesn't emphasize a similarity between the two paintings. Instead, it emphasizes a\ndifference: the type of content they depict. Choice C is incorrect. This choice only mentions the Laas Geel paintings. It doesn't\ncompare them to the Dhagah Nabi Galay paintings.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "humanities"
   },
   {
     "id": "785b9ae4",
@@ -303,7 +320,8 @@ const questionBank_EOI = [
     "answer": "A",
     "explanation": "Strategy: Goal-First Filter\nChoice A is the best answer. It compares Beard's and Jones's inventions to one another, and emphasizes what they have in\ncommon.\nChoice B is incorrect. This choice doesn't emphasize a similarity. It only mentions Beard's invention. It doesn't compare it to\nJones's invention. Choice C is incorrect. This choice doesn't emphasize a similarity between the two inventions. Instead, it\nemphasizes a difference. Choice D is incorrect. This choice doesn't emphasize a similarity. It only mentions Jones's invention. It\ndoesn't compare it to Beard's invention.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "social"
   },
   {
     "id": "3c684d3a",
@@ -320,7 +338,8 @@ const questionBank_EOI = [
     "answer": "C",
     "explanation": "Strategy: Direction Check\nChoice C is the best answer. \"Later\" logically signals that the event discussed in this sentence—the creation of the short film\nfeaturing Fuller's dance—is a related event that occurred after the event discussed in the previous sentence (the 1891 debut of the\ndance).\nChoice A is incorrect because \"however\" illogically signals that the information in this sentence contrasts with the information in\nthe previous sentence. Instead, the creation of the short film is a related event that followed the event discussed in the previous\nsentence. Choice B is incorrect because \"in conclusion\" illogically signals that the information in this sentence concludes or\nsummarizes the information in the previous sentence. Instead, the creation of the short film is a related event that followed the\nevent discussed in the previous sentence. Choice D is incorrect because \"in other words\" illogically signals that the information in\nthis sentence is a paraphrase or restatement of the information in the previous sentence. Instead, the creation of the short film is a\nrelated event that followed the event discussed in the previous sentence.",
     "strategy": "Direction Check",
-    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast"
+    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast",
+    "topic": "humanities"
   },
   {
     "id": "c75c34ad",
@@ -337,7 +356,8 @@ const questionBank_EOI = [
     "answer": "C",
     "explanation": "Strategy: Direction Check\nChoice C is the best answer. \"Thus\" logically signals that the action described in this sentence—the researcher being able to\ndetermine the chemical makeup of the planet's bright regions based on how they reflect light—is a result or consequence of the\nprevious information about spectroscopic fingerprints.\nChoice A is incorrect because \"regardless\" illogically signals that the action described in this sentence occurs despite the previous\ninformation about spectroscopic fingerprints. Instead, the finding in this sentence is a result or consequence of that information.\nChoice B is incorrect because \"meanwhile\" illogically signals that the action described in this sentence either occurs at the same\ntime as or offers an alternative to the previous information about spectroscopic fingerprints. Instead, the finding in this sentence is\na result or consequence of that information. Choice D is incorrect because \"in comparison\" illogically signals that the action\ndescribed in this sentence is being compared with the previous information about spectroscopic fingerprints. Instead, the finding\nin this sentence is a result or consequence of that information.",
     "strategy": "Direction Check",
-    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast"
+    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast",
+    "topic": "science"
   },
   {
     "id": "dd809c6f",
@@ -354,7 +374,8 @@ const questionBank_EOI = [
     "answer": "D",
     "explanation": "Strategy: Direction Check\nChoice D is the best answer. \"Accordingly\" logically signals that the information in this sentence—that the voting members\nawarded Banda Cuisillos the Best Banda Album award—is in accordance with, or results from, the previous information about the\nvoters being impressed by Banda Cuisillos's album.\nChoice A is incorrect because \"in contrast\" illogically signals that the information in this sentence contrasts with the previous\ninformation about voting members being impressed by Banda Cuisillos's album. Instead, the voters' decision to give the group the\nBest Banda Album award is in accordance with, or results from, that information. Choice B is incorrect because \"meanwhile\"\nillogically signals that the information in this sentence is separate from (while occurring simultaneously with) the previous\ninformation about the voting members being impressed by Banda Cuisillos's album. Instead, the voters' decision to give the group\nthe Best Banda Album award is in accordance with, or results from, that information. Choice C is incorrect because \"nevertheless\"\nillogically signals that the information that follows is despite the information about the voting members being impressed by Banda\nCuisillos's album. Instead, the voters' decision to give the group the Best Banda Album award is in accordance with, or results\nfrom, that information.",
     "strategy": "Direction Check",
-    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast"
+    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast",
+    "topic": "social"
   },
   {
     "id": "b447c3be",
@@ -371,7 +392,8 @@ const questionBank_EOI = [
     "answer": "B",
     "explanation": "Strategy: Goal-First Filter\nChoice B is the best answer. The sentence directly specifies how many chromosomes the pineapple has, as indicated in the notes:\nfifty.\nChoice A is incorrect. While the sentence mentions the pineapple's chromosomes, it doesn't specify how many it has. Choice C is\nincorrect. The sentence indicates that the pineapple has more chromosomes than the melon; it doesn't specify the exact number\nof chromosomes the pineapple has. Choice D is incorrect. The sentence specifies how many chromosomes the melon has, not\nhow many the pineapple has.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "science"
   },
   {
     "id": "12c0ebfd",
@@ -388,7 +410,8 @@ const questionBank_EOI = [
     "answer": "C",
     "explanation": "Strategy: Direction Check\nChoice C is the best answer. \"Likewise\" is a transition that indicates the addition of a new but related idea. In this sentence, the\nauthor is providing another similar example to that discussed in the previous sentence. Therefore, \"likewise\" works best in this\ncontext.\nChoice A is incorrect. This choice uses a transition that means \"admittedly.\" But the text isn't admitting or conceding anything here.\nInstead, these two examples work together to support the claim made in the first sentence. Choice B is incorrect. This choice uses\nan exemplification transition, which doesn't make sense here. The second story is not an example of the story in the previous\nsentence—it's another, similar story. And while both stories exemplify the first sentence in the text, the transition we're looking for\nisn't actually connected to that sentence. Choice D is incorrect. This choice uses a cause-and-effect transition, which doesn't make\nsense here. The first story didn't result in the events of the second story.",
     "strategy": "Direction Check",
-    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast"
+    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast",
+    "topic": "other"
   },
   {
     "id": "c6be962e",
@@ -405,7 +428,8 @@ const questionBank_EOI = [
     "answer": "C",
     "explanation": "Strategy: Goal-First Filter\nChoice C is the best answer. The sentence emphasizes a similarity between the two specimens, noting that Sue and Big Mike are\nmembers of the same genus: Tyrannosaurus.\nChoice A is incorrect. The sentence only provides information about where one of the specimens (Sue) can be found; it doesn't\nemphasize a similarity between the two specimens. Choice B is incorrect. The sentence only provides information about one\nspecimen (Big Mike); it doesn't emphasize a similarity between the two specimens. Choice D is incorrect. The sentence contrasts\nthe locations of Sue and Big Mike; it doesn't emphasize a similarity between the two specimens.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "humanities"
   },
   {
     "id": "88f71472",
@@ -422,7 +446,8 @@ const questionBank_EOI = [
     "answer": "C",
     "explanation": "Strategy: Goal-First Filter\nChoice C is the best answer. It summarizes the information that describes the wok's shape from the second and third bullet points.\nChoice A is incorrect. This choice doesn't describe the shape of a wok. Choice B is incorrect. This choice doesn't describe the\nshape of a wok, just some of its features. Choice D is incorrect. This choice doesn't describe the shape of a wok, only some of its\nbenefits or functions.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "humanities"
   },
   {
     "id": "5f77884a",
@@ -439,7 +464,8 @@ const questionBank_EOI = [
     "answer": "D",
     "explanation": "Strategy: Goal-First Filter\nChoice D is the best answer. This choice explains the goal of Brook Farm—to provide mental freedom to all by engaging individuals\nin labor suited to their interests—using a quotation from George Ripley.\nChoice A is incorrect. This choice only mentions part of Ripley's goal, and it doesn't mention Brook Farm at all. Choice B is\nincorrect. This choice defines what a utopia is but doesn't use Ripley's words to describe his vision for Brook Farm. Choice C is\nincorrect. This choice provides some background information about Brook Farm, but it doesn't explain its goals or include Ripley's\nwords.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "social"
   },
   {
     "id": "7f22f587",
@@ -456,7 +482,8 @@ const questionBank_EOI = [
     "answer": "A",
     "explanation": "Strategy: Goal-First Filter\nChoice A is the best answer. The difference between the two different kinds of muslin is emphasized.\nChoice B is incorrect. This choice lists two kinds of muslins, but does not say how they are different from one another. Choice C is\nincorrect. This choice does not emphasize a difference between the two muslins. Choice D is incorrect. This choice does not\nemphasize a difference between the two muslins. It only describes sheeting muslin.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "social"
   },
   {
     "id": "cc72486c",
@@ -473,7 +500,8 @@ const questionBank_EOI = [
     "answer": "A",
     "explanation": "Strategy: Goal-First Filter\nChoice A is the best answer. The sentence emphasizes the size of Tecozautla, noting that it covers an area of roughly 535 km².\nChoice B is incorrect. The sentence gives an example of a public service that municipalities provide; it doesn't emphasize the size\nof Tecozautla. Choice C is incorrect. While the sentence provides information about Tecozautla, it doesn't emphasize Tecozautla's\nsize. Choice D is incorrect. While the sentence provides information about Tecozautla, it doesn't emphasize Tecozautla's size.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "social"
   },
   {
     "id": "7fbe5f4e",
@@ -490,7 +518,8 @@ const questionBank_EOI = [
     "answer": "B",
     "explanation": "Strategy: Goal-First Filter\nChoice B is the best answer. The sentence specifies the fanner basket's name in Choctaw, noting that it's called ufko tapushik.\nChoice A is incorrect. While the sentence mentions the fanner basket, it doesn't specify its name in Choctaw. Choice C is incorrect.\nWhile the sentence mentions the fanner basket, it doesn't specify its name in Choctaw. Choice D is incorrect. The sentence doesn't\nmention the fanner basket or specify its name in Choctaw.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "social"
   },
   {
     "id": "6c04323f",
@@ -507,7 +536,8 @@ const questionBank_EOI = [
     "answer": "C",
     "explanation": "Strategy: Goal-First Filter\nChoice C is the best answer. This describes the achievement for which Wu is best known.\nChoice A is incorrect. This choice doesn't emphasize Wu's most well-known achievement. It mentions some of her general\nachievements, but not the one for which she is \"best known.\" Choice B is incorrect. This choice doesn't emphasize Wu's most well-\nknown achievement—it describes several of her achievements equally. Choice D is incorrect. This choice doesn't emphasize Wu's\nmost well-known achievement. It describes a piece of music featured in her most well-known achievement.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "social"
   },
   {
     "id": "c9f052f9",
@@ -524,7 +554,8 @@ const questionBank_EOI = [
     "answer": "C",
     "explanation": "Strategy: Goal-First Filter\nChoice C is the best answer. This choice most effectively emphasizes \"a similarity\" by identifying a trait the works share: \"both\nErasure and Home Grown include discarded objects.\"\nChoice A is incorrect. This choice doesn't \"emphasize a similarity.\" Instead, this choice shows how the materials used in the two\nworks are different. Notice the use of the contrast word \"however.\" Choice B is incorrect. This choice doesn't \"emphasize a\nsimilarity between the two works.\" While it says that Tubbs's work \"often features discarded objects,\" it doesn't provide details\nabout the two works in question. Choice D is incorrect. This choice doesn't \"emphasize a similarity.\" Instead, this choice shows\nhow the works were produced at different times.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "social"
   },
   {
     "id": "ca84e200",
@@ -541,7 +572,8 @@ const questionBank_EOI = [
     "answer": "C",
     "explanation": "Strategy: Goal-First Filter\nChoice C is the best answer. The sentence correctly describes how the bicycles in the sculpture are fused together: they share the\nsame rear wheel while facing opposite directions.\nChoice A is incorrect. The sentence states that the bicycles are fused together but doesn't describe how they are fused. Choice B\nis incorrect. The sentence states that there are two bicycles in the sculpture without indicating that they are fused together or\ndescribing how they are fused. Choice D is incorrect. It identifies the artist who created the sculpture but doesn't describe how the\nbicycles are fused together.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "social"
   },
   {
     "id": "14fb30a8",
@@ -558,7 +590,8 @@ const questionBank_EOI = [
     "answer": "A",
     "explanation": "Strategy: Goal-First Filter\nChoice A is the best answer. The sentence compares the extinction risks of the two species, noting that C. olivacea has a higher\nrisk of becoming extinct in the near future than C. furcatus.\nChoice B is incorrect. While the sentence does compare the extinction risks of the two species, it misrepresents information from\nthe notes; C. olivacea faces a higher risk of becoming extinct in the near future than C. furcatus, not the other way around. Choice\nC is incorrect. While the sentence mentions that conservation organizations have evaluated both species for extinction risk, it\ndoesn't compare the extinction risks of the two species. Choice D is incorrect. While the sentence states that C. olivacea faces a\nhigh risk of extinction, it doesn't mention C. furcatus or compare the extinction risks of the two species.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "science"
   },
   {
     "id": "c55ce13d",
@@ -575,7 +608,8 @@ const questionBank_EOI = [
     "answer": "B",
     "explanation": "Strategy: Goal-First Filter\nChoice B is the best answer. This choice describes Adnan's December from My Window in a way that assumes the audience is\nalready familiar with leporellos and focuses on the specific features of the work—its content and medium.\nChoice A is incorrect. This choice isn't suited for an audience already familiar with leporellos. A familiar audience wouldn't need to\nhave the term defined or explained. Choice C is incorrect. This choice doesn't describe Adnan's December from My Window. It\nmentions the year and the type of work but not the content or the medium. In addition, it provides a simple definition of leporellos,\nmaking this an inappropriate choice for an audience already familiar with leporellos. Choice D is incorrect. This choice isn't suited\nfor an audience already familiar with leporellos. A familiar audience wouldn't need to have the term defined.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "social"
   },
   {
     "id": "429503ce",
@@ -592,7 +626,8 @@ const questionBank_EOI = [
     "answer": "A",
     "explanation": "Strategy: Goal-First Filter\nChoice A is the best answer. The sentence defines the term \"Lazarus species\" and provides an example of one, explaining that a\nLazarus species is a living organism that was once believed to be extinct and providing the mountain pygmy possum as an\nexample.\nChoice B is incorrect. While the sentence provides an example of a Lazarus species, it doesn't define the term \"Lazarus species.\"\nChoice C is incorrect. The sentence provides information about the mountain pygmy possum; it doesn't define the term \"Lazarus\nspecies\" or explicitly identify the mountain pygmy possum as a Lazarus species. Choice D is incorrect. While the sentence\ndescribes the concept of a Lazarus species, it doesn't define the term or provide an example of a Lazarus species.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "science"
   },
   {
     "id": "1706d6d8",
@@ -609,7 +644,8 @@ const questionBank_EOI = [
     "answer": "C",
     "explanation": "Strategy: Goal-First Filter\nChoice C is the best answer. This is the only choice that makes a generalization about ultramarathons.\nChoice A is incorrect. This choice gives specific examples of ultramarathons but doesn't say anything about them as a category.\nChoice B is incorrect. This choice compares marathons in general to one specific ultramarathon but doesn't say anything about\nultramarathons as a category. Choice D is incorrect. This choice contrasts two specific ultramarathons but doesn't say anything\nabout them as a category.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "social"
   },
   {
     "id": "93b6382a",
@@ -626,7 +662,8 @@ const questionBank_EOI = [
     "answer": "C",
     "explanation": "Strategy: Direction Check\nChoice C is the best answer. The first sentence tells us that \"wishcycling\" is harmful, the previous sentence gives us an example,\nand this sentence gives us another example. So \"moreover\"—a transition that indicates the addition of another supporting point—\nfits perfectly here.\nChoice A is incorrect. This choice uses a transition that means \"appropriately\" or \"suitably,\" which doesn't make sense in context.\nThis sentence adds another example of how \"wishcycling\" is harmful, so we're looking for an addition transition. Choice B is\nincorrect. This choice uses a disagreement transition. But this sentence actually agrees with the previous sentence. Both provide\nexamples of how \"wishcycling\" is harmful. Choice D is incorrect. This choice uses a disagreement transition. But this sentence\nactually agrees with the previous sentence. Both provide examples of how \"wishcycling\" is harmful.",
     "strategy": "Direction Check",
-    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast"
+    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast",
+    "topic": "other"
   },
   {
     "id": "82bb033b",
@@ -643,7 +680,8 @@ const questionBank_EOI = [
     "answer": "D",
     "explanation": "Strategy: Direction Check\nChoice D is the best answer. This sentence compares two examples of Posey's tone: the \"heartfelt language\" he used in his poetry\nversus the \"humor and satire\" he used in his journalism. We know from these descriptions and from the claim in the previous\nsentence that the two tones are very different from each other. So the transition \"by contrast\" fits the context perfectly.\nChoice A is incorrect. This choice uses a transition that indicates a restatement of the same idea in other words. But the text isn't\nrestating the first example here. Instead, it's offering a second, totally different example. Choice B is incorrect. This choice uses a\ntransition that means \"admittedly.\" But the text isn't admitting or conceding anything here. Instead, these two examples work\ntogether to support the claim made in the first sentence. Choice C is incorrect. This choice uses a transition that indicates the\naddition of an agreeing idea. But these two examples are intentionally very different from each other, so \"similarly\" doesn't make\nsense here.",
     "strategy": "Direction Check",
-    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast"
+    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast",
+    "topic": "humanities"
   },
   {
     "id": "7aabe450",
@@ -660,7 +698,8 @@ const questionBank_EOI = [
     "answer": "A",
     "explanation": "Strategy: Direction Check\nChoice A is the best answer. \"In contrast\" logically signals that the information in this sentence—that Jordan has yet to officially\nratify the treaty—contrasts with the previous information about Niger having already ratified the treaty.\nChoice B is incorrect because \"specifically\" illogically signals that the information in this sentence specifies or elaborates on the\nprevious information about Niger ratifying the treaty. Instead, the sentence changes subjects from Niger to Jordan, presenting\ncontrasting information about Jordan's treaty status. Choice C is incorrect because \"for example\" illogically signals that the\ninformation in this sentence exemplifies the previous information about Niger ratifying the treaty. Instead, the sentence explains\nthat Jordan has yet to ratify the treaty. Choice D is incorrect because \"similarly\" illogically signals that the information in this\nsentence is similar to the previous information about Niger ratifying the treaty. Instead, the sentence presents contrasting\ninformation that Jordan has yet to ratify the treaty.",
     "strategy": "Direction Check",
-    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast"
+    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast",
+    "topic": "social"
   },
   {
     "id": "f5040fe0",
@@ -677,7 +716,8 @@ const questionBank_EOI = [
     "answer": "C",
     "explanation": "Strategy: Goal-First Filter\nChoice C is the best answer. This choice most effectively emphasizes how Romney wool differs from Merino and Rambouillet\nwool. It describes the difference in thickness and the difference in what they're used for. \nChoice A is incorrect. This choice doesn't emphasize how Romney wool differs from Merino and Rambouillet wool. It doesn't\nmention Merino or Rambouillet wool at all. Choice B is incorrect. This choice doesn't emphasize how Romney wool differs from\nMerino and Rambouillet wool. It doesn't mention Merino or Rambouillet wool at all. Choice D is incorrect. This choice doesn't\nemphasize how Romney wool differs from Merino and Rambouillet wool. It doesn't mention Romney, Merino or Rambouillet wool\nat all.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "social"
   },
   {
     "id": "e800f278",
@@ -694,7 +734,8 @@ const questionBank_EOI = [
     "answer": "B",
     "explanation": "Strategy: Direction Check\nChoice B is the best answer. \"However\" is used to indicate a contrast between two ideas. The first sentence describes how Still\nused to be famous. This sentence describes how Still is not very famous today, so the transition \"however\" fits perfectly.\nChoice A is incorrect. This choice uses a transition that introduces an example. But the second sentence doesn't provide a specific\nexample of Still's famous contributions to the Underground Railroad. Instead, it changes the subject to how his fame has faded\nover time. Choice C is incorrect. This choice uses a transition that introduces an example or continuation of a previous idea. But\nthe second sentence doesn't provide a specific example of Still's famous contributions to the Underground Railroad. Instead, it\nchanges the subject to how his fame has faded over time. Choice D is incorrect. This choice uses a transition that indicates the\nagreement between two ideas. But this sentence shows a contrast with the first sentence—namely, that Still used to be very\nfamous but now isn't very famous.",
     "strategy": "Direction Check",
-    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast"
+    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast",
+    "topic": "other"
   },
   {
     "id": "ba8c3dac",
@@ -711,7 +752,8 @@ const questionBank_EOI = [
     "answer": "B",
     "explanation": "Strategy: Goal-First Filter\nChoice B is the best answer. The sentence identifies chia seeds as having the highest magnesium content of the three foods,\nnoting that they contain 150 mg/oz, which is more than both peanuts and almonds.\nChoice A is incorrect. The sentence compares the magnesium content of almonds and peanuts; it doesn't identify which of the\nthree foods has the highest magnesium content. Choice C is incorrect. The sentence merely mentions the three foods; it doesn't\nidentify which one has the highest magnesium content. Choice D is incorrect. The sentence identifies the magnesium content of\npeanuts; it doesn't identify which of the three foods has the highest magnesium content.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "social"
   },
   {
     "id": "745ec68c",
@@ -728,7 +770,8 @@ const questionBank_EOI = [
     "answer": "A",
     "explanation": "Strategy: Goal-First Filter\nChoice A is the best answer. This choice most effectively presents the study and its findings. It opens with the study and names its\nlead researcher, then tells us its finding: that they identified 74 Orchidaceae species in the temperate forests of Oaxaca, Mexico. \nChoice B is incorrect. This choice doesn't include the study's findings, so it fails to achieve the goal. It doesn't mention that there\nwas a study at all.  Choice C is incorrect. This choice doesn't present the study, so it fails to achieve the goal. It doesn't mention\nthat there was a study at all.  Choice D is incorrect. This choice doesn't include the study's findings, so it fails to achieve the goal.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "science"
   },
   {
     "id": "7b3f6908",
@@ -745,7 +788,8 @@ const questionBank_EOI = [
     "answer": "C",
     "explanation": "Strategy: Direction Check\nChoice C is the best answer. The second sentence provides more specific information about the fieldwork mentioned in the first\nsentence—that the paleontological digs took place in Utah, Montana, and Wyoming. Therefore, \"specifically\" fits perfectly in this\ncontext.\nChoice A is incorrect. This choice uses a disagreement transition. But this sentence doesn't disagree with the previous sentence.\nRather, this sentence agrees with and elaborates on the last sentence by providing more specifics about the fieldwork Black does.\nChoice B is incorrect. This choice uses a transition that indicates that an event took place after another event. But the two\nsentences are not describing different events—instead, this sentence gives more details about the fieldwork discussed in the first\nsentence. Choice D is incorrect. This choice uses a disagreement transition. But this sentence doesn't disagree with the previous\nsentence. Rather, this sentence agrees with and elaborates on the last sentence by providing more specifics about the fieldwork\nBlack does.",
     "strategy": "Direction Check",
-    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast"
+    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast",
+    "topic": "humanities"
   },
   {
     "id": "a5bde66f",
@@ -762,7 +806,8 @@ const questionBank_EOI = [
     "answer": "C",
     "explanation": "Strategy: Direction Check\nChoice C is the best answer. \"Consequently\" logically signals that the postal problems described in this sentence (slow fee\ncollection, heaps of undeliverable mail) were a consequence of the fee system described in the previous sentence.\nChoice A is incorrect because \"regardless\" illogically signals that the postal problems described in this sentence occurred despite\nthe fee system described in the previous sentence. Instead, they were a consequence of that system. Choice B is incorrect\nbecause \"on the contrary\" illogically signals that the postal problems described in this sentence contrast with the fee system\ndescribed in the previous sentence. Instead, they were a consequence of that system. Choice D is incorrect because \"for example\"\nillogically signals that the postal problems described in this sentence are an example of the fee system described in the previous\nsentence. Instead, they were a consequence of that system.",
     "strategy": "Direction Check",
-    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast"
+    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast",
+    "topic": "other"
   },
   {
     "id": "4edcc530",
@@ -779,7 +824,8 @@ const questionBank_EOI = [
     "answer": "C",
     "explanation": "Strategy: Direction Check\nChoice C is the best answer. \"For example\" logically signals that this sentence supports the previous information about the\ndescriptive notations opera singers use by providing specific examples of these notations: giocoso (playfully) and lento (at a slow\ntempo).\nChoice A is incorrect because \"on the other hand\" illogically signals that the information in this sentence contrasts with the\nprevious information about the descriptive notations opera singers use. Instead, the sentence provides examples of these\nnotations. Choice B is incorrect because \"all the same\" illogically signals that the information in this sentence is true despite the\nprevious information about the descriptive notations opera singers use. Instead, the sentence provides examples of these\nnotations. Choice D is incorrect because \"in the second place\" illogically signals that the information in this sentence is a second\npoint that is separate from the previous information about the descriptive notations opera singers use. Instead, the sentence\nprovides examples of these notations.",
     "strategy": "Direction Check",
-    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast"
+    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast",
+    "topic": "humanities"
   },
   {
     "id": "3aa6855b",
@@ -796,7 +842,8 @@ const questionBank_EOI = [
     "answer": "B",
     "explanation": "Strategy: Direction Check\nChoice B is the best answer. \"As a result\" indicates that water molecules maintaining their linked structure at high pressures is\ncaused by the strengthening of these water molecules by trimethylamine N-oxide. So the transition \"as a result\" fits the context\nperfectly.\nChoice A is incorrect. This choice uses a disagreement transition. But this sentence doesn't disagree with the previous one—rather,\nit's describing an effect of the phenomenon described in the previous sentence. Choice C is incorrect. This choice uses a\ndisagreement transition. But this sentence doesn't disagree with the previous one; it actually expands on the previous sentence by\ndescribing an effect of the strengthened molecules. Choice D is incorrect. This choice uses an exemplification transition, which\ndoesn't make sense here. The second sentence doesn't provide an example or instance of the idea in the previous sentence.\nInstead, it explores the effects of the previous idea in more depth.",
     "strategy": "Direction Check",
-    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast"
+    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast",
+    "topic": "science"
   },
   {
     "id": "32e50729",
@@ -813,7 +860,8 @@ const questionBank_EOI = [
     "answer": "A",
     "explanation": "Strategy: Direction Check\nChoice A is the best answer. \"By contrast\" logically signals that the information in this sentence—that isolating molybdenum was a\nrelatively long process—contrasts with the previous information that isolating selenium was a short process.\nChoice B is incorrect because \"thus\" illogically signals that the information in this sentence is a result of the previous information\nabout selenium's short isolation process. Instead, the sentence presents contrasting information about molybdenum's longer\nisolation process. Choice C is incorrect because \"similarly\" illogically signals that the information in this sentence is similar to the\nprevious information about selenium's short isolation process. Instead, the sentence presents contrasting information about\nmolybdenum's longer isolation process. Choice D is incorrect because \"for instance\" illogically signals that the information in this\nsentence exemplifies the previous information about selenium's short isolation process. Instead, the sentence presents\ncontrasting information about molybdenum's longer isolation process.",
     "strategy": "Direction Check",
-    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast"
+    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast",
+    "topic": "other"
   },
   {
     "id": "bee32551",
@@ -830,7 +878,8 @@ const questionBank_EOI = [
     "answer": "A",
     "explanation": "Strategy: Direction Check\nChoice A is the best answer. \"Then\" indicates that the events in this sentence took place after the events in the previous sentence.\nOnly after users upload images of unknown soldiers can those images be analyzed.\nChoice B is incorrect. This transition is used to emphasize the truth of a statement that modifies the previous statement. But this\nsentence doesn't modify the step described in the previous statement: instead, it introduces an entirely new step in the process.\nSo \"in fact\" wouldn't make sense here. Choice C is incorrect. This choice uses a transition that indicates the addition of a new but\nrelated idea, which doesn't make sense here. Analyzing the physical features in the uploaded photographs isn't a similar idea, but\nrather the next step in the process. Choice D is incorrect. This choice uses an exemplification transition, which doesn't make sense\nhere. Analyzing physical features is not an example of uploading and tagging an image.",
     "strategy": "Direction Check",
-    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast"
+    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast",
+    "topic": "social"
   },
   {
     "id": "01fc8707",
@@ -847,7 +896,8 @@ const questionBank_EOI = [
     "answer": "B",
     "explanation": "Strategy: Goal-First Filter\nChoice B is the best answer. We're asked to select the sentence that \"introduce[s] the scientist and her field of study.\" This choice\nintroduces scientist Camille Jazmin Gaynus as a marine biologist and explains what marine life she studies.\nChoice A is incorrect. This choice doesn't mention Camille Jazmin Gaynus, so it fails to \"introduce the scientist.\" Choice C is\nincorrect. This choice doesn't mention Camille Jazmin Gaynus, so it fails to \"introduce the scientist.\" Choice D is incorrect. This\nchoice mentions Camille Jazmin Gaynus, but it doesn't identify her as a marine biologist. It says she \"knows well\" about coral\nreefs, but doesn't identify her expertise as a \"field of study.\"",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "science"
   },
   {
     "id": "afc72436",
@@ -864,7 +914,8 @@ const questionBank_EOI = [
     "answer": "D",
     "explanation": "Strategy: Goal-First Filter\nChoice D is the best answer. The sentence emphasizes a similarity between the sculptures, noting that both Uros Island and\nFortuna are LED light sculptures created by Grimanesa Amoros.\nChoice A is incorrect. Noting that Uros Island's smooth LED domes contrast with Fortuna's tangled LED tubes, the sentence\nemphasizes a difference between the two sculptures rather than a similarity. Choice B is incorrect. Contrasting the respective\nsizes of Uros Island and Fortuna, the sentence emphasizes a difference between the two sculptures rather than a similarity. Choice\nC is incorrect. While the sentence describes Uros Island, it doesn't mention Fortuna or emphasize any similarity between the two\nsculptures.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "social"
   },
   {
     "id": "f55c6cca",
@@ -881,7 +932,8 @@ const questionBank_EOI = [
     "answer": "A",
     "explanation": "Strategy: Goal-First Filter\nChoice A is the best answer. The sentence effectively describes the rocking chair to an audience unfamiliar with Sam Maloof,\nnoting its sleek, contoured armrests and seat and explaining that Sam Maloof (the walnut chair's creator) was an American\nwoodworker.\nChoice B is incorrect. While the sentence explains who Sam Maloof was and mentions a chair, it doesn't describe the chair. Choice\nC is incorrect. While the sentence explains who Sam Maloof was, it doesn't describe the rocking chair. Choice D is incorrect. While\nthe sentence describes the rocking chair, it doesn't explain who Sam Maloof was.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "social"
   },
   {
     "id": "6ce4cbd1",
@@ -898,7 +950,8 @@ const questionBank_EOI = [
     "answer": "D",
     "explanation": "Strategy: Direction Check\nChoice D is the best answer. \"For example\" logically signals that the information in this sentence—that The Emperor's Babe is a\nnovel conveyed in lines of poetry—exemplifies the claim in the previous sentence about hybrid works that incorporate elements of\nboth novels and poems.\nChoice A is incorrect because \"by contrast\" illogically signals that the information in this sentence contrasts with the claim about\nhybrid works in the previous sentence. Instead, the information demonstrates that Evaristo's novel is an example of a hybrid\nwork. Choice B is incorrect because \"consequently\" illogically signals that the information in this sentence is a consequence, or\nresult, of the claim about hybrid works in the previous sentence. Instead, the information demonstrates that Evaristo's novel is an\nexample of a hybrid work. Choice C is incorrect because \"secondly\" illogically signals that the information in this sentence is a\nsecond, separate claim from the previous sentence's claim about hybrid works. Instead, the information demonstrates that\nEvaristo's novel is an example of a hybrid work.",
     "strategy": "Direction Check",
-    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast"
+    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast",
+    "topic": "humanities"
   },
   {
     "id": "9020f14a",
@@ -915,7 +968,8 @@ const questionBank_EOI = [
     "answer": "A",
     "explanation": "Strategy: Goal-First Filter\nChoice A is the best answer. It describes Tarbell's investigation and the lengths she went to complete it.\nChoice B is incorrect. This choice doesn't describe how thorough Tarbell was. Instead, it gives a biographical sketch. Choice C is\nincorrect. This choice doesn't describe how thorough Tarbell was. Tarbell didn't only conduct interviews—she also \"examined\nthousands of pages of the company's internal communications.\" Choice D is incorrect. This choice doesn't describe how thorough\nTarbell was. It describes her book but doesn't include anything about her investigation.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "social"
   },
   {
     "id": "96629b55",
@@ -932,7 +986,8 @@ const questionBank_EOI = [
     "answer": "D",
     "explanation": "Strategy: Goal-First Filter\nChoice D is the best answer. This choice effectively specifies who may have first populated the Azores, according to the 2015\nstudy: the Vikings. \nChoice A is incorrect. This choice doesn't effectively specify who may have first populated the Azores, according to the 2015\nstudy. It only mentions the historical belief that the Portuguese were first. The 2015 study drew a different conclusion. Choice B is\nincorrect. This choice casts doubt on the Portuguese claim but doesn't name the group of people who may have arrived before the\nPortuguese. Choice C is incorrect. This choice mentions the evidence that the researchers found but not the conclusion they drew\nfrom it. It doesn't name the possible group of people who may have arrived before the Portuguese.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "science"
   },
   {
     "id": "927ef643",
@@ -949,7 +1004,8 @@ const questionBank_EOI = [
     "answer": "B",
     "explanation": "Strategy: Goal-First Filter\nChoice B is the best answer. The sentence provides an example of a fruit that contains vitamin C, noting that vitamin C (also\nknown as ascorbic acid) can be found in pineapple as well as other fruits.\nChoice A is incorrect. While the sentence does explain that humans can get vitamin C from fruits, it doesn't provide an example of\na specific fruit that contains vitamin C. Choice C is incorrect. The sentence explains why humans must get vitamin C from foods; it\ndoesn't provide an example of a fruit that contains vitamin C. Choice D is incorrect. The sentence compares vitamin C production\nin animals with vitamin C production in humans; it doesn't provide an example of a fruit that contains vitamin C.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "social"
   },
   {
     "id": "75b7bd00",
@@ -966,7 +1022,8 @@ const questionBank_EOI = [
     "answer": "B",
     "explanation": "Strategy: Direction Check\nChoice B is the best answer. The first sentence tells us that practical effects are more realistic but also more expensive than CGI.\nThe second sentence tells us that many filmmakers use both kinds of effects, balancing realism with cost. To connect these ideas,\nwe need a cause-and-effect transition, like \"therefore.\" \"For this reason\" has the same meaning as \"therefore.\" .\nChoice A is incorrect. This isn't a logical transition. The first sentence tells us that practical effects are more realistic but also more\nexpensive than CGI. The second sentence tells us that many filmmakers use both kinds of effects, balancing realism with cost. To\nconnect these ideas, we need a cause-and-effect transition, like \"therefore.\" \"Similarly\" doesn't show cause and effect: it shows the\naddition of another agreeing idea. Choice C is incorrect. This isn't a logical transition. The first sentence tells us that practical\neffects are more realistic but also more expensive than CGI. The second sentence tells us that many filmmakers use both kinds of\neffects, balancing realism with cost. To connect these ideas, we need a cause-and-effect transition, like \"therefore.\" \"Furthermore\"\ndoesn't show cause and effect: it shows the addition of another agreeing idea. Choice D is incorrect. This isn't a logical transition.\nThe first sentence tells us that practical effects are more realistic but also more expensive than CGI. The second sentence tells us\nthat many filmmakers use both kinds of effects, balancing realism with cost. To connect these ideas, we need a cause-and-effect\ntransition, like \"therefore.\" \"In other words\" doesn't show cause and effect: it shows a restatement of the same idea in different\nwords.",
     "strategy": "Direction Check",
-    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast"
+    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast",
+    "topic": "humanities"
   },
   {
     "id": "9d613f63",
@@ -983,7 +1040,8 @@ const questionBank_EOI = [
     "answer": "B",
     "explanation": "Strategy: Goal-First Filter\nChoice B is the best answer. The sentence provides an overview of the Haber-Bosch process, explaining that it uses an iron\ncatalyst, high temperatures, and high pressures to manufacture ammonia from nitrogen and hydrogen.\nChoice A is incorrect. While the sentence identifies some of the process's required components (nitrogen, hydrogen, and an iron\ncatalyst), the overview is incomplete; it doesn't explain what the process does (produces ammonia) or mention the conditions\nneeded for it to function (high temperatures and pressures). Choice C is incorrect. While the sentence indicates who invented the\nprocess (Fritz Haber and Carl Bosch) and that it produces ammonia, the overview is incomplete; it doesn't mention any of the\nnecessary ingredients or conditions. Choice D is incorrect. While the sentence mentions the inventors of the process along with\nthe required conditions (high temperatures and pressures), it doesn't explain that the process produces ammonia or indicate what\ncomponents are needed.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "science"
   },
   {
     "id": "cc8a5e6e",
@@ -1000,7 +1058,8 @@ const questionBank_EOI = [
     "answer": "B",
     "explanation": "Strategy: Goal-First Filter\nChoice B is the best answer. Noting that the evidence suggests Indigenous peoples may have found dinosaur remains in 1100 CE,\nthe sentence emphasizes how the 1990 discovery challenged Plot's reputation as the first person to discover dinosaur remains.\nChoice A is incorrect. While the sentence does emphasize that Benoit challenged Plot's reputation, it misrepresents information in\nthe notes; Plot was reputed to be the first person to discover dinosaur remains in general, not the first person to discover M.\ncarinatus remains specifically. Choice C is incorrect. The sentence only partially explains the significance of the 1990 discovery,\nnoting that it suggests Indigenous people brought dinosaur remains to the cave in 1100 CE; it doesn't explain the discovery's\nsignificance to Plot's reputation. Choice D is incorrect. While the sentence does emphasize that the discovery challenged Plot's\nreputation, it misrepresents information in the notes. The notes don't indicate that the 1990 discovery cast any doubt on Plot's\nclaims to have found fossilized dinosaur bones; rather, the discovery challenged Plot's reputation for being the first to discover\ndinosaur bones.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "science"
   },
   {
     "id": "aa8f5175",
@@ -1017,7 +1076,8 @@ const questionBank_EOI = [
     "answer": "D",
     "explanation": "Strategy: Goal-First Filter\nChoice D is the best answer. The sentence makes and supports a generalization about exoplanets, noting that the names of\nexoplanets have diverse origins and supporting this with the examples of the origins of \"Phobetor\" and \"Mastika.\"\nChoice A is incorrect. The sentence misrepresents information from the notes, implying that there are multiple exoplanets with the\nsame names. Additionally, the sentence provides no support for its generalization. Choice B is incorrect. The sentence contrasts\nthe masses of two specific exoplanets; it doesn't make and support a generalization about exoplanets. Choice C is incorrect. The\nsentence makes and supports a generalization about stars, not exoplanets.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "science"
   },
   {
     "id": "7b9ed7f1",
@@ -1034,7 +1094,8 @@ const questionBank_EOI = [
     "answer": "A",
     "explanation": "Strategy: Goal-First Filter\nChoice A is the best answer. This choice introduces Wong and VGHS in an active and specific way, as if to an audience unfamiliar\nwith the series. It also sets up the time and genre of the web series, which are useful ways to introduce the series of events in a\nnarrative.\nChoice B is incorrect. This choice isn't suited for beginning a narrative. A narrative is a story that follows a sequence of events and\ncreates interest and suspense for the reader. This choice jumps to the end, explaining the success of VGHS without explaining\nwhat it is. Choice C is incorrect. This choice isn't suited for beginning a narrative. It doesn't actually introduce the web series by\nname. It just jumps to later in the story without sufficient explanation. Choice D is incorrect. This choice is not very effective for\nbeginning a narrative. It doesn't explain what VGHS is, and it doesn't mention Wong.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "social"
   },
   {
     "id": "006ed890",
@@ -1051,7 +1112,8 @@ const questionBank_EOI = [
     "answer": "D",
     "explanation": "Strategy: Goal-First Filter\nChoice D is the best answer. The sentence explains an advantage of Tang and his colleagues' platinum catalyst, noting that it\nrequires far less platinum (which is rare and expensive) than other platinum catalysts do.\nChoice A is incorrect. The sentence describes the platinum catalyst that Tang and his colleagues created; it doesn't explain an\nadvantage of their platinum catalyst. Choice B is incorrect. The sentence emphasizes a similarity between the new platinum\ncatalyst and other platinum catalysts; it doesn't explain an advantage of the new platinum catalyst. Choice C is incorrect. The\nsentence connects the metal platinum to the functioning of platinum catalysts, noting that large amounts of platinum are typically\nrequired for platinum catalysts to be effective; it doesn't explain an advantage of Tang and his colleagues' platinum catalyst.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "science"
   },
   {
     "id": "02433867",
@@ -1068,7 +1130,8 @@ const questionBank_EOI = [
     "answer": "A",
     "explanation": "Strategy: Goal-First Filter\nChoice A is the best answer. This choice emphasizes a difference between the two books by using relevant information from the\nnotes to contrast their genres. \nChoice B is incorrect. This choice mentions a difference between the books (their different topics), but it emphasizes a similarity\nbetween the books (their influence on readers). Choice C is incorrect. This choice provides information about the books that\nreflects both a similarity (both resulted in new laws) and a difference (the specific laws that resulted), without emphasizing either.\nChoice D is incorrect. This choice doesn't emphasize a difference between the two books. Instead, it emphasizes a similarity.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "humanities"
   },
   {
     "id": "f6e33406",
@@ -1085,7 +1148,8 @@ const questionBank_EOI = [
     "answer": "D",
     "explanation": "Strategy: Goal-First Filter\nChoice D is the best answer. The sentence contrasts the two samples, noting that the SEBS rubber sample, at 4 millimeters thick,\nwas thicker than the TPU sample, which was 3 millimeters thick.\nChoice A is incorrect because the sentence mentions a similarity between the TPU fiber and the SEBS rubber; it doesn't contrast\nthe two samples. Choice B is incorrect because the sentence indicates that both the SEBS rubber and TPU samples were part of\nthe 2019 study; it doesn't contrast the two samples. Choice C is incorrect because the sentence describes the process of torsional\nheating; it doesn't contrast the two samples.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "science"
   },
   {
     "id": "007a60f1",
@@ -1102,7 +1166,8 @@ const questionBank_EOI = [
     "answer": "B",
     "explanation": "Strategy: Goal-First Filter\nChoice B is the best answer. This choice effectively uses information from the notes to emphasize how long the museum has\nexisted. It says that the museum has existed since 1992.\nChoice A is incorrect. This choice doesn't emphasize how long the museum has existed. It doesn't say when the museum was\nfounded. Choice C is incorrect. This choice doesn't emphasize how long the museum has existed. It doesn't say the exact date of\nthe museum's founding. Rather, it emphasizes the museum's mission. Choice D is incorrect. This choice doesn't emphasize how\nlong the museum has existed. It doesn't say when the museum was founded.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "humanities"
   },
   {
     "id": "3a5e7be0",
@@ -1119,7 +1184,8 @@ const questionBank_EOI = [
     "answer": "D",
     "explanation": "Strategy: Direction Check\nChoice D is the best answer. The first sentence tells us that Al-Malaika sometimes used \"traditional forms\". The second tells us\nthat even when she used traditional forms, Al-Malaika was \"breaking new ground\". To connect these ideas, we need a contrast\nword like \"but.\" \"Though\" is a contrast word similar to \"but.\"\nChoice A is incorrect. This isn't a logical transition. The first sentence tells us that Al-Malaika sometimes used \"traditional forms\".\nThe second tells us that even when she used traditional forms, Al-Malaika was \"breaking new ground\". To connect these ideas, we\nneed a contrast word like \"but.\" \"Therefore\" doesn't show contrast; it shows cause and effect. Choice B is incorrect. This isn't a\nlogical transition. The first sentence tells us that Al-Malaika sometimes used \"traditional forms\". The second tells us that even\nwhen she used traditional forms, Al-Malaika was \"breaking new ground\". To connect these ideas, we need a contrast word like\n\"but.\" \"In fact\" is a phrase that usually emphasizes the truth of the previous statement. Choice C is incorrect. This isn't a logical\ntransition. The first sentence tells us that Al-Malaika sometimes used \"traditional forms\". The second tells us that even when she\nused traditional forms, Al-Malaika was \"breaking new ground\". To connect these ideas, we need a contrast word like \"but.\"\n\"Moreover\" doesn't show contrast—it introduces additional information that continues or supports the previous idea.",
     "strategy": "Direction Check",
-    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast"
+    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast",
+    "topic": "humanities"
   },
   {
     "id": "d3ec7044",
@@ -1136,7 +1202,8 @@ const questionBank_EOI = [
     "answer": "B",
     "explanation": "Strategy: Goal-First Filter\nChoice B is the best answer. The sentence emphasizes a difference between the eggs of the two species, directly contrasting the\nshorter average length of Gygis alba eggs (4.46 cm) with the longer average length of Gavia stellata eggs (7.22 cm).\nChoice A is incorrect. While the sentence mentions both bird species, it doesn't emphasize a difference between their eggs. Choice\nC is incorrect. While the sentence provides information about the two bird species, it doesn't emphasize a difference between their\neggs. Choice D is incorrect. While the sentence provides the average lengths of both species' eggs, it doesn't explicitly emphasize\nthe difference between them.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "other"
   },
   {
     "id": "1db1b58d",
@@ -1153,7 +1220,8 @@ const questionBank_EOI = [
     "answer": "A",
     "explanation": "Strategy: Goal-First Filter\nChoice A is the best answer. It describes the reason Bhosale's team wanted to study the structures of bird nests—that is to say, the\nstudy's primary aim.\nChoice B is incorrect. This choice doesn't present the primary aim of the research study. It describes how the study worked, but\nnot why it was done. Choice C is incorrect. This choice doesn't present the primary aim of the research study. It describes a result\nof the experiment, but not why it was carried out. Choice D is incorrect. This choice doesn't present the primary aim of the\nresearch study.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "social"
   },
   {
     "id": "5314fc9c",
@@ -1170,7 +1238,8 @@ const questionBank_EOI = [
     "answer": "A",
     "explanation": "Strategy: Direction Check\nChoice A is the best answer. \"There\" indicates that the work of calculating Coordinated Universal Time takes place at the\nInternational Bureau of Weights and Measures in France. Because \"there\" indicates a location, it fits the context perfectly.\nChoice B is incorrect. This choice uses an exemplification transition, which doesn't make sense here. This sentence is describing\nwhere the work of coordinating Coordinated Universal Time takes place, not giving an example of the work described in the\nprevious sentence. Choice C is incorrect. This choice uses an exemplification transition, which doesn't make sense here. This\nsentence is describing where the work of coordinating Coordinated Universal Time takes place, not giving an example of the work\ndescribed in the previous sentence. Choice D is incorrect. This choice uses a disagreement transition. But this sentence doesn't\ndisagree with the previous sentence. They both describe the work involved in calculating Coordinated Universal Time.",
     "strategy": "Direction Check",
-    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast"
+    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast",
+    "topic": "science"
   },
   {
     "id": "fbdb10cf",
@@ -1187,7 +1256,8 @@ const questionBank_EOI = [
     "answer": "A",
     "explanation": "Strategy: Goal-First Filter\nChoice A is the best answer. It describes what a \"Sonic Meditation\" is, and then gives an example in the form of Meditation XVIII.\nChoice B is incorrect. This choice describes what a \"Sonic Meditation\" is, but doesn't give an example of one. Choice C is incorrect.\nThis choice gives an example of a \"Sonic Meditation,\" but doesn't explain what the meditations are. Choice D is incorrect. This\nchoice doesn't describe what a \"Sonic Meditation\" is.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "social"
   },
   {
     "id": "6aea2355",
@@ -1204,7 +1274,8 @@ const questionBank_EOI = [
     "answer": "C",
     "explanation": "Strategy: Goal-First Filter\nChoice C is the best answer. The sentence emphasizes the relative sizes of the capital cities' populations, noting that even though\nHanoi has more people overall, Ulaanbaatar accounts for a larger percentage of the people in its country.\nChoice A is incorrect. While the sentence indicates the population size of each capital, it fails to emphasize their sizes relative to\neach other or to their countries' overall population sizes. Choice B is incorrect. The sentence emphasizes the population sizes of\nthe two countries; it fails to mention the capitals. Choice D is incorrect. While the sentence indicates the population size of each\ncapital, it fails to emphasize their sizes relative to each other or to their countries' overall population sizes.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "social"
   },
   {
     "id": "4132bb97",
@@ -1221,7 +1292,8 @@ const questionBank_EOI = [
     "answer": "B",
     "explanation": "Strategy: Goal-First Filter\nChoice B is the best answer. This choice uses relevant information from the notes to explain a disadvantage of relying on audio\nfeatures to predict a song's popularity—namely, that it may misidentify features of certain songs. It also contrasts audio features\nwith descriptive tags, which are more reliable predictors.\nChoice A is incorrect. This choice only states a fact about the algorithms without evaluating their reliability or accuracy. Choice C\nis incorrect. This choice only describes the difference between audio features and descriptive tags without indicating why this\ndifference matters for predicting popularity. Choice D is incorrect. This choice only mentions descriptive tags, which are not the\nfocus of the student's rhetorical goal.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "social"
   },
   {
     "id": "2c462848",
@@ -1238,7 +1310,8 @@ const questionBank_EOI = [
     "answer": "C",
     "explanation": "Strategy: Direction Check\nChoice C is the best answer. \"What's more\" logically signals that this sentence introduces an additional aspect of Wadud's poem\nbeyond what was previously discussed. While the previous sentence establishes that Adnan's painting has inspired \"the poem's\nexploration of temporality and identity,\" this sentence provides a separate, additional claim about the poem: that it reflects on\npoetry's relationship to other art forms.\nChoice A is incorrect because \"in other words\" illogically signals that the information in this sentence is a paraphrase or\nrestatement of the previous point about how Adnan's painting has inspired \"the poem's exploration of temporality and identity.\"\nInstead, the sentence provides a separate, additional claim about the poem. Choice B is incorrect because \"for instance\" illogically\nsignals that the information in this sentence supports the previous point about \"the poem's exploration of temporality and identity\"\nby providing an example. Instead, the sentence provides a separate, additional claim about the poem. Choice D is incorrect\nbecause \"conversely\" illogically signals that the information in this sentence is contrary to the previous point about how Adnan's\npainting has inspired \"the poem's exploration of temporality and identity.\" Instead, the sentence provides a separate, additional\nclaim about the poem.",
     "strategy": "Direction Check",
-    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast"
+    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast",
+    "topic": "humanities"
   },
   {
     "id": "8fc52567",
@@ -1255,7 +1328,8 @@ const questionBank_EOI = [
     "answer": "B",
     "explanation": "Strategy: Goal-First Filter\nChoice B is the best answer. The sentence provides an explanation and an example of Aeolian landforms, explaining that they are\nlandforms created by wind and offering the mushroom rock as an example.\nChoice A is incorrect. The sentence explains that Aeolian landforms are created by wind but does not provide an example of any\nspecific Aeolian landforms. Rather, the example it provides is of a wind-based process. Choice C is incorrect. While the sentence\nprovides a partial explanation of Aeolian landforms, noting that they are created by the wind, it does not effectively provide an\nexample. The sentence seems to indicate that mushroom rocks, rather than being an example of Aeolian landforms, are distinct\nfrom them. Choice D is incorrect. While the sentence provides an explanation of a mushroom rock, which is a specific example of\nan Aeolian landform, it doesn't provide an explanation of Aeolian landforms in general.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "social"
   },
   {
     "id": "56f624aa",
@@ -1272,7 +1346,8 @@ const questionBank_EOI = [
     "answer": "B",
     "explanation": "Strategy: Direction Check\nChoice B is the best answer. \"Nonetheless\" is a transition that indicates disagreement. The first sentence describes the\nunlikelihood of finding much for critical analysis in Ashbery's poem (\"barren terrain\"), while the second sentence describes how\nBerlant did in fact find much to analyze in Ashbery's poem (\"fertile ground\"), so the transition \"nonetheless\" fits perfectly.\nChoice A is incorrect. This choice uses a transition that indicates the addition of a new but similar idea, which doesn't make sense\nhere. The idea in this sentence directly contradicts the idea in the previous sentence. Choice C is incorrect. This choice uses a\ncause-and-effect transition, which doesn't make sense in this context—a poem seemingly having little opportunity for critical\nanalysis would not cause someone to write an extensive critical analysis (in fact, we might expect the opposite). Choice D is\nincorrect. This choice uses a transition that indicates a restatement of the same idea in other words. But the text isn't restating the\nfirst idea here. Instead, it's offering a contradiction to the idea expressed in the first sentence.",
     "strategy": "Direction Check",
-    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast"
+    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast",
+    "topic": "humanities"
   },
   {
     "id": "ed558755",
@@ -1289,7 +1364,8 @@ const questionBank_EOI = [
     "answer": "C",
     "explanation": "Strategy: Goal-First Filter\nChoice C is the best answer. This choice summarizes the main idea of the kelp highway hypothesis, providing a high-level overview\nof how the hypothesis explains human migration to the Americas.\nChoice A is incorrect. This choice describes one aspect of the proposed scenario but doesn't discuss human migration, which is\nthe main focus of the kelp highway hypothesis. Choice B is incorrect. This choice introduces the kelp highway hypothesis but\ndoesn't explain what it entails. Choice D is incorrect. This choice describes one element of the proposed scenario but doesn't\ndiscuss human migration, which is the main focus of the kelp highway hypothesis.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "science"
   },
   {
     "id": "3dff6887",
@@ -1306,7 +1382,8 @@ const questionBank_EOI = [
     "answer": "A",
     "explanation": "Strategy: Direction Check\nChoice A is the best answer. The second part of the sentence says that many volcanoes use shallow pockets of magma. This is an\nelaboration of the same underlying idea from the first part of the sentence, which says that the super deep magma of Icelandic\nvolcanoes' makes them outliers. \"Indeed\" is a transition used for elaborating on the same idea, so it fits the context perfectly.\nChoice B is incorrect. This choice uses a disagreement transition. But these two parts of the sentence agree with each other, so\n\"nevertheless\" doesn't make sense. Choice C is incorrect. This choice uses a transition that indicates the addition of a new idea.\nBut the second part of the sentence isn't adding a new idea: it's elaborating on the same idea expressed in the first part of the\nsentence. Choice D is incorrect. This choice uses a cause-and-effect transition, which doesn't make sense here. The fact that\nIceland's deep-magma volcanoes are outliers doesn't cause many other volcanoes to get fed by shallow pockets of magma.",
     "strategy": "Direction Check",
-    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast"
+    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast",
+    "topic": "other"
   },
   {
     "id": "9d19b328",
@@ -1323,7 +1400,8 @@ const questionBank_EOI = [
     "answer": "D",
     "explanation": "Strategy: Goal-First Filter\nChoice D is the best answer. The sentence presents the significance of the Hart-Celler Act to an audience unfamiliar with the\nhistory of US immigration, noting that the 1965 act abolished the national-origins quota system and explaining why that mattered,\nhistorically: because the old quota system had favored immigrants from northern Europe.\nChoice A is incorrect. The sentence describes an aspect of immigration policy at the time the Hart-Celler Act was proposed; it\ndoesn't present the significance of the Hart-Celler Act to an audience unfamiliar with the history of US immigration. Choice B is\nincorrect. The sentence describes an aspect of immigration policy before the Hart-Celler Act; it doesn't describe or present the\nsignificance of the act to an audience unfamiliar with the history of US immigration. Choice C is incorrect. While the sentence\nindicates that the Hart-Celler Act abolished the old quota system, it doesn't explain the act or the quota system to an audience\nunfamiliar with the history of US immigration.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "social"
   },
   {
     "id": "063080b0",
@@ -1340,7 +1418,8 @@ const questionBank_EOI = [
     "answer": "B",
     "explanation": "Strategy: Direction Check\nChoice B is the best answer. \"Ultimately\" means \"in the long run\" or \"at the highest level.\" Although Bolívar wrote to a local\nmerchant, his ultimate goal was to send a message to political leaders in Europe. Therefore, \"ultimately\" fits perfectly in this\ncontext.\nChoice A is incorrect. This choice uses a transition that indicates the addition of an agreeing idea. However, the second part of the\nsentence actually disagrees with the first part. Bolívar addressed the letter to Cullen, but he was really sending a message to\nsomeone else. Notice how the contrast word \"though\" also acts as a transition between these ideas. Choice C is incorrect. This\nchoice uses a cause-and-effect transition. Bolívar's writing of the letter to Cullen would not cause him to have a goal of persuading\nEuropean powers to support him. Choice D is incorrect. This choice uses a cause-and-effect transition. Bolívar's writing of the\nletter to Cullen would not cause him to have a goal of persuading European powers to support him.",
     "strategy": "Direction Check",
-    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast"
+    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast",
+    "topic": "science"
   },
   {
     "id": "f836bb7d",
@@ -1357,7 +1436,8 @@ const questionBank_EOI = [
     "answer": "A",
     "explanation": "Strategy: Direction Check\nChoice A is the best answer. This sentence emphasizes just how far maglev advocates' dreams are from coming true. \"In fact\" is a\ntransition used to emphasize the truth of a statement that modifies the previous statement and therefore fits perfectly in this\ncontext.\nChoice B is incorrect. This choice uses a cause-and-effect transition, which doesn't make sense here. Maglev advocates' dream\nremaining unrealized would not cause there to be only a few maglev trains, all located in Asia. Choice C is incorrect. This choice\nuses a disagreement transition, which doesn't make sense here. In fact, this sentence agrees with the previous sentence—both\ntalk about how maglev trains are far from becoming common in the US. Choice D is incorrect. This choice uses a disagreement\ntransition, which doesn't make sense here. In fact, this sentence agrees with the previous sentence—both talk about how maglev\ntrains are far from becoming common in the US.",
     "strategy": "Direction Check",
-    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast"
+    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast",
+    "topic": "science"
   },
   {
     "id": "fa7dcbe2",
@@ -1374,7 +1454,8 @@ const questionBank_EOI = [
     "answer": "A",
     "explanation": "Strategy: Goal-First Filter\nChoice A is the best answer. This choice presents the study in a way that assumes the audience is already familiar with eDNA.\nChoice B is incorrect. This choice doesn't present the study. It only states a general fact about eDNA analysis. Choice C is\nincorrect. This choice isn't suited for an audience already familiar with eDNA. A familiar audience wouldn't need to have the term\ndefined or explained. Choice D is incorrect. This choice isn't suited for an audience already familiar with eDNA. A familiar audience\nwouldn't need to have the term defined or explained. It also doesn't present the study.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "science"
   },
   {
     "id": "85e1bda7",
@@ -1391,7 +1472,8 @@ const questionBank_EOI = [
     "answer": "C",
     "explanation": "Strategy: Direction Check\nChoice C is the best answer. \"Granted\" logically signals that the following information—that iconicity is not as highly correlated\nwith acquisition as sign frequency—is true in spite of the information about the correlation between iconicity and acquisition in the\nprevious sentence.\nChoice A is incorrect because \"in fact\" illogically signals that the sentence that follows either emphasizes or refutes the\ninformation in the previous sentence regarding the correlation between iconicity and acquisition. Instead, the sentence that\nfollows provides additional information that is true in spite of the preceding information; it neither emphasizes nor refutes that\ninformation. Choice B is incorrect because \"in other words\" illogically signals that the sentence that follows is a restatement of the\ninformation in the previous sentence; instead, the sentence that follows provides additional information that is true in spite of the\npreceding information. Choice D is incorrect because \"as a result\" illogically signals that the sentence that follows is a result of the\ninformation in the previous sentence regarding the correlation between iconicity and acquisition; instead, the sentence that follows\nis true in spite of the preceding information.",
     "strategy": "Direction Check",
-    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast"
+    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast",
+    "topic": "social"
   },
   {
     "id": "0d664aa4",
@@ -1408,7 +1490,8 @@ const questionBank_EOI = [
     "answer": "C",
     "explanation": "Strategy: Direction Check\nChoice C is the best answer. \"In other words\" logically signals that the claim about sensory experience that follows—that sensory\nexperience is the source of knowledge—is a restatement of Aristotle's theory from earlier in the sentence.\nChoice A is incorrect because \"regardless\" illogically signals that the claim about sensory experience that follows is true in spite of\nAristotle's theory from earlier in the sentence. Instead, this claim is a restatement of his theory. Choice B is incorrect because\n\"admittedly\" illogically signals that the claim about sensory experience that follows is an exception to Aristotle's theory from earlier\nin the sentence. Instead, this claim is a restatement of his theory. Choice D is incorrect because \"meanwhile\" illogically signals that\nthe claim about sensory experience that follows is separate from (while occurring simultaneously with) Aristotle's theory from\nearlier in the sentence. Instead, this claim is a restatement of his theory.",
     "strategy": "Direction Check",
-    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast"
+    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast",
+    "topic": "other"
   },
   {
     "id": "f7da6146",
@@ -1425,7 +1508,8 @@ const questionBank_EOI = [
     "answer": "C",
     "explanation": "Strategy: Direction Check\nChoice C is the best answer. \"Of course\" logically signals that the information in this sentence—that \"the wavy staircase and ornate\nfloral tilework\" of the Modernista hospital couldn't actually grow in a forest—acknowledges an obvious limitation of, or\nqualification to, the previous claim that Modernista architects championed nature in their designs.\nChoice A is incorrect because \"furthermore\" illogically signals that the information in this sentence merely adds to the previous\nclaim that Modernista architects championed nature in their designs. Instead, the sentence acknowledges an obvious limitation in\nhow literally that natural influence was expressed in the hospital's features. Choice B is incorrect because \"similarly\" illogically\nsignals that the information in this sentence is similar to the previous claim that Modernista architects championed nature in their\ndesigns. Instead, the sentence acknowledges an obvious limitation in how literally that natural influence was expressed in the\nhospital's features. Choice D is incorrect because \"thus\" illogically signals that the information in this sentence is a result of the\nprevious claim that Modernista architects championed nature in their designs. Instead, the sentence acknowledges an obvious\nlimitation in how literally that natural influence was expressed in the hospital's features.",
     "strategy": "Direction Check",
-    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast"
+    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast",
+    "topic": "humanities"
   },
   {
     "id": "d1f220b8",
@@ -1442,7 +1526,8 @@ const questionBank_EOI = [
     "answer": "B",
     "explanation": "Strategy: Goal-First Filter\nChoice B is the best answer. This choice contrasts McKay's fame as a Harlem Renaissance writer with his earlier achievements as\na Jamaican poet, and it names the two collections he published before moving to Harlem.\nChoice A is incorrect. This choice doesn't emphasize McKay's accomplishments before moving to Harlem. It lists some of his\nworks but doesn't distinguish between those he wrote in Jamaica and those he wrote in Harlem. Choice C is incorrect. This choice\ndoesn't emphasize McKay's accomplishments before moving to Harlem. It only mentions the year he moved and what he would\nbecome known for afterwards. Choice D is incorrect. This choice doesn't emphasize McKay's accomplishments before moving to\nHarlem. It mentions that he lived in Jamaica, but it doesn't name any of the works he published there.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "humanities"
   },
   {
     "id": "3a0edeef",
@@ -1459,7 +1544,8 @@ const questionBank_EOI = [
     "answer": "D",
     "explanation": "Strategy: Direction Check\nChoice D is the best answer. This sentence is arguing that new evidence contradicting popular beliefs about \"tulip mania\" should\ncast doubt on those beliefs. \"Therefore\" is a cause-and-effect transition, which fits perfectly in this context.\nChoice A is incorrect. This choice uses an exemplification transition, which doesn't make sense here. Skepticism about the popular\nbeliefs is not an example of recent evidence contradicting those beliefs—rather, skepticism is an effect of that recent evidence.\nChoice B is incorrect. This choice uses a disagreement transition. But this sentence doesn't disagree with the previous sentence.\nInstead, it connects a cause from the previous sentence (new evidence that tulip mania was not as disastrous as thought) to an\neffect (that we should look with skepticism upon the myth about its disastrousness). Choice C is incorrect. This choice uses a\ndisagreement transition. But this sentence doesn't disagree with the previous sentence. Instead, it connects a cause from the\nprevious sentence (new evidence that tulip mania was not as disastrous as thought) to an effect (that we should look with\nskepticism upon the myth about its disastrousness).",
     "strategy": "Direction Check",
-    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast"
+    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast",
+    "topic": "social"
   },
   {
     "id": "d6e449a4",
@@ -1476,7 +1562,8 @@ const questionBank_EOI = [
     "answer": "D",
     "explanation": "Strategy: Direction Check\nChoice D is the best answer. \"That is\" logically signals that this sentence clarifies the terms of the scientific debate introduced in\nthe previous sentence by explaining the difference between dispersalists and vicariancists.\nChoice A is incorrect because \"furthermore\" illogically signals that the information in this sentence is merely additional to (and\nseparate from) the information in the previous sentence about the scientific debate. Instead, the information about dispersalists\nand vicariancists clarifies the terms of that debate. Choice B is incorrect because \"by contrast\" illogically signals that the\ninformation in this sentence contrasts with the information in the previous sentence about the scientific debate. Instead, the\ninformation about dispersalists and vicariancists clarifies the terms of that debate. Choice C is incorrect because \"similarly\"\nillogically signals that the information in this sentence is merely similar to the information in the previous sentence about the\nscientific debate. Instead, the information about dispersalists and vicariancists clarifies the terms of that debate.",
     "strategy": "Direction Check",
-    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast"
+    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast",
+    "topic": "science"
   },
   {
     "id": "6b060a68",
@@ -1493,7 +1580,8 @@ const questionBank_EOI = [
     "answer": "D",
     "explanation": "Strategy: Goal-First Filter\nChoice D is the best answer. The sentence effectively summarizes the study's findings, explaining what Padmanabhan and Chen\nfound: that the brain can toggle between one method of processing smells (capturing information at a given moment) and another\n(tracking changes in information over time). \nChoice A is incorrect. While the sentence mentions findings, it mainly focuses on Padmanabhan and Chen's methodology. It\ndoesn't effectively summarize the study's findings. Choice B is incorrect. The sentence notes a fact about the olfactory system—\nthat the perception of odor forms in the piriform cortex—but doesn't summarize the findings of Padmanabhan and Chen's study.\nChoice C is incorrect. The sentence presents the goal of Padmanabhan and Chen's study; it doesn't summarize the study's\nfindings.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "science"
   },
   {
     "id": "4aa42f9a",
@@ -1510,7 +1598,8 @@ const questionBank_EOI = [
     "answer": "D",
     "explanation": "Strategy: Goal-First Filter\nChoice D is the best answer. It makes a generalization—the conflict had a lasting impact—and then supports it with evidence—the\nattention and protections were results of the conflict.\nChoice A is incorrect. This choice doesn't make a generalization about the conflict. It describes a specific event from the conflict.\nChoice B is incorrect. This choice makes a generalization about the Alta conflict, but doesn't support it. Choice C is incorrect. This\nchoice makes a statement about the aftermath of the conflict, but doesn't support it. The statement is also a little too specific to\nbe a generalization.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "social"
   },
   {
     "id": "c992f5b2",
@@ -1527,7 +1616,8 @@ const questionBank_EOI = [
     "answer": "D",
     "explanation": "Strategy: Goal-First Filter\nChoice D is the best answer. The sentence explains how the House of Wisdom preserved the world's knowledge, noting that the\nlibrary collected, translated, and printed writings from different countries.   \nChoice A is incorrect. While the sentence indicates that the House of Wisdom was known for bringing together knowledge from\naround the world, it doesn't explain how the library preserved this knowledge. Choice B is incorrect. The sentence makes a\ngeneralization about the scholars who were employed by the House of Wisdom; it doesn't explain how the library preserved the\nworld's knowledge. Choice C is incorrect. The sentence identifies two authors whose writings were preserved at the House of\nWisdom; it doesn't explain how the library preserved the world's knowledge.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "humanities"
   },
   {
     "id": "f7d2e00e",
@@ -1544,7 +1634,8 @@ const questionBank_EOI = [
     "answer": "D",
     "explanation": "Strategy: Goal-First Filter\nChoice D is the best answer. By indicating that Taylor's book was the only Civil War memoir published by a Black woman, this\nsentence emphasizes the uniqueness, or one-of-a-kind nature, of Taylor's accomplishment.\nChoice A is incorrect. While the sentence describes some of Taylor's accomplishments, it doesn't emphasize the uniqueness of\nthem. Choice B is incorrect. While the sentence describes some of Taylor's accomplishments, it doesn't emphasize that they were\nunique. Choice C is incorrect. While the sentence provides information about Taylor's book, it doesn't emphasize what made the\nbook unique.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "social"
   },
   {
     "id": "12d6c152",
@@ -1561,7 +1652,8 @@ const questionBank_EOI = [
     "answer": "D",
     "explanation": "Strategy: Direction Check\nChoice D is the best answer. Scientists believe in fusion's potential as an energy source, but have struggled to actually make it\nwork—in other words, there is a contradiction between scientists' beliefs and their reality. \"That said\" is a disagreement transition\nthat works perfectly in this context.\nChoice A is incorrect. This choice uses a cause-and-effect transition, which doesn't make sense here. Scientists not being able to\ngenerate extra energy from lab fusion reactions isn't an effect of them believing in fusion's potential. Choice B is incorrect. This\ntransition indicates the addition of another supporting point. But this sentence is not adding a supporting point to the previous\nsentence—scientists not being able to successfully generate energy from fusion isn't another point in favor of fusion meeting\nhumanity's clean energy needs. Choice C is incorrect. This choice uses a transition that introduces or elaborates on a particular\nexample. But this sentence doesn't give an example of scientists' belief in fusion's potential to meet humanity's clean energy\nneeds—in fact, it contrasts that optimistic belief with the reality of past failures to successfully employ fusion for energy\nproduction.",
     "strategy": "Direction Check",
-    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast"
+    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast",
+    "topic": "science"
   },
   {
     "id": "569fd428",
@@ -1578,7 +1670,8 @@ const questionBank_EOI = [
     "answer": "B",
     "explanation": "Strategy: Direction Check\nChoice B is the best answer. This sentence compares a chiral molecule to an achiral one. It discusses how when a chiral molecule\nis flipped, it results in something very different than when an achiral molecule is flipped. So the transition \"by contrast\" fits the\ncontext perfectly.\nChoice A is incorrect. This choice uses a transition that indicates a restatement of the same idea in different words. But this\nsentence doesn't restate the same idea as the previous sentence. Instead, it makes a new point about a different type of molecule\n(chiral instead of achiral). Choice C is incorrect. This choice uses a transition that introduces an example, which doesn't make\nsense here. The second sentence isn't an example of the first sentence's claim about achiral molecules: it actually introduces an\nentirely different idea that focuses on chiral molecules. Choice D is incorrect. This choice uses a transition that indicates the\naddition of an agreeing idea. But this sentence shows a contrast with the first sentence—namely, that a chiral molecule acts very\ndifferently from an achiral molecule when flipped.",
     "strategy": "Direction Check",
-    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast"
+    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast",
+    "topic": "other"
   },
   {
     "id": "90c4f9b0",
@@ -1595,7 +1688,8 @@ const questionBank_EOI = [
     "answer": "D",
     "explanation": "Strategy: Direction Check\nChoice D is the best answer. \"Though\" logically signals that the information in this sentence—that volcanologists can distinguish\nthe two volcanoes by how they were formed—presents a qualification or exception to the previous statement that the volcanoes\nlook similar. The volcanoes are actually of two different types.\nChoice A is incorrect because \"for example\" illogically signals that the information in this sentence exemplifies the previous\ninformation about the volcanoes looking similar. Instead, the sentence presents a qualification to that apparent similarity—the\nvolcanoes are actually of two different types. Choice B is incorrect because \"in addition\" illogically signals that the information in\nthis sentence merely adds to the previous information about the volcanoes looking similar. Instead, the sentence presents a\nqualification to that apparent similarity—the volcanoes are actually of two different types. Choice C is incorrect because \"therefore\"\nillogically signals that the information in this sentence is a result of the previous information about the volcanoes looking similar.\nInstead, the sentence presents a qualification to that apparent similarity—the volcanoes are actually of two different types.",
     "strategy": "Direction Check",
-    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast"
+    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast",
+    "topic": "other"
   },
   {
     "id": "437adf39",
@@ -1612,7 +1706,8 @@ const questionBank_EOI = [
     "answer": "C",
     "explanation": "Strategy: Goal-First Filter\nChoice C is the best answer. The sentence presents historical analysis to an audience unfamiliar with the concept by defining it as\nan approach to art criticism that considers the historical context in which a work was created.\nChoice A is incorrect because it provides an example of texture analysis; it doesn't present historical analysis to an audience\nunfamiliar with the concept. Choice B is incorrect. The sentence explains a difference between texture analysis and historical\nanalysis; it doesn't present historical analysis to an audience unfamiliar with the concept. Choice D is incorrect. It provides an\nexample of historical analysis; it doesn't present historical analysis to an audience unfamiliar with the concept.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "humanities"
   },
   {
     "id": "210f56a5",
@@ -1629,7 +1724,8 @@ const questionBank_EOI = [
     "answer": "C",
     "explanation": "Strategy: Goal-First Filter\nChoice C is the best answer. It describes the study's findings in a way that assumes the audience is already familiar with thermal\ninversions.\nChoice A is incorrect. This choice doesn't fully describe the findings of the study, because it doesn't include anything about thermal\ninversions. Choice B is incorrect. This choice doesn't describe the study's findings. Choice D is incorrect. This choice isn't suited\nfor an audience already familiar with thermal inversion. A familiar audience wouldn't need to have the term defined.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "science"
   },
   {
     "id": "9646ea35",
@@ -1646,7 +1742,8 @@ const questionBank_EOI = [
     "answer": "C",
     "explanation": "Strategy: Goal-First Filter\nChoice C is the best answer. The sentence presents both findings from the study, noting that FTWs using marigolds both removed\nphosphorus from the water and yielded market-quality blooms.\nChoice A is incorrect. While the sentence presents a finding from the study, the presentation is incomplete; the study found that\nmarigolds cultivated on FTWs both removed phosphorus from the water and yielded market-quality blooms. Choice B is incorrect.\nThe sentence misrepresents information in the notes. The figure of 52% refers to the amount of phosphorus removed by FTWs\nusing marigolds when compared to the control; the marigolds' bloom yield was 65 market-quality blooms per square meter, and it\nwas not compared to the control. Choice D is incorrect. The sentence misrepresents information in the notes. The FTWs using\nmarigolds removed 52% more phosphorus from the water than did the control, not 52% of the total phosphorus. Additionally, the\nbloom figure is incomplete; the figure is 65 market-quality flower blooms per square meter.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "science"
   },
   {
     "id": "a7b8a5a5",
@@ -1663,7 +1760,8 @@ const questionBank_EOI = [
     "answer": "D",
     "explanation": "Strategy: Goal-First Filter\nChoice D is the best answer. The sentence makes a generalization about nissologists' definition of an island—specifically, that the\nuse of one definition rather than another can result in huge disparities in the number of islands counted—and supports that\ngeneralization by citing Sweden as an example.\nChoice A is incorrect. The sentence introduces one definition of an island to an audience unfamiliar with nissologists; it doesn't\nmake a generalization about nissologists' definition of an island. Choice B is incorrect. While the sentence synthesizes information\nfrom the notes about counts of Sweden's islands, it doesn't make and support a generalization about nissologists' definition of an\nisland. Choice C is incorrect. The sentence makes an inference about islands in Sweden; it doesn't mention nissologists' definition\nof an island or make a generalization about it.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "social"
   },
   {
     "id": "e1608258",
@@ -1680,7 +1778,8 @@ const questionBank_EOI = [
     "answer": "B",
     "explanation": "Strategy: Direction Check\nChoice B is the best answer. \"Of course\" logically signals that the information that follows—about many dances being \"defined by\norder, repetition, and synchronicity\"—acknowledges an obvious similarity between these dances and the previous description of\nthe Madison. The sentence then goes on to emphasize a distinguishing feature of the Madison.\nChoice A is incorrect because \"however\" illogically signals that the information that follows contrasts with the previous description\nof the Madison. Instead, the information about many dances' features acknowledges an obvious similarity between these dances\nand the Madison. The sentence then goes on to emphasize a distinguishing feature of the Madison. Choice C is incorrect because\n\"specifically\" illogically signals that the information that follows specifies or elaborates on the previous description of the Madison.\nInstead, the information about many dances' features acknowledges an obvious similarity between these dances and the\nMadison. The sentence then goes on to emphasize a distinguishing feature of the Madison. Choice D is incorrect because\n\"moreover\" illogically signals that the information that follows adds to or expands on the previous description of the Madison.\nInstead, the information about many dances' features acknowledges an obvious similarity between these dances and the\nMadison. The sentence then goes on to emphasize a distinguishing feature of the Madison.",
     "strategy": "Direction Check",
-    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast"
+    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast",
+    "topic": "social"
   },
   {
     "id": "a06ee2ad",
@@ -1697,7 +1796,8 @@ const questionBank_EOI = [
     "answer": "C",
     "explanation": "Strategy: Goal-First Filter\nChoice C is the best answer. This choice defines a quenched galaxy as \"one that no longer forms stars.\"\nChoice A is incorrect. This choice only describes what happens before quenching. Choice B is incorrect. This choice only\ndescribes what happens after quenching. Choice D is incorrect. This choice only describes what causes quenching.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "science"
   },
   {
     "id": "477fd84c",
@@ -1714,7 +1814,8 @@ const questionBank_EOI = [
     "answer": "C",
     "explanation": "Strategy: Goal-First Filter\nChoice C is the best answer. This choice uses a quotation to convey the authors' criticism and challenge to the wood-wide web\ntheory due to an absence of evidence.\nChoice A is incorrect. This choice doesn't emphasize a potential problem with the wood-wide web theory. It uses a quotation to\nintroduce the theory and its originator. It doesn't mention any criticism or challenge to the theory. Choice B is incorrect. This choice\nuses a quotation, but it doesn't emphasize a potential problem with the wood-wide web theory. It uses a quotation to describe the\nappeal and interest of the theory, but it doesn't indicate why the authors are concerned or what evidence they have. Choice D is\nincorrect. This choice doesn't use a quotation at all. It paraphrases the main idea of the 2022 study, but it doesn't include any\nspecific words or phrases from the notes. It also doesn't emphasize a potential problem with the theory, but rather its popularity.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "social"
   },
   {
     "id": "68c7aaf0",
@@ -1731,7 +1832,8 @@ const questionBank_EOI = [
     "answer": "A",
     "explanation": "Strategy: Goal-First Filter\nChoice A is the best answer. This choice presents the study's results from the last two bullet points.\nChoice B is incorrect. This choice describes the background and motivation of the study but not the outcome or findings. Choice C\nis incorrect. This choice describes the research question or hypothesis of the study but not the evidence or conclusion. Choice D is\nincorrect. This choice describes the method or design of the study but not the actual results.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "social"
   },
   {
     "id": "94e2935a",
@@ -1748,7 +1850,8 @@ const questionBank_EOI = [
     "answer": "D",
     "explanation": "Strategy: Direction Check\nChoice D is the best answer. \"Additionally\" logically signals that the painting analysis discussed in this sentence is an additional\npart of the botany research discussed in the previous sentence. That is, to research which fruits Umbrians grew in the past, the\nbotanist analyzes old paintings in addition to looking at old lists of ingredients. \nChoice A is incorrect because \"in sum\" illogically signals that the painting analysis discussed in this sentence is a concluding\nsummary of the botany research discussed in the previous sentence. Instead, the painting analysis is an additional part of that\nresearch. Choice B is incorrect because \"instead\" illogically signals that the painting analysis discussed in this sentence is an\nalternative to the botany research discussed in the previous sentence. Rather, the painting analysis is an additional part of that\nresearch. Choice C is incorrect because \"thus\" illogically signals that the painting analysis discussed in this sentence is a result of\nthe botany research discussed in the previous sentence. Instead, the painting analysis is an additional part of that research.",
     "strategy": "Direction Check",
-    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast"
+    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast",
+    "topic": "humanities"
   },
   {
     "id": "0d5e89a8",
@@ -1765,7 +1868,8 @@ const questionBank_EOI = [
     "answer": "C",
     "explanation": "Strategy: Goal-First Filter\nChoice C is the best answer. The sentence directly identifies an accomplishment of the NCAI: that its advocacy was key to the\npassing of Public Law 96-638, which formally acknowledged Indigenous tribes' right to self-governance.\nChoice A is incorrect. The sentence provides information about the NCAI's founding and its first president, but it doesn't identify an\naccomplishment of the organization. Choice B is incorrect. The sentence describes the NCAI's founding, but it doesn't identify an\naccomplishment of the organization. Choice D is incorrect. The sentence misrepresents the information in the notes: the US\nCongress, not the NCAI, passed the Indian Self-Determination and Education Assistance Act.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "social"
   },
   {
     "id": "fac65d01",
@@ -1782,7 +1886,8 @@ const questionBank_EOI = [
     "answer": "D",
     "explanation": "Strategy: Direction Check\nChoice D is the best answer. \"That is\" logically signals that the information that follows in the sentence clarifies a term used in the\nprevious discussion of the researchers' findings: cognate replacement.\nChoice A is incorrect because \"for example\" illogically signals that the information that follows in the sentence provides a specific\nexample of the research findings described earlier. Instead, it clarifies a term introduced earlier in the sentence. Choice B is\nincorrect because \"likewise\" illogically signals that the information that follows in the sentence is similar to the previous\ninformation about the researchers' findings. Instead, it clarifies a term introduced earlier in the sentence. Choice C is incorrect\nbecause \"in addition\" illogically signals that the information that follows in the sentence merely adds to the previous information\nabout the researchers' findings. Instead, it clarifies a term introduced earlier in the sentence.",
     "strategy": "Direction Check",
-    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast"
+    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast",
+    "topic": "social"
   },
   {
     "id": "9fe1e856",
@@ -1799,7 +1904,8 @@ const questionBank_EOI = [
     "answer": "C",
     "explanation": "Strategy: Goal-First Filter\nChoice C is the best answer. The sentence describes how DLS cures 3D objects, noting that UV light is projected into resin to cure\nthe object in layers, after which the object is baked to complete the curing process.\nChoice A is incorrect. While the sentence does describe some elements of the curing process, the description misrepresents\ninformation in the notes; this sentence suggests that the UV light, rather than the 3D object, is baked in an oven. Choice B is\nincorrect. While the sentence does describe some elements of the curing process, the description misrepresents information in\nthe notes: the UV light, not DLS, passes through the dead zone. Choice D is incorrect. While the sentence does describe some\nelements of the curing process, the description misrepresents information in the notes. This sentence suggests that curing is\ncomplete when the already-solidified resin passes through the dead zone; rather, liquid resin passes through the dead zone and is\nsolidified in layers, after which curing is completed in the oven.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "science"
   },
   {
     "id": "05ce9708",
@@ -1816,7 +1922,8 @@ const questionBank_EOI = [
     "answer": "A",
     "explanation": "Strategy: Direction Check\nChoice A is the best answer. \"Hence\" logically signals that the information in this sentence—that geologists couldn't confirm the\ntheory of cyclical Ice Ages until the 1960s—is a consequence of the previous information about the destructiveness of each Ice\nAge and the erasure of necessary geological evidence.  \nChoice B is incorrect because \"moreover\" illogically signals that the information in this sentence is merely additional to the\nprevious information about the destructiveness of each Ice Age. Instead, the sentence  identifies a specific consequence of that\ninformation. Choice C is incorrect because \"nevertheless\" illogically signals that the information in this sentence is true despite the\nprevious information about the destructiveness of each Ice Age. Instead, the sentence identifies a specific consequence of that\ninformation. Choice D is incorrect because \"next\" illogically signals that the information in this sentence is the next step in a\nprocess. Instead, the sentence identifies a specific consequence of the previous information.",
     "strategy": "Direction Check",
-    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast"
+    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast",
+    "topic": "other"
   },
   {
     "id": "c0d7d2ee",
@@ -1833,7 +1940,8 @@ const questionBank_EOI = [
     "answer": "B",
     "explanation": "Strategy: Direction Check\nChoice B is the best answer. The first sentence makes the claim that using grime-eating bacteria has led to \"impressive results.\"\nThis sentence supports that claim by describing the specific findings of the biologists' experimentation. The transition \"in many\ncases\" fits the context perfectly.\nChoice A is incorrect. This choice uses a disagreement transition. But this sentence actually agrees with the previous sentence.\nBoth claim that grime-eating bacteria are better at cleaning artworks than chemicals. Choice C is incorrect. This choice uses a\ncause-and-effect transition, which doesn't make sense in context. The fact that the results of the experimentation have been\nimpressive overall doesn't cause the bacteria to have proven more effective. Choice D is incorrect. This choice uses a transition\nthat indicates the addition of a new idea. But this sentence doesn't introduce a new idea. Instead, it elaborates on the same idea\nlaid out in the previous sentence by describing the \"impressive results\" in more detail.",
     "strategy": "Direction Check",
-    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast"
+    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast",
+    "topic": "science"
   },
   {
     "id": "996d9b34",
@@ -1850,7 +1958,8 @@ const questionBank_EOI = [
     "answer": "C",
     "explanation": "Strategy: Goal-First Filter\nChoice C is the best answer. The sentence compares the two women's contributions to the march: Hedgeman worked behind the\nscenes to make sure a woman speaker was included, whereas Bates actually spoke at the event. \nChoice A is incorrect. While it acknowledges that the two women both contributed to the march, it doesn't indicate what\nHedgeman did, so no comparison is made. Choice B is incorrect. While the sentence provides information about the two women, it\ndoesn't mention anything about Bates's contribution to the march. Choice D is incorrect. While the sentence indicates that the two\nwomen both fought for civil rights, it doesn't compare their individual contributions to the march.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "social"
   },
   {
     "id": "aa7ab068",
@@ -1867,7 +1976,8 @@ const questionBank_EOI = [
     "answer": "A",
     "explanation": "Strategy: Goal-First Filter\nChoice A is the best answer. The sentence provides a historical overview of the two theories, noting that scholars were divided\nbetween them before Ibn al-Haytham's experiments supporting intromission largely settled the debate in the eleventh century.\nChoice B is incorrect. While the sentence identifies the two theories and the scholars that supported them, it doesn't provide a\nhistorical overview of the theories. Choice C is incorrect. While the sentence indicates Aristotle supported intromission theory\ncenturies before Ibn al-Haytham settled the debate, it doesn't mention extramission theory or provide a historical overview of both\ntheories. Choice D is incorrect. The sentence provides information about intromission theory but doesn't mention extramission\ntheory or provide a historical overview of both theories.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "social"
   },
   {
     "id": "3d1961b6",
@@ -1884,7 +1994,8 @@ const questionBank_EOI = [
     "answer": "D",
     "explanation": "Strategy: Goal-First Filter\nChoice D is the best answer. The sentence effectively presents the LIGO study's aim, noting that it is designed to detect and\nanalyze gravitational waves, and its methodology (it uses two interferometers to detect the waves).\nChoice A is incorrect. The sentence describes a finding from the LIGO study; it doesn't effectively present the study's aim or its\nmethodology. Choice B is incorrect. The sentence provides background information about the LIGO study's timeline; it doesn't\neffectively present the study's aim or its methodology. Choice C is incorrect. The sentence touches on LIGO's methodology, noting\nthat it uses two interferometers, but doesn't indicate what the study's aims are.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "science"
   },
   {
     "id": "d56293ff",
@@ -1901,7 +2012,8 @@ const questionBank_EOI = [
     "answer": "B",
     "explanation": "Strategy: Direction Check\nChoice B is the best answer. \"By contrast\" logically signals that the information about how Massey defined space—by focusing on\nsocio-political forces—contrasts with the information in the previous clause, which discusses quantitative analytical approaches\nand spatial technologies.\nChoice A is incorrect because \"for example\" illogically signals that the information that follows in the sentence exemplifies the\nquantitative analytical approaches to defining space described previously. Instead, the information about Massey's socio-political\nfocus presents a contrasting approach. Choice C is incorrect because \"as such\" illogically signals that the information that follows\nin the sentence is a direct result or logical consequence of the quantitative analytical approaches to defining space described\npreviously. Instead, the information about Massey's socio-political focus presents a contrasting approach. Choice D is incorrect\nbecause \"likewise\" illogically signals that the information that follows in the sentence is similar to the quantitative analytical\napproaches to defining space described previously. Instead, the information about Massey's socio-political focus presents a\ncontrasting approach.",
     "strategy": "Direction Check",
-    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast"
+    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast",
+    "topic": "science"
   },
   {
     "id": "38f10244",
@@ -1918,7 +2030,8 @@ const questionBank_EOI = [
     "answer": "C",
     "explanation": "Strategy: Direction Check\nChoice C is the best answer. The first sentence describes an experience that the viewer has when they're looking at the photos:\nthey imagine other planets. This sentence describes an experience that the viewer has afterward: the title reminds them that the\nphotos are of frying pans, bringing them back to reality. \"Ultimately\" is a transition that means \"eventually\" or \"in the end,\" so it fits\nthe context perfectly.\nChoice A is incorrect. This choice uses a cause-and-effect transition, which doesn't make sense here. The viewer imagining other\nplanets when they're looking at the photos doesn't cause the title to bring them back to reality. Choice B is incorrect. This choice\nuses a transition that indicates another option or possibility, which doesn't make sense here. Rather, the viewer has both\nexperiences: first the viewer imagines that they're looking at another planet, and then the title reminds them that it's just a frying\npan. Choice D is incorrect. This choice uses a transition that indicates the addition of an agreeing idea. But the viewer's experience\nin the second sentence is actually the opposite of the viewer's experience in the first sentence. In the first sentence, the viewer is\nimagining that they're seeing a landscape from another planet. In the second sentence, the viewer is reminded that they're looking\nat a frying pan.",
     "strategy": "Direction Check",
-    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast"
+    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast",
+    "topic": "other"
   },
   {
     "id": "32840a4a",
@@ -1935,7 +2048,8 @@ const questionBank_EOI = [
     "answer": "B",
     "explanation": "Strategy: Direction Check\nChoice B is the best answer. \"Fittingly\" is a transition that means \"appropriately\" or \"suitably,\" and it is appropriate that writers who\nadopted their style from Okot p'Bitek would be known as the Okot School poets.\nChoice A is incorrect. This choice uses a disagreement transition. But this sentence is not disagreeing with anything—rather, it's\ndiscussing how it makes sense for those writers who adopted Okot's style to be known as the Okot School poets. Choice C is\nincorrect. This choice uses a transition that compares two ideas. But this sentence is not comparing the Okot School poets and\ntheir style to Okot's style. Choice D is incorrect. This choice uses a disagreement transition. But this sentence is not disagreeing\nwith anything—rather, it's discussing how it makes sense for those writers who adopted Okot's style to be known as the Okot\nSchool poets.",
     "strategy": "Direction Check",
-    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast"
+    "trapName": "Wrong Direction · Formal Without Logic · Sequence vs. Contrast",
+    "topic": "humanities"
   },
   {
     "id": "9902d7bb",
@@ -1952,6 +2066,7 @@ const questionBank_EOI = [
     "answer": "C",
     "explanation": "Strategy: Goal-First Filter\nChoice C is the best answer. The sentence emphasizes the order in which the two lighthouse keepers began their careers, noting\nthat McNeil, who became the keeper at Bridgeport Breakwater Light in 1904, began her career years after Younghans, who became\nthe keeper at Biloxi Light in 1867.\nChoice A is incorrect because it makes a generalization about the effects of McNeil's and Younghans's work; it doesn't emphasize\nthe order in which the two keepers began their careers. In addition, the sentence misrepresents information from the notes; McNeil\nwas the keeper at a lighthouse in Connecticut from 1904 to 1920, not at a lighthouse in Mississippi from 1867 to 1918. Choice B is\nincorrect. The sentence claims that Younghans and McNeil were crucial to ensuring the safety of watercraft before lighthouses\nbecame automated; it doesn't emphasize the order in which the two keepers began their careers. Choice D is incorrect. The\nsentence emphasizes when the lighthouse keepers' respective careers ended; it doesn't emphasize the order in which the two\nkeepers began their careers.",
     "strategy": "Goal-First Filter",
-    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive"
+    "trapName": "Wrong Goal · Accurate But Off-Task · Over-Inclusive",
+    "topic": "social"
   }
 ];

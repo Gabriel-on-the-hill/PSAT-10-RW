@@ -11,8 +11,65 @@
 </head>
 <body>
 
+    <!-- ── Hub Screen ───────────────────────────────────────────────── -->
+    <div id="hubScreen" style="
+        position:fixed;inset:0;background:var(--background);
+        display:flex;align-items:center;justify-content:center;
+        padding:1.5rem 1rem;z-index:500;">
+      <div style="width:100%;max-width:480px">
+
+        <div style="display:flex;align-items:center;gap:0.5rem;
+             font-size:0.88rem;font-weight:700;color:var(--primary);
+             margin-bottom:2rem;opacity:0.85;">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <path d="M12 19l7-7 3 3-7 7-3-3z"/>
+            <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/>
+          </svg>
+          SAT Mastery
+        </div>
+
+        <h1 style="font-size:1.7rem;font-weight:700;margin-bottom:0.35rem">What are we doing today?</h1>
+        <p style="color:var(--text-muted);font-size:0.95rem;margin-bottom:2rem">Choose your session type to get started.</p>
+
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem">
+
+          <button onclick="enterPractice()" style="
+              background:var(--surface);border:2px solid var(--border);
+              border-radius:1rem;padding:1.5rem 1.25rem;cursor:pointer;
+              text-align:left;transition:border-color 0.18s,box-shadow 0.18s,transform 0.15s;
+              font-family:inherit;" onmouseover="this.style.borderColor='var(--primary-light)';this.style.transform='translateY(-2px)';this.style.boxShadow='var(--shadow)'"
+              onmouseout="this.style.borderColor='var(--border)';this.style.transform='';this.style.boxShadow=''">
+            <div style="font-size:1.5rem;margin-bottom:0.6rem">&#127942;</div>
+            <div style="font-size:1rem;font-weight:700;margin-bottom:0.3rem">Practice</div>
+            <div style="font-size:0.82rem;color:var(--text-muted);line-height:1.4">Full session with coached hints, skill filters, and instant feedback.</div>
+          </button>
+
+          <a href="vocab.html" style="
+              background:var(--surface);border:2px solid var(--border);
+              border-radius:1rem;padding:1.5rem 1.25rem;cursor:pointer;
+              text-align:left;transition:border-color 0.18s,box-shadow 0.18s,transform 0.15s;
+              text-decoration:none;color:inherit;display:block;"
+              onmouseover="this.style.borderColor='var(--primary-light)';this.style.transform='translateY(-2px)';this.style.boxShadow='var(--shadow)'"
+              onmouseout="this.style.borderColor='var(--border)';this.style.transform='';this.style.boxShadow=''">
+            <div style="font-size:1.5rem;margin-bottom:0.6rem">&#128218;</div>
+            <div style="font-size:1rem;font-weight:700;margin-bottom:0.3rem">Vocabulary</div>
+            <div style="font-size:0.82rem;color:var(--text-muted);line-height:1.4">SAT words · flip cards, daily 5, and progress tracking.</div>
+          </a>
+
+        </div>
+
+        <div style="text-align:center;margin-top:1.5rem">
+          <a href="#" onclick="showProgressPanel();return false;"
+             style="font-size:0.78rem;color:var(--text-muted);text-decoration:none;opacity:0.7">
+            &#128202; View Joshua's progress
+          </a>
+        </div>
+
+      </div>
+    </div>
+
     <!-- ── Session Setup Screen ─────────────────────────────────────── -->
-    <div id="setupScreen">
+    <div id="setupScreen" style="display:none">
         <div class="setup-card">
 
             <div class="setup-logo">
@@ -134,71 +191,71 @@
             <div class="setup-section">
                 <h3>Quick Presets</h3>
                 <div class="preset-grid">
-                    <!-- Priority gap -->
+                    <!-- Current priority — Evidence + Inference (Apr 15 homework focus) -->
                     <button class="preset-btn preset-priority"
                         data-skills="Command of Evidence — Textual,Inferences"
                         data-diffs="Medium,Hard"
                         data-limit="10"
-                        data-tooltip="Find evidence + make inferences · Medium &amp; Hard · 10 questions — your homework drill">Evidence &amp; Inference · 10</button>
+                        data-tooltip="Evidence + Inference · Medium &amp; Hard · 10 questions — current homework drill">Evidence &amp; Inference · 10</button>
                     <button class="preset-btn preset-priority"
                         data-skills="Command of Evidence — Textual,Inferences"
-                        data-diffs="Easy,Medium,Hard"
+                        data-diffs="Medium,Hard"
                         data-limit="0"
-                        data-tooltip="Find evidence + make inferences · all difficulty levels · all available questions">Evidence &amp; Inference · All</button>
-                    <!-- Grammar / Conventions -->
+                        data-tooltip="Evidence + Inference · Medium &amp; Hard · all questions — extended drill on confirmed gap">Evidence &amp; Inference · M–H</button>
+                    <!-- Phase 0 — Diagnostic (untouched domains) -->
+                    <button class="preset-btn"
+                        data-skills="Boundaries,Form, Structure, and Sense,Transitions,Rhetorical Synthesis,Cross-Text Connections,Command of Evidence — Quantitative"
+                        data-diffs="Easy,Medium"
+                        data-limit="14"
+                        data-tooltip="Phase 0 Diagnostic · untouched domains · 14 questions · Easy + Medium — use at start of today's class">Phase 0 · Diagnostic (14)</button>
+                    <!-- Phase 1 — Conventions -->
                     <button class="preset-btn"
                         data-skills="Boundaries,Form, Structure, and Sense"
-                        data-diffs="Easy"
-                        data-limit="0"
-                        data-tooltip="Punctuation and sentence structure questions · Easy only">Grammar · Easy</button>
-                    <button class="preset-btn"
-                        data-skills="Boundaries,Form, Structure, and Sense"
                         data-diffs="Easy,Medium"
                         data-limit="0"
-                        data-tooltip="Punctuation and sentence structure questions · Easy and Medium">Grammar · Easy + Medium</button>
-                    <!-- Connections & Flow -->
+                        data-tooltip="Phase 1 · Boundaries + Form/Structure/Sense · Easy + Medium — rule-based conventions practice">Phase 1 · Conventions (M)</button>
+                    <!-- Phase 2 — Expression of Ideas -->
                     <button class="preset-btn"
-                        data-skills="Cross-Text Connections,Transitions,Rhetorical Synthesis"
-                        data-diffs="Easy"
-                        data-limit="0"
-                        data-tooltip="Compare two texts, link sentences, and summarise notes · Easy only">Connections &amp; Flow · Easy</button>
-                    <button class="preset-btn"
-                        data-skills="Cross-Text Connections,Transitions,Rhetorical Synthesis"
+                        data-skills="Transitions,Rhetorical Synthesis"
                         data-diffs="Easy,Medium"
                         data-limit="0"
-                        data-tooltip="Compare two texts, link sentences, and summarise notes · Easy and Medium">Connections &amp; Flow · E+M</button>
-                    <!-- Craft & Structure -->
+                        data-tooltip="Phase 2 · Transitions + Rhetorical Synthesis · Easy + Medium">Phase 2 · Expression (M)</button>
+                    <!-- Phase 3 — Dense-text synthesis (confirmed gap) -->
+                    <button class="preset-btn preset-priority"
+                        data-skills="Command of Evidence — Textual,Inferences"
+                        data-diffs="Medium,Hard"
+                        data-limit="0"
+                        data-topic="science"
+                        data-tooltip="Phase 3 · Evidence + Inference · science passages only · Medium &amp; Hard — directly targets the confirmed Q10 dense-science synthesis gap">Phase 3 · Dense Science</button>
                     <button class="preset-btn"
-                        data-skills="Words in Context,Text Structure and Purpose"
-                        data-diffs="Easy,Medium"
-                        data-limit="0"
-                        data-tooltip="Vocabulary in context + how and why authors structure their writing · Easy and Medium">Vocabulary &amp; Purpose</button>
-                    <button class="preset-btn"
-                        data-skills="Words in Context,Text Structure and Purpose,Cross-Text Connections"
-                        data-diffs="Easy,Medium,Hard"
-                        data-limit="0"
-                        data-tooltip="All Craft &amp; Structure skills · all difficulty levels">Craft &amp; Structure · All</button>
-                    <!-- Full modules -->
-                    <button class="preset-btn preset-exam"
-                        data-skills="Central Ideas and Details,Command of Evidence — Textual,Command of Evidence — Quantitative,Inferences,Words in Context,Text Structure and Purpose,Cross-Text Connections,Rhetorical Synthesis,Transitions,Boundaries,Form, Structure, and Sense"
-                        data-diffs="Easy"
-                        data-limit="0"
-                        data-tooltip="All 11 skills · Easy only — good confidence-building warm-up">Warm-up · All Skills</button>
-                    <button class="preset-btn preset-exam"
-                        data-skills="Central Ideas and Details,Command of Evidence — Textual,Command of Evidence — Quantitative,Inferences,Words in Context,Text Structure and Purpose,Cross-Text Connections,Rhetorical Synthesis,Transitions,Boundaries,Form, Structure, and Sense"
-                        data-diffs="Easy,Medium,Hard"
-                        data-limit="27"
-                        data-tooltip="All 11 skills · all difficulty levels · 27 questions — closest to the real test">Full Test Module</button>
-                    <button class="preset-btn preset-exam"
                         data-skills="Command of Evidence — Textual,Command of Evidence — Quantitative,Inferences"
+                        data-diffs="Medium,Hard"
+                        data-limit="0"
+                        data-tooltip="Phase 3 · Evidence (Textual + Quantitative) + Inference · Medium &amp; Hard · all passage types">Phase 3 · Synthesis (M–H)</button>
+                    <!-- Phase 4 — Cross-Text -->
+                    <button class="preset-btn"
+                        data-skills="Cross-Text Connections"
                         data-diffs="Easy,Medium,Hard"
                         data-limit="0"
-                        data-tooltip="Evidence and inference questions only · all difficulty levels — for focused reading practice">Reading Focus · All</button>
+                        data-tooltip="Phase 4 · Cross-Text Connections · all difficulty levels — qualification vs disagreement focus">Phase 4 · Cross-Text</button>
+                    <!-- Tables and Graphs -->
                     <button class="preset-btn"
                         data-skills="Command of Evidence — Quantitative"
                         data-diffs="Easy,Medium,Hard"
                         data-limit="0"
-                        data-tooltip="Questions that include tables, graphs, or data — practise reading and interpreting data">Tables &amp; Graphs</button>
+                        data-tooltip="Questions with tables, graphs, or data — read axis labels before answering">Tables &amp; Graphs</button>
+                    <!-- Craft & Structure (confirmed strengths — warm-up only) -->
+                    <button class="preset-btn"
+                        data-skills="Words in Context,Text Structure and Purpose"
+                        data-diffs="Medium,Hard"
+                        data-limit="0"
+                        data-tooltip="Vocabulary in context + paragraph purpose · Medium &amp; Hard — warm-up for confirmed strengths">Vocab &amp; Purpose (M–H)</button>
+                    <!-- Full module -->
+                    <button class="preset-btn preset-exam"
+                        data-skills="Central Ideas and Details,Command of Evidence — Textual,Command of Evidence — Quantitative,Inferences,Words in Context,Text Structure and Purpose,Cross-Text Connections,Rhetorical Synthesis,Transitions,Boundaries,Form, Structure, and Sense"
+                        data-diffs="Easy,Medium,Hard"
+                        data-limit="27"
+                        data-tooltip="All 11 skills · all difficulty levels · 27 questions — Phase 5 timed module simulation">Full Test Module (27)</button>
                 </div>
             </div>
 
@@ -212,6 +269,7 @@
             </div>
 
             <div class="session-summary" id="sessionSummary">Select skills and difficulty to begin.</div>
+            <div id="topicFilterBadge" style="display:none;margin-top:0.4rem;font-size:0.78rem;font-weight:600;color:#0369a1;background:#e0f2fe;border:1px solid #bae6fd;border-radius:9999px;padding:0.2rem 0.75rem"></div>
 
             <button id="startSessionBtn" class="btn btn-primary setup-start-btn" disabled>Start Session</button>
 
@@ -236,6 +294,11 @@
                 <button class="btn export-btn" id="exportBtn">&#8593; Export Data</button>
                 <button class="btn export-btn" id="importBtn">&#8595; Import Data</button>
             </div>
+            <div class="export-import-row" style="margin-top:0.5rem">
+                <button class="btn export-btn" id="exportProgressBtn" title="Back up Joshua's mastery progress">&#8593; Export Progress</button>
+                <button class="btn export-btn" id="importProgressBtn" title="Restore Joshua's mastery progress">&#8595; Import Progress</button>
+            </div>
+
         </div>
     </div>
 
@@ -301,6 +364,7 @@
                 <div id="questionCounter" class="question-counter">Q — / —</div>
                 <span id="reviewLabel" class="badge badge-red" style="display:none; font-size:0.7rem;">Review</span>
                 <div class="score-display">Score: <span id="currentScore">0</span></div>
+                <a href="vocab.html" class="btn" style="text-decoration:none">Vocab &#8594;</a>
             </div>
         </header>
 
@@ -354,6 +418,22 @@
     <script src="data-expression-of-ideas.js"></script>
     <script src="data-info-ideas.js"></script>
     <script src="data-conventions.js"></script>
+
+    <!-- Progress Panel (Ctrl+Shift+P · tutor view) -->
+    <div id="progressPanel" style="display:none;position:fixed;inset:0;background:rgba(15,23,42,0.6);backdrop-filter:blur(4px);z-index:600;overflow-y:auto;padding:2rem 1rem" onclick="if(event.target===this)closeProgressPanel()">
+      <div style="max-width:560px;margin:0 auto;background:var(--surface);border-radius:1.25rem;padding:2rem;box-shadow:0 20px 40px rgba(0,0,0,0.25)">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1.5rem">
+          <div>
+            <h2 style="font-size:1.15rem;font-weight:700;margin-bottom:0.1rem">Joshua's Progress</h2>
+            <p style="font-size:0.78rem;color:var(--text-muted)">Tutor view &mdash; Ctrl+Shift+P to toggle</p>
+          </div>
+          <button onclick="closeProgressPanel()" class="btn">Close</button>
+        </div>
+        <div id="progressBody"></div>
+      </div>
+    </div>
+
+    <script src="progress.js"></script>
     <script src="app.js"></script>
 </body>
 </html>

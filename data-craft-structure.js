@@ -14,7 +14,8 @@ const questionBank_CS = [
     "answer": "B",
     "explanation": "Strategy: Two-Filter Method\nChoice B is the best answer because it most logically completes the text's discussion of Hishida Shunsō's painting Cat and Plum\nBlossoms. In this context, \"embraced\" means accepted or adopted readily. The text begins by identifying Cat and Plum Blossoms\nas an example of Nihonga, or classical (that is, traditional) Japanese painting. The text continues by drawing a contrast between\nHishida's work and Kuroda Seiki's work, which differs from that of Hishida in its use of the traditional European method of using oil\npaints on canvas rather than using traditional Japanese approaches. The text then concludes with an example of one such\ntraditional Japanese painting technique exemplified by Hishida's Cat and Plum Blossoms—applications of color pigments to a silk\nscroll—to further develop the contrast between the two artists' approaches. This context supports the idea that Hishida adopted,\nor embraced, traditional Japanese approaches.\nChoice A is incorrect because in this context \"distrusted\" would mean that Hishida was skeptical of or lacked confidence in\ntraditional Japanese approaches to painting. The text begins by stating that Hishida's painting Cat and Plum Blossoms is an\nexample of Nihonga, or traditional Japanese painting, and then cites Hishida's application of color pigments to a silk scroll as an\ninstance of a traditional Japanese painting technique. It therefore wouldn't make sense to say that Hishida's use of traditional\nJapanese painting techniques indicates his distrust, or skepticism, of them. Rather, it suggests that he embraced those\ntechniques. Choice C is incorrect because saying that Hishida \"released\" traditional Japanese approaches to painting in this\ncontext would mean that he freed them from any restrictions. In using Hishida's application of color pigments to a silk scroll in Cat\nand Plum Blossoms as an example of a traditional Japanese approach to painting found in Nihonga, the text strongly implies that\nHishida followed these approaches, not that he removed them from any restrictions. Choice D is incorrect because in this context\n\"overlooked\" would mean ignored or failed to notice. The text establishes that Hishida's painting Cat and Plum Blossoms is a\nnotable work of Nihonga, or classical Japanese painting, that features the traditional technique of applying color pigments to a silk\nscroll. It wouldn't make sense to say that Hishida's use of a traditional Japanese approach to painting indicates that Hishida failed\nto notice those approaches.\nAssessment\nPSAT/NMSQT &\nPSAT 10\nTest\nReading and Writing\nDomain\nCraft and Structure\nSkill\nWords in Context\nDifficulty",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "humanities"
   },
   {
     "id": "4c603792",
@@ -31,7 +32,8 @@ const questionBank_CS = [
     "answer": "D",
     "explanation": "Strategy: Perspective Synthesis\nChoice D is the best answer. Text 1 states that the moon was formed from the debris \"over the course of thousands of years,\"\nwhile Text 2 states that the moon's formation happened \"immediately after impact, taking just a few hours.\" This shows a clear\ndifference in how the authors view the evidence for the speed of the moon's formation.\nChoice A is incorrect. While Text 2 suggests that the moon formed over \"just a few hours\" and Text 1 says it took \"thousands of\nyears,\" neither one mentions when that formation occurred. Choice B is incorrect. While Theia isn't mentioned in Text 2, neither text\ndescribes or disputes evidence of Theia's existence. Choice C is incorrect. Neither text makes any claims about the similarity or\ndifference between the moon's surface and Earth's surface.",
     "strategy": "Perspective Synthesis",
-    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement"
+    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement",
+    "topic": "science"
   },
   {
     "id": "09d1bf78",
@@ -48,7 +50,8 @@ const questionBank_CS = [
     "answer": "B",
     "explanation": "Strategy: Function Map\nChoice B is the best answer because it best states the main purpose of the text, which is to establish the narrator's feelings about\nthe piano. The narrator reveals that she \"had to act really happy\" about the piano even though she \"pretty much hated the thing\" as\nsoon as it was placed upstairs near her bedroom. The narrator also describes the piano as glaring at her and compares it to a\ncaged bird that wants to be set free. These details establish the narrator's feelings about the piano, suggesting that it makes her\nuneasy.\nChoice A is incorrect because the text indicates that the narrator hated having the piano upstairs right next to her bedroom, not\nthat she wanted a piano to be close to her bedroom. Choice C is incorrect because the only information provided in the text about\nthe narrator's brothers is that they were given the piano along with the narrator. Choice D is incorrect because the text does not\ndescribe the event that led the narrator's parents to buy the piano from the people moving to Utah. Instead, the text focuses on the\nnarrator's feelings about the piano after it was given to her and her brothers.",
     "strategy": "Function Map",
-    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch"
+    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch",
+    "topic": "humanities"
   },
   {
     "id": "12852fd3",
@@ -65,7 +68,8 @@ const questionBank_CS = [
     "answer": "A",
     "explanation": "Strategy: Function Map\nChoice A is the best answer. The author first describes a Portland law aimed at reducing demolition waste, and then goes on to\nexplain that 27% of materials from building deconstructions were able to be reused and the rest were recycled.\nChoice B is incorrect. The text never discusses the popularity of the law. Choice C is incorrect. The text never compares building\ndeconstruction to other measures designed to reduce demolition waste. Choice D is incorrect. The text never mentions laws in\ncities other than Portland, Oregon.",
     "strategy": "Function Map",
-    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch"
+    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch",
+    "topic": "other"
   },
   {
     "id": "c9a2edec",
@@ -82,7 +86,8 @@ const questionBank_CS = [
     "answer": "A",
     "explanation": "Strategy: Perspective Synthesis\nChoice A is the best answer. Both texts state that tropical mountain bird species have limited ranges or habitats, although they\ndisagree on the reason for this. Text 1 claims that temperature is the main factor that determines where these birds can live, while\nText 2 claims that competition with other species is the main factor. However, both texts agree that these birds are not able to\nsurvive in many kinds of areas.\nChoice B is incorrect. Neither text mentions the tools or methods that scientists use to observe these birds, either now or in the\npast. Choice C is incorrect. Neither text mentions anything about how these birds build their nests. Choice D is incorrect. Neither\ntext provides any information about the genetic similarity of these birds, so we have no evidence that either author would agree\nwith this statement.",
     "strategy": "Perspective Synthesis",
-    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement"
+    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement",
+    "topic": "science"
   },
   {
     "id": "a7e97043",
@@ -99,7 +104,8 @@ const questionBank_CS = [
     "answer": "A",
     "explanation": "Strategy: Two-Filter Method\nChoice A is the best answer. \"Vivid\" can mean \"colorful\" or \"bright-colored.\" This definition fits the context clues about Alemán's\nfascination with and passion for bold colors.\nChoice B is incorrect. This doesn't fit the logic of the text. Nothing in the text indicates that Alemán's artworks are \"unknown.\"\nChoice C is incorrect. This doesn't fit the logic of the text. \"Definite\" means \"certain\" or \"decided.\" It wouldn't make sense to\ndescribe artwork as \"definite.\" Choice D is incorrect. This doesn't fit the logic of the text. \"Reserved\" can either mean \"slow to reveal\nemotions\" or \"booked.\" But the clues suggest that Alemán's artworks are boldly colorful—almost the opposite of \"reserved.\"",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "humanities"
   },
   {
     "id": "c403773d",
@@ -116,7 +122,8 @@ const questionBank_CS = [
     "answer": "B",
     "explanation": "Strategy: Two-Filter Method\nChoice B is the best answer because it most logically completes the text's discussion of the purpose of the National Heritage\nFellowship. In this context, \"recognize\" means acknowledge or honor someone officially for their achievements. The text states\nthat the fellowship was created for \"exceptional folk and traditional artists.\" It then provides an example of one recipient of the\nfellowship, circus aerialist Dolly Jacobs, who was given the fellowship \"to celebrate her lifetime contributions to the arts.\" The fact\nthat the fellowship is given to celebrate exceptional artists for their achievements therefore suggests that its purpose is to publicly\nhonor, or recognize, them.\nChoice A is incorrect because \"startle\" would mean alarm or surprise, and there's nothing in the text to suggest that Jacobs and\nother artists who received the National Heritage Fellowship didn't expect to receive it or were alarmed by it. It therefore wouldn't\nmake sense to say the fellowship was created to publicly alarm or surprise exceptional artists. Choice C is incorrect because in\nthis context, \"familiarize\" would mean make known or familiar, but the text gives no indication that Jacobs or other recipients of\nthe National Heritage Fellowship were unknown or unfamiliar before receiving the fellowship or that the fellowship was intended to\nmake them familiar to the public. In fact, the text describes recipients as \"exceptional\" and notes that Jacobs received the award\n\"to celebrate her lifetime contributions to the arts,\" both of which suggest that Jacobs and other recipients were already well\nknown in the arts world. Choice D is incorrect because \"convey\" would mean either transport or communicate something, neither\nof which would be logical in this context. The fellowship doesn't transport artists, and though the process of awarding the\nfellowship might communicate something about the artists to the general public, it would be illogical to state that the fellowship\ncommunicates the artists themselves. Rather, the fellowship honors artists for their contributions.",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "humanities"
   },
   {
     "id": "d326f965",
@@ -133,7 +140,8 @@ const questionBank_CS = [
     "answer": "C",
     "explanation": "Strategy: Two-Filter Method\nChoice C is the best answer. \"Preserving\" means \"maintaining\" or \"keeping in good condition,\" so preserving the photographs\nmeans that audiences should be able to view them for a long time.\nChoice A is incorrect. \"Replacing\" means \"putting something new in place of\" the photographs. Replacing the photos will make it\nso that audiences can't view them at all. Choice B is incorrect. \"Inventing\" means \"creating a new idea, process, or thing.\" The\nmuseum can't invent photographs that already exist. Choice D is incorrect. Counting the photographs will not help audiences view\nthem well into the future.",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "humanities"
   },
   {
     "id": "77ac529e",
@@ -150,7 +158,8 @@ const questionBank_CS = [
     "answer": "A",
     "explanation": "Strategy: Function Map\nChoice A is the best answer. The previous sentence broadly mentions \"autobiographies written by the freedom seekers.\" This\nsentence identifies Loguen's autobiography as a specific example.\nChoice B is incorrect. The sentence never explains why Loguen chose to write about his experiences. Choice C is incorrect. The\nprevious sentence identifies autobiographies as useful sources of historical information about a specific topic, but not for\n\"information about geography.\" The underlined sentence provides details of one autobiography as an example of a source of\ninformation about that specific topic (interactions between Indigenous people and Black freedom seekers). Choice D is incorrect.\nThe text never discusses other specific people who helped freedom seekers, and therefore can't make a comparison between the\nNeshnabé and anyone else.",
     "strategy": "Function Map",
-    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch"
+    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch",
+    "topic": "humanities"
   },
   {
     "id": "673e0f85",
@@ -167,7 +176,8 @@ const questionBank_CS = [
     "answer": "C",
     "explanation": "Strategy: Function Map\nChoice C is the best answer because it most accurately describes how the underlined sentence functions in the text as a whole.\nThe first sentence of the text states that Shakti knows the woods she is walking in well. The next sentence, which is underlined,\nemphasizes Shakti's familiarity with, and sense of security within, the woods by describing how the tree branches are friendly and\n\"welcoming,\" as they are depicted as extending open arms to her. The remainder of the text also shows that Shakti is comfortable\nand content in the woods by describing her as \"an old friend\" of the trees. Thus, the function of the underlined portion is to\nemphasize Shakti's sense of belonging in the wooded landscape that she visits.\nChoice A is incorrect because the text and underlined portion suggest that Shakti is comfortable, not uncomfortable, in her\nsurroundings: the trees around her are described as welcoming and reassuring. Moreover, the underlined portion discusses\nShakti's feelings in the forest, not the river, since she hasn't reached the river yet. Choice B is incorrect because the text and\nunderlined portion emphasize Shakti's familiarity with the woods. The trees are inviting, and she feels like \"an old friend\" to the\nwoods, so she isn't lost or confused there. Choice D is incorrect because the third sentence uses the phrase \"as an old friend\"\nfiguratively in reference to Shakti's sense of familiarity with the landscape, not in reference to her long-standing friendships with\nother people, and the text and underlined portion never discuss her feelings about such friendships.",
     "strategy": "Function Map",
-    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch"
+    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch",
+    "topic": "humanities"
   },
   {
     "id": "71b1b541",
@@ -184,7 +194,8 @@ const questionBank_CS = [
     "answer": "B",
     "explanation": "Strategy: Two-Filter Method\nChoice B is the best answer because it most logically completes the text's discussion of Peter Edwards as a portrait painter. In this\ncontext, having a \"reputation for\" something means that one is widely recognized for being associated with a particular activity.\nThe text indicates that Edwards has created \"characteristic works\" including \"esteemed portraits\" of notable figures, suggesting he\nis known and respected for this type of painting. This choice clearly indicates that Edwards has established recognition or fame\nspecifically in connection with painting portraits of well-known individuals.\nChoice A is incorrect because the text presents Edwards's portrait painting in a positive manner, describing his works as\n\"esteemed.\" In this context, \"complaint about\" would mean dissatisfaction or grievance regarding the activity of painting portraits,\nwhich contradicts the positive characterization of Edwards's work. Nothing in the text suggests that Edwards has expressed any\ndissatisfaction with or objection to painting portraits of notable figures. Choice C is incorrect because the text gives no indication\nthat Edwards has a \"question about\" painting portraits, which in this context would mean uncertainty or doubt regarding this\nactivity. Instead, the text presents Edwards as someone who has already created multiple portrait works described as\n\"characteristic\" and \"esteemed,\" suggesting established practice rather than uncertainty. The mention of specific examples of his\nportrait work further demonstrates that he is not questioning his portrait painting. Choice D is incorrect because the text does not\nsuggest that Edwards has a \"requirement for\" painting portraits, which in this context would mean a mandatory obligation or\nnecessary condition. Instead, the text indicates that portrait painting is something Edwards is known for doing well, not something\nhe is obligated to do. The text describes his portrait work as \"characteristic,\" suggesting it's a defining feature of his artistic\npractice rather than an externally imposed requirement.",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "humanities"
   },
   {
     "id": "d27d7984",
@@ -201,7 +212,8 @@ const questionBank_CS = [
     "answer": "B",
     "explanation": "Strategy: Perspective Synthesis\nChoice B is the best answer. Author 1 states that Ailey had a \"deep admiration for jazz music\" and that he \"helped bring jazz to life\nfor his audiences.\" Author 2 states that \"Jazz is present throughout Ailey's work.\" While the authors name different aspects of\nAiley's work as the most influenced by jazz, they agree that jazz was a strong influence. \nChoice A is incorrect. This isn't something that either text claims. Neither text mentions how Ailey's dancers felt about his\napproach as a choreographer, so we have no evidence that either author would agree with this. Choice C is incorrect. This isn't\nsomething that either text claims. Neither text mentions how familiar audiences were with any aspect of Ailey's works, so we have\nno evidence that either author would agree with this. Choice D is incorrect. This isn't something that either text claims. Neither text\nmentions any genre of music other than jazz, so we have no evidence that either author would agree with this.",
     "strategy": "Perspective Synthesis",
-    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement"
+    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement",
+    "topic": "humanities"
   },
   {
     "id": "849dc345",
@@ -218,7 +230,8 @@ const questionBank_CS = [
     "answer": "D",
     "explanation": "Strategy: Function Map\nChoice D is the best answer because it most accurately states the main purpose of the text. The text first states that animals\nmake use of objects as tools to help them achieve different goals. The text then explains that although people used to think only\nprimates use tools, tool use by dolphins (aquatic mammals) and palm cockatoos (birds) has shown that primates are not the only\nanimals that use tools. Thus, the main purpose of the text is to argue that a variety of animals, not just primates, use tools.\nChoice A is incorrect because the text doesn't mention intelligence at all, focusing just on the idea that animals use tools. Further,\nthe text mentions one kind of bird (palm cockatoos) only as an example of a non-primate that uses tools and describes its use of\ntools as creative, not unintelligent. Choice B is incorrect. Although the text mentions tool use in primates (a group that includes\nhumans) and in palm cockatoos, it doesn't compare humans' tool use with palm cockatoos' tool use. The text mentions palm\ncockatoos only as one example out of the variety of animals that use tools and never directly mentions tool use in humans. Choice\nC is incorrect because the text discusses tool use but never makes any mention of intelligence. Rather than establishing that tool\nuse doesn't indicate intelligence, the text describes certain tool use as inventive and creative.",
     "strategy": "Function Map",
-    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch"
+    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch",
+    "topic": "other"
   },
   {
     "id": "6f104dd1",
@@ -235,7 +248,8 @@ const questionBank_CS = [
     "answer": "B",
     "explanation": "Strategy: Function Map\nChoice B is the best answer. The sentence mentions that some fossil studies have relied on incomplete data sets, suggesting that\nthese studies are limited in what they can tell us about turtles' origins.\nChoice A is incorrect. While the sentence mentions the incompleteness of the data sets studied, it doesn't mention any tools or\ntechniques used to examine fossils. Choice C is incorrect. The sentence doesn't mention anything about the evolution of\ncrocodiles. Choice D is incorrect. This sentence doesn't directly mention or criticize any \"widely held belief,\" and it focuses on a\nlimitation of fossil studies of reptiles, not genetic studies.",
     "strategy": "Function Map",
-    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch"
+    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch",
+    "topic": "science"
   },
   {
     "id": "35e921f5",
@@ -252,7 +266,8 @@ const questionBank_CS = [
     "answer": "A",
     "explanation": "Strategy: Function Map\nChoice A is the best answer. The first sentence introduces Senju as a famous artist, while the next three sentences describe the\ndefining features of his art, such as it only showing part of the waterfall and its origins in US art movements and Japanese\ntechniques.\nChoice B is incorrect. The text doesn't provide examples of any other artists who use Senju's techniques. Choice C is incorrect. The\ntext doesn't describe any single famous painting or make comparisons between paintings. Choice D is incorrect. The text doesn't\nprovide an opinion on Senju (just facts), nor does it suggest that his art has been overlooked—in fact, it states that he is \"known\nworldwide.\"",
     "strategy": "Function Map",
-    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch"
+    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch",
+    "topic": "humanities"
   },
   {
     "id": "50e2cbb3",
@@ -269,7 +284,8 @@ const questionBank_CS = [
     "answer": "B",
     "explanation": "Strategy: Two-Filter Method\nChoice B is the best answer because it most logically completes the text's discussion of traffic signals. As used in this context,\n\"featured\" means had as a characteristic or part. The text indicates that although US traffic signals have lights of three different\ncolors (red, yellow, and green), this wasn't the case until the 1920s, when the three-light signal was first developed. Before then, the\ntext suggests, traffic signals had fewer lights (as indicated by the word \"only\" in the second sentence). This context supports the\nidea that before the 1920s, traffic signals featured only red and green lights.\nChoice A is incorrect because \"avoided\" means kept away from someone or something or prevented something from occurring,\nneither of which would make sense in context. The text doesn't discuss keeping away from someone or something but instead\nfocuses on what US traffic signals look like. The text states that they didn't have lights of three different colors until the three-light\nsignal was developed in the 1920s. Choice C is incorrect because \"appreciated\" means admired or increased in value, neither of\nwhich would make sense in context. The text focuses solely on the fact that US traffic signals have contained lights of three colors\nonly since the three-light signal was developed in the 1920s. The text doesn't mention how this characteristic or traffic signals in\ngeneral are perceived or what their value is. Moreover, the blank portion of the text describes \"traffic signals,\" which are lifeless\nobjects and therefore unable to admire or increase the value of something. Choice D is incorrect because \"disregarded\" means\nignored or treated something as unworthy of notice, neither of which would make sense in context. The text doesn't discuss how\npeople react to traffic signals; rather, it addresses the idea that US traffic signals have contained lights of three colors only since\nthe three-light signal was developed in the 1920s. Moreover, the blank portion of the text describes \"traffic signals,\" which are\nlifeless objects and therefore unable to ignore or treat something in a particular manner.",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "other"
   },
   {
     "id": "29b5b9c2",
@@ -286,7 +302,8 @@ const questionBank_CS = [
     "answer": "A",
     "explanation": "Strategy: Perspective Synthesis\nChoice A is the best answer. Text 1 states that cassava's \"rise to popularity was slow\" in West Africa. Text 2 also describes\ncassava's \"slow adoption into the diet of West Africans.\" While the two texts identify different causes for this slow adoption, both\nagree that cassava took a long time to catch on.\nChoice B is incorrect. This isn't something that either text claims. Cassava is the only crop discussed in the passages, so we have\nno basis to draw conclusions about what the authors might say about \"several\" crops. Choice C is incorrect. This isn't something\nthat either text claims. Neither text mentions the \"climate of the West African coast,\" so we have no evidence that either author\nwould agree with this. Choice D is incorrect. This isn't something that either text claims. The 1500s were when cassava was\nbrought to West Africa, but neither text describes how cassava is cooked, nor do they make any claims about when cooking\nmethods were developed.",
     "strategy": "Perspective Synthesis",
-    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement"
+    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement",
+    "topic": "social"
   },
   {
     "id": "428d801f",
@@ -303,7 +320,8 @@ const questionBank_CS = [
     "answer": "C",
     "explanation": "Strategy: Function Map\nChoice C is the best answer. The first three sentences describe the general situation: these early films have been lost, and we only\nknow about them from small pieces of evidence. The rest of the text offers specific examples of the small pieces of evidence.\nChoice A is incorrect. This isn't the overall structure. The fact that we only know about these lost early films from small pieces of\nevidence isn't presented as a \"complex problem\"—that's too extreme. And the examples presented are not \"unsuccessful\nattempts\" to solve it. If anything, the examples represent a success, because we discovered that these films existed in the first\nplace. Choice B is incorrect. This isn't the overall structure. There's no \"debate\" presented in the text, so there's no \"side\" for the\ntext to support. Choice D is incorrect. This isn't the overall structure. The text doesn't discuss any \"differences\" between the\nfilmmakers.",
     "strategy": "Function Map",
-    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch"
+    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch",
+    "topic": "other"
   },
   {
     "id": "c6fb83ae",
@@ -320,7 +338,8 @@ const questionBank_CS = [
     "answer": "C",
     "explanation": "Strategy: Two-Filter Method\nChoice C is the best answer because as used in the text, \"spread\" most nearly means extended. The text states that the zoo is\n\"huge,\" that it covers \"numberless acres,\" and that it is large enough that a train is needed to explore it. Thus, the text's emphasis\non the zoo's size suggests that the zoo extended, or stretched, over a large area of land.\nChoice A is incorrect because if the zoo covers \"numberless acres,\" then it could not reasonably be described as hidden, or\nconcealed from view. Choice B is incorrect because there is nothing in the text to suggest that the zoo was discussed, or talked\nabout. Rather, the text focuses on the zoo's large size. Choice D is incorrect. Although in some contexts \"spread\" can mean coated,\nit doesn't have that meaning in this context because to coat something means to apply a thin layer of a liquid substance, such as\noil or paint, to a surface. Therefore, it would not be accurate to say that the zoo coated the acres on which it sits.",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "humanities"
   },
   {
     "id": "55e53150",
@@ -337,7 +356,8 @@ const questionBank_CS = [
     "answer": "B",
     "explanation": "Strategy: Two-Filter Method\nChoice B is the best answer. The text suggests that Mrs. Adam's typical Christmas present from her husband was a vase that cost,\nor was \"priced at,\" about twelve or fourteen dollars.\nChoice A is incorrect. This isn't the meaning of \"marked\" as used here. It wouldn't make sense to say that a vase was \"staged at\ntwelve or fourteen dollars.\" Choice C is incorrect. This isn't the meaning of \"marked\" as used here. It wouldn't make sense to say\nthat a vase was \"stained at twelve or fourteen dollars.\" Choice D is incorrect. This isn't the meaning of \"marked\" as used here. It\nwouldn't make sense to say that a vase was \"watched at twelve or fourteen dollars.\"",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "humanities"
   },
   {
     "id": "ac2a3e8e",
@@ -354,7 +374,8 @@ const questionBank_CS = [
     "answer": "D",
     "explanation": "Strategy: Perspective Synthesis\nChoice D is the best answer. Both authors agree that Ludington's story has been widely celebrated and revered by Americans, even\nif they disagree on its accuracy. Text 1 states that Ludington has inspired postage stamps, statues, and TV series, and Text 2\nstates that many articles and books have been written about her. Thus, both authors acknowledge the popularity of Ludington's\nstory.\nChoice A is incorrect. Neither author claims that Ludington had a significant impact on the war. Text 1 doesn't mention how\nLudington's ride affected the war overall, and Text 2 suggests that Ludington's ride may have been exaggerated or invented over\ntime. Choice B is incorrect. Neither author claims that Ludington's route has been verified by historians. Text 1 claims she rode 40\nmiles through Putnam County, but doesn't cite any sources for this information, while Text 2 suggests the ride may not have even\nhappened. Choice C is incorrect. This choice misreads text 2. Neither author claims that Ludington was not a real person, only that\nher ride may not have happened. Both authors seem to treat Ludington as a genuine historical figure.",
     "strategy": "Perspective Synthesis",
-    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement"
+    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement",
+    "topic": "science"
   },
   {
     "id": "8cd1e66e",
@@ -371,7 +392,8 @@ const questionBank_CS = [
     "answer": "D",
     "explanation": "Strategy: Function Map\nChoice D is the best answer because it most accurately describes the overall structure of the text. The text begins by mentioning\nCatherine L. Cardelús, \"a researcher who studies canopy soil.\" The text then provides information about her chosen research topic:\nthe formation of canopy soil in tree branches, the role of canopy soil in preserving a healthy water cycle in rainforests, and\nCardelús's specific interest in \"the canopy soils in large choibá trees in rainforests in Costa Rica.\" Thus, the text introduces a\nresearcher and then gives information about what she researches.\nChoice A is incorrect because the text doesn't mention any disagreement between researchers, nor does it describe how such a\ndisagreement was resolved. Choice B is incorrect because the text doesn't present an idea that Cardelús disagrees with; rather, it\ndescribes her research interests and the significance of canopy soil. Choice C is incorrect because the text doesn't compare the\nsizes of different types of trees over time. While the text mentions \"large choibá trees,\" it doesn't compare them to any other tree\ntype or discuss changes in tree size over several years.",
     "strategy": "Function Map",
-    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch"
+    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch",
+    "topic": "science"
   },
   {
     "id": "7002dccc",
@@ -388,7 +410,8 @@ const questionBank_CS = [
     "answer": "D",
     "explanation": "Strategy: Two-Filter Method\nChoice D is the best answer because as used in the text, \"collects\" most nearly means gathers or accumulates. In the text, Gogol\n\"collects\" (or gathers) rocks and digs in the sand while strolling the beach with his father. Thus, \"gathers\" is the best answer.\nChoice A is incorrect because in this context, \"increases\" would mean expands or inflates, which is not something a child could\nlogically do to rocks. Rather, the text indicates that Gogol \"collects\" or gathers rocks while strolling the beach with his father.\nChoice B is incorrect because in this context, \"makes\" would suggest that Gogol is creating or manufacturing rocks, which doesn't\nmake sense. Rather, the text indicates that Gogol \"collects\" or gathers rocks while strolling the beach with his father. Choice C is\nincorrect because in this context, \"ignores\" would mean disregards or avoids, but in the text Gogol \"collects rocks,\" which indicates\nthat he's engaging with the rocks, not ignoring them.",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "humanities"
   },
   {
     "id": "bed303b9",
@@ -405,7 +428,8 @@ const questionBank_CS = [
     "answer": "D",
     "explanation": "Strategy: Two-Filter Method\nChoice D is the best answer. \"Involved in\" means \"playing an active role in.\" This fits the context clues describing how Zollar\nincludes the audience in her shows by incorporating their stories and pictures.\nChoice A is incorrect. \"Nervous\" means \"worried or anxious about.\" Nothing in the text suggests that people would be nervous\nabout Zollar's creative process. Choice B is incorrect. \"Completed by\" means \"made whole by.\" It doesn't make sense to say that\nZollar's shows would make her audience complete. Choice C is incorrect. \"Delayed by\" means \"made late by.\" Nothing in the text\nsuggests that people would be delayed by Zollar's creative process.",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "humanities"
   },
   {
     "id": "4871dabb",
@@ -422,7 +446,8 @@ const questionBank_CS = [
     "answer": "C",
     "explanation": "Strategy: Perspective Synthesis\nChoice C is the best answer. Text 1 claims that mandatory voting results in elections that \"better reflect the preferences of the\ncountry.\" Singh and Roy disagree. They claim that more voters doesn't equal more quality votes—instead, they argue that forced\nvoting may lead to less-informed votes that \"may not reflect [voters'] actual preferences.\"\nChoice A is incorrect. Neither text mentions the population size of countries that require voting, or how that might affect election\noutcomes. Choice B is incorrect. Neither text discusses the effects of mandatory voting on other forms of political engagement.\nChoice D is incorrect. Neither text discusses the ease or difficulty of the voting process in countries that require voting.",
     "strategy": "Perspective Synthesis",
-    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement"
+    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement",
+    "topic": "social"
   },
   {
     "id": "1af18dd8",
@@ -439,7 +464,8 @@ const questionBank_CS = [
     "answer": "A",
     "explanation": "Strategy: Two-Filter Method\nChoice A is the best answer because as used in the text, \"supported\" most nearly means held up or sustained physically. The\nsentence describes the physical structure of the Panhandle bridge, stating it was \"supported by massive sandstone pillars.\" This\nclearly refers to the structural relationship between the bridge and its pillars—the pillars physically hold up the bridge and keep it\nstanding. The text further emphasizes the physical nature of this support by describing the pillars as \"stalwart\" (strong and sturdy)\nand noting they've been performing this function for fifty years.\nChoice B is incorrect. Although in some contexts \"supported\" can mean \"encouraged,\" the sandstone pillars and bridge described\nin the text are all inanimate objects that can't provide or receive encouragement. The text clearly describes a structural relationship\nbetween the elements of the bridge, not an emotional one. Choice C is incorrect. Although in some contexts \"supported\" has a\nmeaning similar to \"improved on,\" the text doesn't suggest that the sandstone pillars have enhanced or made the bridge better;\nrather, they simply provide the necessary physical foundation to keep the bridge standing. Thus, the sentence describes the\nstructural elements of the bridge, not improvements made to it. Choice D is incorrect. Although in some contexts \"supported\" can\nmean \"defended,\" the text doesn't present a situation in which the sandstone pillars are defending the bridge from a threat. Instead,\nthe description focuses on the physical structure of the bridge, in which the pillars hold the bridge up and ensure its stability.",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "science"
   },
   {
     "id": "b2e31abc",
@@ -456,7 +482,8 @@ const questionBank_CS = [
     "answer": "D",
     "explanation": "Strategy: Perspective Synthesis\nChoice D is the best answer. Author 1 acknowledges that Lewis sculpted other subjects besides historical and mythical figures,\nsuggesting a variety of subjects depicted. Author 2 mentions that Lewis carved portrait busts as well as historical sculptures,\nwhich also implies variation among Lewis's subjects.\nChoice A is incorrect. Neither text suggests that Lewis's portrait busts have received more attention or appreciation than her other\nwork. Author 1 briefly mentions her \"other works,\" but mostly focuses on her historical and mythical works. Author 2 states that art\nhistorians have typically ignored her portrait busts, which suggests that they haven't overshadowed her other work. Choice B is\nincorrect. Neither text explicitly states that The Death of Cleopatra is Lewis's most famous piece. Author 1 mentions it as one\nexample of her historical works, but does not single it out as being more important or influential than Hagar. Author 2 does not\nmention it at all, focusing instead on her portrait busts. Choice C is incorrect. This choice isn't supported by the texts. Neither text\nsuggests that sculpting historical figures was a trend that faded quickly.",
     "strategy": "Perspective Synthesis",
-    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement"
+    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement",
+    "topic": "humanities"
   },
   {
     "id": "85c176d5",
@@ -473,7 +500,8 @@ const questionBank_CS = [
     "answer": "C",
     "explanation": "Strategy: Two-Filter Method\nChoice C is the best answer. \"Protect\" means \"preserve\" or \"keep safe from.\" By ensuring that the wilderness areas along the\nAppalachian Trail can't be sold or developed, the National Trails System Act protects them.\nChoice A is incorrect. \"Borrow\" means \"to take something with intent to return it.\" The text doesn't say anything about taking and\nreturning the wilderness that surrounds the Appalachian Trail. Choice B is incorrect. \"Postpone\" means \"to put off until later.\"\nNothing in the passage suggests that Congress wants to \"postpone\" the wilderness areas (and that doesn't make sense anyway—\nthey can postpone doing something to the wilderness areas, but they can't postpone the areas themselves). Choice D is incorrect.\n\"Decorate\" means \"to adorn\" or \"add extra items or pictures to make more attractive.\" No details in the text suggest that Congress\nwishes to make the trail fancier or more attractive.",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "social"
   },
   {
     "id": "23767ca5",
@@ -490,7 +518,8 @@ const questionBank_CS = [
     "answer": "D",
     "explanation": "Strategy: Two-Filter Method\nChoice D is the best answer. \"Demonstrating\" means \"showing,\" and the text describes how de Santana disproved a previous belief\nin only one species of electric eel by showing that three electric eel species actually exist.\nChoice A is incorrect. Pretending that there are three species of electric eel might be a fun game for marine biologists, but it\nwouldn't prove the existence of more than one species. Choice B is incorrect. Complaining won't prove anything about eels, so de\nSantana could not have proved wrong the idea of only one species of electric eel by complaining about it. Choice C is incorrect.\n\"Requiring\" means \"needing.\" It wouldn't make sense to say that de Santana \"needed\" there to be three distinct species of electric\neel.",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "social"
   },
   {
     "id": "17ecac52",
@@ -507,7 +536,8 @@ const questionBank_CS = [
     "answer": "D",
     "explanation": "Strategy: Perspective Synthesis\nChoice D is the best answer. The author of Text 2 states that Fontana's painting, which depicts a painting easel in the background,\nwas made in 1577, eight years before Carracci's painting. Therefore, they might argue that Caracci was not \"the first artist\" to\ndepict themself as a painter.\nChoice A is incorrect. The texts don't support this choice. Neither text mentions the reputation or status of either Carracci or\nFontana. Choice B is incorrect. The author of Text 2 does not comment on the intention or meaning of Fontana's self-depiction in\nSelf-Portrait at the Keyboard. This choice also holds little connection to the underlined claim. Choice C is incorrect. The texts don't\nsupport this choice. The author of Text 2 does not suggest any inspirational relationship between Fontana and Carracci. The\nauthor of Text 2 is concerned with showing that Fontana's painting is the earliest example of an artist referring to painting in their\nself-portrait, but makes no mention of her influence on others.",
     "strategy": "Perspective Synthesis",
-    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement"
+    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement",
+    "topic": "humanities"
   },
   {
     "id": "5873ade0",
@@ -524,7 +554,8 @@ const questionBank_CS = [
     "answer": "C",
     "explanation": "Strategy: Two-Filter Method\nChoice C is the best answer. \"Spans\" means \"extends over a distance of\" or \"encompasses.\" Since we're talking about the world's\nlargest plant, it makes sense to say that it \"spans\" about 200 square kilometers.\nChoice A is incorrect. \"Acknowledges\" means \"recognizes\" or \"admits the truth of.\" Either way, it doesn't make sense here: a plant\ncan't \"acknowledge\" a distance. Choice B is incorrect. \"Produces\" can mean \"makes,\" \"causes,\" or \"presents.\" But none of those\ndefinitions make sense here: a plant can't make, cause, or present a distance. Choice D is incorrect. This doesn't fit the logic of the\ntext. \"Advances\" means \"moves forward\" or \"progresses.\" But the plant isn't necessarily moving forward. Rather, the text suggests\nthat it already covers a distance of 200 square kilometers.",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "other"
   },
   {
     "id": "561f41db",
@@ -541,7 +572,8 @@ const questionBank_CS = [
     "answer": "C",
     "explanation": "Strategy: Function Map\nChoice C is the best answer. The text describes how Torchy Brown depicted the experiences of a young Black woman experiencing\nAmerica's Great Migration. It further states that Ormes continued to use comics throughout her career to humorously comment on\nimportant issues impacting Black Americans.\nChoice A is incorrect. The text never mentions other Black women comic strip writers. Choice B is incorrect. The text never\nmentions any changes in the subjects Ormes addressed. Choice D is incorrect. The text never mentions the inspiration for\ncharacters in Torchy Brown.",
     "strategy": "Function Map",
-    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch"
+    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch",
+    "topic": "other"
   },
   {
     "id": "34135282",
@@ -558,7 +590,8 @@ const questionBank_CS = [
     "answer": "D",
     "explanation": "Strategy: Function Map\nChoice D is the best answer. The text describes how a new discovery expands our understanding of Denisovans. The underlined\nportion describes what we used to believe about Denisovans, which helps the reader understand the significance of the discovery\nof the molar: it suggests that they lived in more places than we'd previously thought.\nChoice A is incorrect. The underlined portion doesn't do this. Instead, it explains what we used to believe about Denisovans before\nthe discovery—it doesn't dismiss the new discovery as false. Choice B is incorrect. The underlined portion doesn't do this. No term\nis defined here. Choice C is incorrect. The underlined portion doesn't do this. The text never tells us what the \"goal\" of the research\nwas, just what its discovery was.",
     "strategy": "Function Map",
-    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch"
+    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch",
+    "topic": "science"
   },
   {
     "id": "2c0fce04",
@@ -575,7 +608,8 @@ const questionBank_CS = [
     "answer": "D",
     "explanation": "Strategy: Two-Filter Method\nChoice D is the best answer because as used in the text, \"singular\" most nearly means extraordinary. The text portrays an\nexperiment in which a character rehydrates a dried rose by infusing it with moisture. After prolonged contact with the liquid, the\nrose begins to absorb it, undergoing an exceptional transformation: its color deepens, its previously \"crushed and dried\" petals\nshift, and the entire flower revives \"from a deathlike slumber.\" In other words, an extraordinary change is visible in the flower.\nChoice A is incorrect. Although in some contexts \"singular\" can mean of or relating to an individual or to a single instance of\nsomething, this usage doesn't imply loneliness or an otherwise unsatisfactory condition of isolation. Moreover, the text doesn't\nattribute such a condition to the rose. Choice B is incorrect. Although \"singular\" has several related meanings, none of them relate\nto being disagreeable or unpleasant. Moreover, the text doesn't portray the change undergone by the rose as necessarily\ndisagreeable. Choice C is incorrect because \"singular\" means extraordinary, not acceptable. The change is portrayed as striking,\nnot barely satisfactory.",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "social"
   },
   {
     "id": "601b8d64",
@@ -592,7 +626,8 @@ const questionBank_CS = [
     "answer": "A",
     "explanation": "Strategy: Two-Filter Method\nChoice A is the best answer. \"Stimulated\" means \"encouraged interest or increased activity in.\" Because the newspapers discussed\nthe benefits of westward migration and \"inspired readers to relocate,\" we can infer that they encouraged people to move west.\nChoice B is incorrect. \"Assigned\" means \"gave a job or duty.\" Newspapers do not have the power to assign people to move west,\nalthough they can encourage it. Choice C is incorrect. \"Opposed\" means \"disapproved of.\" We can tell that this isn't the case,\nbecause the newspapers discussed \"the easy fortunes and high salaries miners could make in California\" and \"inspired readers to\nrelocate.\" Choice D is incorrect. \"Disregarded\" means \"ignored.\" If the newspapers are writing about the west and \"inspir[ing]\nreaders to relocate,\" they can't be ignoring it at the same time.",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "social"
   },
   {
     "id": "b4159cd8",
@@ -609,7 +644,8 @@ const questionBank_CS = [
     "answer": "B",
     "explanation": "Strategy: Function Map\nChoice B is the best answer. The underlined sentence provides information about import/export firms, showing how Chinese\ncommunities across the world were connected by trade routes.\nChoice A is incorrect. The underlined sentence never suggests that the countries of origin of the fish are in question—in fact, it tells\nus exactly where they came from. Choice C is incorrect. The passage never describes the steps taken to discover the fish bones\ndescribed in the previous sentence. Choice D is incorrect. The underlined sentence doesn't outline a hypothesis but instead\nprovides evidence. And the following sentence agrees with the underlined sentence, so we could eliminate this choice just for\nsaying that the following sentence \"casts some doubt on\" the underlined one—partly wrong is all wrong.",
     "strategy": "Function Map",
-    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch"
+    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch",
+    "topic": "social"
   },
   {
     "id": "e5c826be",
@@ -626,7 +662,8 @@ const questionBank_CS = [
     "answer": "B",
     "explanation": "Strategy: Two-Filter Method\nChoice B is the best answer. \"Defied\" means \"resisted\" or \"deliberately disobeyed,\" which matches the way Klein broke from the\nconventions of photography in his time by including features that were generally seen as flaws.\nChoice A is incorrect. \"Reviewed\" means \"analyzed\" or \"evaluated,\" but that doesn't really fit the context here. Klein isn't directly\nproviding any thoughtful examination of the conventions of photography: he's just breaking all the rules. Choice C is incorrect.\n\"Respected\" can mean \"admired\" or \"followed\" (as in the case of conventions). It's clear that Klein didn't respect conventions, given\nhis use of photographic features that were generally considered \"flaws.\" Choice D is incorrect. \"Prevented\" means \"stopped,\" and\nKlein did not stop the conventions—they still existed. Instead, he made images that were seen as \"flawed\" under those\nconventions.",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "science"
   },
   {
     "id": "0b016420",
@@ -643,7 +680,8 @@ const questionBank_CS = [
     "answer": "B",
     "explanation": "Strategy: Function Map\nChoice B is the best answer. The text begins by describing how the researchers used the JWST to detect CO₂ in WASP-39b's\natmosphere. Then the text discusses the significance of this finding, both as the first evidence of CO₂ in an exoplanet's\natmosphere and as an illustration of the JWST's potential for making new discoveries in general.\nChoice A is incorrect. The text doesn't compare two different methods, but rather focuses on one study that used the JWST.\nChoice C is incorrect. The text doesn't present a hypothesis, but rather reports on the findings of a study. Choice D is incorrect. The\ntext doesn't mention any scientists challenging the conclusion reached by López-Morales and colleagues.",
     "strategy": "Function Map",
-    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch"
+    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch",
+    "topic": "science"
   },
   {
     "id": "236404af",
@@ -660,7 +698,8 @@ const questionBank_CS = [
     "answer": "A",
     "explanation": "Strategy: Perspective Synthesis\nChoice A is the best answer. The researchers in Text 2 recognize that acquiring information is a powerful motivator, but showed\nthat this motivation can still be affected by other factors, like whether or not the information is expected to be useful or not. This\nsuggests that other desires may play a part in driving people to acquire information.\nChoice B is incorrect. The consensus view in Text 1 is that people acquire information regardless of whether they think they can\nuse it later. Dubey and colleagues acknowledge this fact (so they don't claim people seek out information \"only\" because it might\nbe useful later). Choice C is incorrect. This choice misreads the results of Dubey and colleagues' study in Text 2. Neither text\ndiscusses the difficulty of determining the motivation for information-seeking. Choice D is incorrect. This choice contradicts Text\n2, which starts with Dubey and colleagues \"acknowledging that acquiring information is a powerful motivator\" (i.e., agreeing that\ncuriosity explains the seeking of apparently purposeless information). The research in Text 2 simply suggests that more than just\ncuriosity can motivate information-seeking behavior when the information has a purpose.",
     "strategy": "Perspective Synthesis",
-    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement"
+    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement",
+    "topic": "social"
   },
   {
     "id": "032fd227",
@@ -677,7 +716,8 @@ const questionBank_CS = [
     "answer": "A",
     "explanation": "Strategy: Function Map\nChoice A is the best answer. The text starts by introducing a common view among archaeologists about the need for an elite class\nto direct large-scale engineering projects. Then, it discusses the discovery of a large canal most likely built by a society without an\nelite class, which challenges the first view.\nChoice B is incorrect. Although the text discusses carbon dating as an archaeological method, it doesn't compare it to any other\nalternative methods. Choice C is incorrect. The study doesn't resolve any contradictions—rather, it introduces a contradiction to the\none view presented at the beginning of the text. Choice D is incorrect. The text never identifies any gaps in scientific research.",
     "strategy": "Function Map",
-    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch"
+    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch",
+    "topic": "social"
   },
   {
     "id": "e52added",
@@ -694,7 +734,8 @@ const questionBank_CS = [
     "answer": "D",
     "explanation": "Strategy: Two-Filter Method\nChoice D is the best answer because it most logically completes the text's discussion of how a data-transfer project affected data\nfrom equipment from the Apollo Moon landings. In this context, \"available\" means accessible or able to be used. The text explains\nthat the Apollo equipment is still on the Moon, but the data it collected \"were mostly inaccessible\" until a data-transfer project was\nundertaken. The text then states that this project allowed a researcher to use the information that has been collected. This context\nmakes it clear that the project made previously inaccessible data available, or accessible.\nChoice A is incorrect because saying that a project made data from the Apollo equipment on the Moon \"predictable\" would mean\nthat the data could be known or declared in advance, and it's not clear how that would be achieved, particularly with data that had\nbeen \"mostly inaccessible\" before the project. Rather than suggesting that the data-transfer project made the data predictable, the\ntext conveys that it made the data available to be used as sources of information. Choice B is incorrect because the sentence\nindicates that data from the Apollo equipment on the Moon were \"mostly inaccessible\" until a recent data-transfer project did\nsomething to them, after which a researcher was able to make use of the data. This context conveys that the project made the\ndata accessible and usable, not that it made them \"complicated,\" or complex or difficult to understand. Choice C is incorrect. In\nthis context, \"representative\" would mean either standing as a symbol of something or serving as a typical example from a group,\nand the text gives no indication that data retrieved from the Apollo equipment on the Moon was merely an example or symbolic.\nRather, the text focuses on the availability and usefulness of the data, indicating that a data-transfer project enabled a researcher\nto use data that had previously been \"mostly inaccessible.\"",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "science"
   },
   {
     "id": "cf959e6c",
@@ -711,7 +752,8 @@ const questionBank_CS = [
     "answer": "A",
     "explanation": "Strategy: Two-Filter Method\nChoice A is the best answer because it most logically completes the text's discussion of the difficulty in naming a large number of\nminor planets. In this context, \"insurmountable\" means impossible to overcome or too difficult to solve. The text establishes that\ncoming up with distinct names for minor planets is already a difficult task that has become even more challenging because there\nare now more than 500,000 known minor planets. The logical conclusion is that finding unique names for such a vast number of\ncelestial objects has become virtually impossible—or insurmountable—which explains why the majority of recently discovered\nminor planets receive only identification numbers instead of proper names.\nChoice B is incorrect because \"feasible\" means possible to do or achieve, which would contradict the logic of the text. The text\nindicates that the task of naming minor planets has become more difficult because of their large number. The text then explains\nthat this is why most new discoveries receive only identification numbers. If the task were feasible, there would be no reason to\nabandon the practice of giving proper names to minor planets in favor of using only numbers. Choice C is incorrect because\n\"substantial\" means considerable in size, amount, or importance. While the text does suggest that naming all minor planets would\nbe a significant undertaking, describing the task as substantial wouldn't logically explain why the naming practice has been largely\nabandoned in favor of using only identification numbers. The text suggests that the task has become virtually impossible\n(insurmountable), not merely large or significant. Choice D is incorrect because \"unnecessary,\" which means not needed, would\nsuggest that giving proper names to minor planets serves no purpose. However, the text doesn't question the value or purpose of\nnaming minor planets; rather, it explains that the sheer number of discoveries has made the already challenging naming task\nnearly impossible to complete. The text provides an example of a named minor planet (1227 Geranium), indicating that naming\nhas been considered worthwhile but has become impractical because of the volume.",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "other"
   },
   {
     "id": "133abbda",
@@ -728,7 +770,8 @@ const questionBank_CS = [
     "answer": "C",
     "explanation": "Strategy: Two-Filter Method\nChoice C is the best answer. \"This quality\" refers to Gatsby's \"resourcefulness of movement,\" which is described as a\ncharacteristic or trait of his. \nChoice A is incorrect. This isn't what \"quality\" means in this context. Here, \"this quality\" refers to Gatsby's \"resourcefulness of\nmovement,\" which is described as a characteristic or trait of his. \"Standard\" is a synonym for a different definition of \"quality\": the\ndegree of excellence of something. Choice B is incorrect. This isn't what \"quality\" means in this context. Here, \"this quality\" refers\nto Gatsby's \"resourcefulness of movement,\" which is described as a characteristic or trait of his. \"Prestige\" would suggest a high\nstatus or an admirable reputation, which doesn't match that description. Choice D is incorrect. This isn't what \"quality\" means in\nthis context. Here, \"this quality\" refers to Gatsby's \"resourcefulness of movement,\" which is described as a characteristic or trait of\nhis. \"Accomplishment\" would suggest an achievement, which doesn't match that description.",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "humanities"
   },
   {
     "id": "084e8a77",
@@ -745,7 +788,8 @@ const questionBank_CS = [
     "answer": "D",
     "explanation": "Strategy: Two-Filter Method\nChoice D is the best answer. The text after the semicolon tells us that Hu \"identif[ied] broad similarities between two seemingly\ndifferent phenomena,\" comparing ants with light particles. Since an analogy seeks similarities between seemingly unrelated\nphenomena, this fits the context perfectly.\nChoice A is incorrect. \"A collaboration\" refers to \"an act of working with others,\" but what comes after the semicolon doesn't\ndescribe collaboration with other researchers. Instead, it shows a comparison between two different (but ultimately similar)\nscientific phenomena. Choice B is incorrect. \"An accessory\" can refer to \"something added to increase attractiveness or\nusefulness.\" No accessories are described in this text. Choice C is incorrect. \"A contradiction\" means \"a set of ideas or things that\nare opposed to or inconsistent with each other.\" The text describes how Hu used the similarity between ant and light particle\nmovement to develop his method, so a word that refers to difference would not make sense here.",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "science"
   },
   {
     "id": "912389e9",
@@ -762,7 +806,8 @@ const questionBank_CS = [
     "answer": "B",
     "explanation": "Strategy: Perspective Synthesis\nChoice B is the best answer. The author of Text 2 directly contradicts Bremner's claim that Appia lacked technical expertise by\nstating that Appia was \"not an amateur in the practice of lighting.\" His experience as a lighting specialist's apprentice would have,\nthe author of Text 2 argues, allowed Appia to \"[develop] his understanding of what was possible\" with the elements of theatrical\ndesign.\nChoice A is incorrect. Neither text describes how other lighting technicians responded to Appia's ideas. Furthermore, this claim\nisn't relevant to Bremner's evaluation of Appia's technical expertise. Choice C is incorrect. Neither text mentions anything about the\nopinions of theater practitioners who worked with Appia, so this answer choice does not relate to the claim about Appia's level of\ntechnical expertise made by Bremner in Text 1. Choice D is incorrect. Neither text mentions anything about Appia's familiarity with\nor ignorance of the use of music and sound in theater. Both focus on his expertise (or lack thereof) in lighting.",
     "strategy": "Perspective Synthesis",
-    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement"
+    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement",
+    "topic": "humanities"
   },
   {
     "id": "d9a6817c",
@@ -779,7 +824,8 @@ const questionBank_CS = [
     "answer": "A",
     "explanation": "Strategy: Perspective Synthesis\nChoice A is the best answer. Text 1 is extremely positive about Strassburg's team's findings, calling the potential results \"a clear\nwin in the fight against the biodiversity and climate crises.\" Text 2 is not as positive, arguing that while the findings point to\n\"potential benefits,\" we also need to consider the \"potential effects on global food supplies.\"\nChoice B is incorrect. This isn't a difference between the two views. Text 1 does present the 15% number as enough to achieve\nmeaningful results, but that's not what Text 2 takes issue with: rather, Text 2 argues that we need to consider the effect that\nrewilding this much farmland would have on food supplies. Choice C is incorrect. This isn't a difference between the two views.\nNeither text mentions the timeline for achieving the results described by Strassburg's team. Choice D is incorrect. This isn't a\ndifference between the two views. Text 1 focuses on rewilding's effects on both carbon emissions and biodiversity. Text 2 doesn't\nfocus on rewilding's effect on carbon emissions at all. Instead, it focuses on a third factor: global food supplies.\nAssessment\nPSAT/NMSQT &\nPSAT 10\nTest\nReading and Writing\nDomain\nCraft and Structure\nSkill\nCross-Text\nConnections\nDifficulty",
     "strategy": "Perspective Synthesis",
-    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement"
+    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement",
+    "topic": "science"
   },
   {
     "id": "2c46da8b",
@@ -796,7 +842,8 @@ const questionBank_CS = [
     "answer": "A",
     "explanation": "Strategy: Two-Filter Method\nChoice A is the best answer. The word \"reaching\" in this text means \"to arrive\" at Earth. Before, the light had been traveling across\nspace; now, it had arrived at Earth.\nChoice B is incorrect. \"Consulting with\" means \"seeking advice or information from someone.\" Light is not alive, so it can't consult\nwith Earth. Choice C is incorrect. It's confusing to say that starlight is \"only now running to Earth,\" both because light doesn't\nliterally \"run\" and because the text is describing the moment the light touches Earth, not the period of time when it's traveling to\nEarth. Choice D is incorrect. This might be tempting, as \"clinging to\" has a connotation of \"sticking to.\" It wouldn't make sense to\nsay that the light was \"only now\" clinging to Earth.",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "science"
   },
   {
     "id": "23718fee",
@@ -813,7 +860,8 @@ const questionBank_CS = [
     "answer": "D",
     "explanation": "Strategy: Perspective Synthesis\nChoice D is the best answer. According to Author 1, the \"purists\" argue that bluegrass should stick to its folk music roots. But\nAuthor 2 points out that this isn't how bluegrass emerged: it actually got its sound from a mix of folk, jazz, and blues.\nChoice A is incorrect. There's nothing in Text 2 about what other genres the purists enjoy, so this inference about Author 2's views\nisn't supported. Choice B is incorrect. There's nothing in Text 2 about whether or how purists can enforce their preferences, so this\ninference about Author 2's views isn't supported. Choice C is incorrect. There's nothing in Text 2 about the size of bluegrass's\naudience, so this inference about Author 2's views isn't supported.",
     "strategy": "Perspective Synthesis",
-    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement"
+    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement",
+    "topic": "humanities"
   },
   {
     "id": "50894857",
@@ -830,7 +878,8 @@ const questionBank_CS = [
     "answer": "A",
     "explanation": "Strategy: Perspective Synthesis\nChoice A is the best answer. The author of Text 1 states that Soyinka's progression as a playwright can be considered to fall into\nthree periods, implying that this is a helpful way to understand his works. The author of Text 2, on the other hand, challenges this\nview and says that it overlooks potential commonalities and differences in Soyinka's work across what Text 1 calls distinctive\nstylistic phases.\nChoice B is incorrect. This choice overstates the central claim of Text 2. The author of Text 2 argues against the chronological\nprogression supported in Text 1, but does not go so far as to say that Soyinka's style remained consistent. In fact, Text 2 points out\n\"significant differences in styles and content\" among Soyinka's plays. Choice C is incorrect. Neither of the texts mention Soyinka's\nAssessment\nPSAT/NMSQT &\nPSAT 10\nTest\nReading and Writing\nDomain\nCraft and Structure\nSkill\nCross-Text\nConnections\nDifficulty",
     "strategy": "Perspective Synthesis",
-    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement"
+    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement",
+    "topic": "humanities"
   },
   {
     "id": "8ee4627c",
@@ -847,7 +896,8 @@ const questionBank_CS = [
     "answer": "B",
     "explanation": "Strategy: Two-Filter Method\nChoice B is the best answer. Based on the text, we're looking for a word that means something similar to \"pleasant musical\nquality.\" That's exactly what \"melodic\" means.\nChoice A is incorrect. This isn't a logical word choice. Based on the text, we're looking for a word that means something similar to\n\"pleasant musical quality.\" \"Scholarly\" would suggest something that is academic or well-researched, which doesn't match the\nmeaning we're looking for. Choice C is incorrect. This isn't a logical word choice. Based on the text, we're looking for a word that\nmeans something similar to \"pleasant musical quality.\" \"Jarring\" would suggest the opposite: something unpleasant or discordant.\nChoice D is incorrect. This isn't a logical word choice. Based on the text, we're looking for a word that means something similar to\n\"pleasant musical quality.\" \"Personal\" would suggest something that is expressive or intimate, which doesn't match the meaning\nwe're looking for.",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "humanities"
   },
   {
     "id": "71db08c3",
@@ -864,7 +914,8 @@ const questionBank_CS = [
     "answer": "B",
     "explanation": "Strategy: Two-Filter Method\nChoice B is the best answer. \"Indicator\" means \"something that shows or suggests,\" which matches Taleb's argument that an\nitem's age can suggest how much longer it will last.\nChoice A is incorrect. The passage tells us that examining an item's age is the best way to predict how much longer it will last.\nTherefore, according to Taleb's theory, an item's age should add more certainty about how much longer it will last. Choice C is\nincorrect. A \"motivation\" is \"a reason for doing.\" Items don't have feelings and motivations, so it wouldn't make sense to say that\ntheir age is a motivation for how much longer they will last. Choice D is incorrect. \"Criticism\" can mean \"describing faults or\nproblems\" or \"an analysis of an artistic work.\" Neither of these definitions makes sense here. An item's age can't criticize how\nmuch longer it will last.",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "social"
   },
   {
     "id": "8c5a6863",
@@ -881,7 +932,8 @@ const questionBank_CS = [
     "answer": "B",
     "explanation": "Strategy: Perspective Synthesis\nChoice B is the best answer. Text 1 states that literary scholars ignore regional cookbooks most of all, even when they have\nhistorical significance and are well written. So the author of Text 1 wouldn't be surprised that scholars ignored Edna Lewis's\ncookbook.\nChoice A is incorrect. We can't infer that this is how the author of Text 1 would regard the situation. Text 1 never suggests that\nscholars are dismissive of popular works in general. Instead, Text 1 says that scholars ignore food writing specifically, despite its\npopularity—and despite the fact that it can be historically significant and complex. Choice C is incorrect. We can't infer that this is\nhow the author of Text 1 would regard the situation. Text 1 never suggests that elements of other genres should be kept out of\ncookbooks. Choice D is incorrect. We can't infer that this is how the author of Text 1 would regard the situation. Text 1 never\ndiscusses how food writing is or should be marketed.",
     "strategy": "Perspective Synthesis",
-    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement"
+    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement",
+    "topic": "other"
   },
   {
     "id": "748123f3",
@@ -898,7 +950,8 @@ const questionBank_CS = [
     "answer": "D",
     "explanation": "Strategy: Function Map\nChoice D is the best answer because it most accurately describes the function of the underlined portions in the text as a whole.\nThe underlined portions describe the young artists and intellectuals at the gathering as trying to \"hew out,\" or give shape to, their\nviews of art more clearly, but with each seeming to be using \"an ill-balanced axe\" and then feeling that the \"strokes had gone awry.\"\nIn context, the metaphorical language comparing attempts to refine concepts of art to imprecisely cutting wood with an\ninadequate axe serves to emphasize how much the individuals at the gathering struggled to articulate, or express, their thoughts;\nindeed, the text explains that the individuals couldn't quite grasp why their statements had gone awry and tended to try to rectify,\nor correct, them in continued discussion after they sat down.\nChoice A is incorrect because the underlined portions characterize aspects of the young artists and intellectuals' attempts to\npresent their general views of art more clearly, not their views of the reputation of a certain artwork; the text never mentions any\nspecific artwork or its reputation. Choice B is incorrect. Although the underlined portions refer to a physical activity—cutting wood\nwith an axe—the descriptions are metaphorical rather than literal. The text isn't describing people constructing works of art, large-\nscale or otherwise; rather, it's describing people talking at a gathering, using the idea of imprecisely cutting wood with an\ninadequate axe to suggest that each individual struggled when trying to present their view of art more clearly. Choice C is\nincorrect. Although the underlined portions do provide a reason for the young artists and intellectuals' discontent, the text focuses\non the fact that they were each dissatisfied with their own statements, not on how they felt about the group's full conversation\nabout art. Instead, the text explains that each individual tried to present their view of art more clearly but struggled (as if\nimprecisely cutting wood with an inadequate axe), couldn't grasp what went awry, and then felt the need to rectify, or correct, what\nAssessment\nPSAT/NMSQT &\nPSAT 10\nTest\nReading and Writing\nDomain\nCraft and Structure\nSkill\nText Structure and\nPurpose\nDifficulty",
     "strategy": "Function Map",
-    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch"
+    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch",
+    "topic": "humanities"
   },
   {
     "id": "a5831311",
@@ -915,7 +968,8 @@ const questionBank_CS = [
     "answer": "A",
     "explanation": "Strategy: Two-Filter Method\nChoice A is the best answer. \"Suitable\" means \"appropriate for a particular purpose.\" Since the text indicates that two of the best\nballet dancers of the twentieth century were Osage, we can infer that the author believes that ballet is a very suitable artform for\ntelling Osage stories.\nChoice B is incorrect. The text never suggests that Tinker-Smith's choice was determined. That would imply that Tinker-Smith\ninitially faced some kind of obstacle or opposition, and nothing like that is mentioned in the passage. Choice C is incorrect. The\ntext implies the opposite of this. \"Arbitrary\" means \"based on random choice or whim rather than reason.\" But the text does give us\na good reason behind the choice to tell Osage stories through ballet: two of the best ballet dancers of the twentieth century were\nOsage. Choice D is incorrect. The text never suggests that Tinker-Smith's choice was \"unpredictable.\" Rather, the fact that two of\nthe best ballet dancers of the twentieth century were Osage makes ballet especially appropriate for telling Osage stories.",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "humanities"
   },
   {
     "id": "fad0e654",
@@ -932,7 +986,8 @@ const questionBank_CS = [
     "answer": "C",
     "explanation": "Strategy: Perspective Synthesis\nChoice C is the best answer because it directly applies the research findings described in Text 2 to the situation underlined in Text\n1. The underlined sentence in Text 1 describes a common scenario in which two friends are deciding on a lunch location. Text 1\ngoes on to explain that people often don't reveal their true preferences in such situations, instead claiming they're fine with any\noption so that they can appear more easygoing and likable. Text 2 presents research that advises against this approach, stating\nthat people who don't express their preferences aren't viewed as more likable and that this behavior actually makes decisions\nmore difficult for others. Since Text 2 specifically argues against the strategy of concealing preferences and indicates negative\noutcomes from doing so, the author of Text 2 would most likely recommend stating a preference about where to eat.\nChoice A is incorrect because nothing in Text 2 suggests that canceling plans is a good solution. The author of Text 2 is\naddressing how to make joint decisions effectively (through stating your own preference), not advocating for avoiding such\ndecisions entirely. Choice B is incorrect because asking where the friend typically likes to eat still avoids stating one's own\npreference. While this approach might seem considerate, it continues the pattern of not revealing true preferences that Text 2\nidentifies as problematic. Choice D is incorrect because changing the subject would avoid making any decision altogether, which\ncontradicts the implied advice in Text 2. The author of Text 2 presents research suggesting that directly engaging with the decision\nby stating preferences helps others make decisions and makes you appear more likable.\nAssessment\nPSAT/NMSQT &\nPSAT 10\nTest\nReading and Writing\nDomain\nCraft and Structure\nSkill\nCross-Text\nConnections\nDifficulty",
     "strategy": "Perspective Synthesis",
-    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement"
+    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement",
+    "topic": "other"
   },
   {
     "id": "c6ba6555",
@@ -949,7 +1004,8 @@ const questionBank_CS = [
     "answer": "C",
     "explanation": "Strategy: Two-Filter Method\nChoice C is the best answer because it most logically completes the text's discussion of businesses being featured in The\nIllustrated History of San Mateo County. In this context, \"advantageous\" means beneficial or providing a favorable position. The text\nexplains that being included in the book \"suggested that a business was an important part of the community,\" and it can be\ninferred that an enhanced reputation within the local community would benefit a business, commercially or otherwise. This\ncontext supports the idea that being featured in this publication would be advantageous.\nChoice A is incorrect because in this context, \"risky\" would suggest that being featured in The Illustrated History of San Mateo\nCounty might have negative consequences for a business. However, the text implies only positive outcomes since inclusion\nindicated importance within the local community. Choice B is incorrect because \"misleading\" would mean deceptive or deliberately\ngiving a wrong impression, but the text doesn't indicate there was something deceptive about being featured in The Illustrated\nHistory of San Mateo County; rather, it suggests that inclusion indicated community importance. Choice D is incorrect because\n\"unremarkable\" would mean common or ordinary, which doesn't make sense in context. The text suggests that inclusion in The\nIllustrated History of San Mateo County instead conferred a special status on a business by conveying its importance in the local\ncommunity.",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "social"
   },
   {
     "id": "cf57c1d5",
@@ -966,7 +1022,8 @@ const questionBank_CS = [
     "answer": "D",
     "explanation": "Strategy: Function Map\nChoice D is the best answer. The text presents a brief history of the Nuyorican Poets Cafe, from how it got started in the '70s, to its\nexpansion in the '80s, to its ongoing mission today.\nChoice A is incorrect. This isn't the overall purpose. The text never mentions Algarín's motivations. Choice B is incorrect. This isn't\nthe overall purpose. The text never discusses the cultural life of New York as a whole. Choice C is incorrect. This is too narrow. One\nsentence mentions that the Nuyorican Poets Cafe expanded its scope to include art and music, but this is only one point in the\nbroader history of the Nuyorican Poets Cafe, which is the overall focus of the text.",
     "strategy": "Function Map",
-    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch"
+    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch",
+    "topic": "humanities"
   },
   {
     "id": "0534fba8",
@@ -983,7 +1040,8 @@ const questionBank_CS = [
     "answer": "D",
     "explanation": "Strategy: Two-Filter Method\nChoice D is the best answer because it most logically completes the text's discussion of the collaboration between the Crow Tribe\nand Montana State University. As used in this context, \"exemplifies\" means demonstrates. The text conveys how the Crow Tribe–\nMontana State University collaboration serves to illustrate the model of community-based participatory research introduced earlier\nin the text and expanded on later in the text. \nChoice A is incorrect because referring to \"circumvents,\" or avoids, wouldn't make sense in context. The text suggests that the\nCrow Tribe–Montana State University collaboration serves as an example of the principles of community-based participatory\nresearch, not that the collaboration evades this model. Choice B is incorrect because referring to \"eclipses,\" or overshadows,\nwouldn't make sense in context. The text describes the Crow Tribe–Montana State University collaboration as an equal\npartnership, which indicates that it's an example of the community-based participatory research model, not that it overshadows\nthe model. Choice C is incorrect because saying that the collaboration \"fabricates,\" or creates, the model wouldn't make sense in\ncontext. The text indicates that the Crow Tribe–Montana State University collaboration serves as an example of the model, not\nthat it created the model.",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "social"
   },
   {
     "id": "a9e8c48c",
@@ -1000,7 +1058,8 @@ const questionBank_CS = [
     "answer": "A",
     "explanation": "Strategy: Perspective Synthesis\nChoice A is the best answer. Text 2 describes how the Svalbard polar bears have adapted to the loss of sea ice by diversifying their\ndiet and feeding on reindeer and seabird eggs, resulting in a \"stable and well nourished\" population despite environmental\nchallenges. This counters the underlined claim that polar bears facing a loss of sea ice are at \"great risk of extinction\" by the end\nof the century.\nChoice B is incorrect. Text 2 does not challenge the fact that sea ice is rapidly declining in the Arctic due to warming ocean\ntemperatures. In fact, it states that the Svalbard polar bears have faced \"rapidly declining sea ice in recent years.\" Choice C is\nincorrect. The claim in Text 1 is specific to polar bear populations affected by the loss of seal hunting habitats, so unaffected\npopulations are irrelevant to the claim. Also, Text 2 doesn't mention any polar bear populations that haven't yet been affected by\nloss of seal hunting habitats. It focuses on a population that has been affected by sea-ice loss but has managed to survive and\nthrive nevertheless. Choice D is incorrect. Text 2 doesn't imply that polar bears rely on a single seal-hunting strategy. In fact, the\nresearcher in Text 2 would say that Text 1 fails to account for polar bears' ability to develop other hunting strategies and food\nsources.\nAssessment\nPSAT/NMSQT &\nPSAT 10\nTest\nReading and Writing\nDomain\nCraft and Structure\nSkill\nCross-Text\nConnections\nDifficulty",
     "strategy": "Perspective Synthesis",
-    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement"
+    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement",
+    "topic": "science"
   },
   {
     "id": "6f82b732",
@@ -1017,7 +1076,8 @@ const questionBank_CS = [
     "answer": "A",
     "explanation": "Strategy: Two-Filter Method\nChoice A is the best answer. \"Speculate\" means \"to form a theory or guess without any clear evidence.\" This makes sense\nbecause, due to the lack of \"clear evidence,\" the archaeologists can only guess how the pessoi set might have come to be there.\nChoice B is incorrect. \"Dismiss\" can mean \"send away\" or \"treat as unworthy of consideration.\" The text implies that the\narchaeologists are trying to figure out the truth—they wouldn't \"dismiss\" what really happened. Choice C is incorrect. \"Expand on\"\nmeans \"give more details about,\" but there aren't any details to give. Without any \"clear evidence,\" the archaeologists can't give any\nmore details. Choice D is incorrect. \"Catalog\" means \"carefully record\" or \"make a list of.\" However, there's no \"clear evidence,\" so\nthere's no real information to \"catalog.\"",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "humanities"
   },
   {
     "id": "6e30747e",
@@ -1034,7 +1094,8 @@ const questionBank_CS = [
     "answer": "D",
     "explanation": "Strategy: Function Map\nChoice D is the best answer. This best states the function of the underlined sentence. The sentence basically says: \"He stood out,\nso I looked more closely at him.\" Then the rest of the text describes him in detail.  \nChoice A is incorrect. This doesn't state the function of the underlined sentence. The previous sentence basically says: \"He was\nstill standing in the middle of the cottage\"—it doesn't include any description of the character himself.  Choice B is incorrect. This\ndoesn't state the function of the underlined sentence. The following sentences describe the character, not the setting. Choice C is\nincorrect. This doesn't state the function of the underlined sentence. The underlined sentence basically says: \"He stood out, so I\nlooked more closely at him.\" The previous sentence basically says: \"He was still standing in the middle of the cottage.\" There's no\ncontrast between these two sentences.",
     "strategy": "Function Map",
-    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch"
+    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch",
+    "topic": "humanities"
   },
   {
     "id": "fca04045",
@@ -1051,7 +1112,8 @@ const questionBank_CS = [
     "answer": "D",
     "explanation": "Strategy: Function Map\nChoice D is the best answer. The text starts by introducing Mitchell's philosophy about using simple, repetitive language in books\nfor young children. Then it describes a book influenced by that philosophy, Goodnight Moon.\nChoice A is incorrect. Although two authors are mentioned in the text, they both agree about the type of language that should be\ncontained in books for young children. Choice B is incorrect. The text never discusses the evaluation of children's literature. It does\nprovide one view of how children's books should be written, but never introduces a competing view. Choice C is incorrect. The text\ndoesn't mention \"many classics of children's literature.\" Instead, it describes an educational theory and identifies one example of a\nfamous children's book that was influenced by that theory.",
     "strategy": "Function Map",
-    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch"
+    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch",
+    "topic": "science"
   },
   {
     "id": "df561d13",
@@ -1068,7 +1130,8 @@ const questionBank_CS = [
     "answer": "C",
     "explanation": "Strategy: Function Map\nChoice C is the best answer because it most accurately describes the function of the underlined lines in the text as a whole. In the\nopening line of the text, the speaker describes wandering in \"alien lands,\" which establishes that the speaker is traveling in\nunfamiliar territory. In the underlined lines, the speaker describes \"billows\" (large waves) rolling in the soul, which suggests that the\nspeaker feels inner turmoil. The underlined lines go on to associate these rolling billows with voices calling to the speaker from the\nspeaker's \"native strands,\" or homeland, indicating that thoughts of home are prompting the emotional experience these lines\ndescribe. Taken together, the imagery in the underlined lines thus implies that the speaker feels a deep emotional connection to, or\npull toward, home while traveling in an unfamiliar place.\nChoice A is incorrect. While the text's first line states that the speaker is traveling and the underlined lines indicate that the speaker\nexperiences an emotional pull toward home, neither the underlined lines nor the text as a whole establishes an enthusiasm about\nthe current travels that conflicts with a growing urge to return home. The text's description of the lands the speaker is traveling in\nfocuses on their artificial quality, stating, \"Nature her prerogative resigns / To Man,\" which doesn't suggest enthusiasm but rather a\nsense of detachment or even critique. Choice B is incorrect because the underlined lines don't address uncertainty about\nmaintaining links with relatives in distant places. In the underlined lines, the speaker expresses a sense of connection to the\nspeaker's homeland (\"native strands\") but doesn't refer to any family members the speaker may have there or to concerns about\nmaintaining any familial ties. Choice D is incorrect because the poem doesn't indicate that the speaker has returned home after an\nabsence. Rather, the speaker explicitly states, \"I wander among the hills of alien lands,\" establishing that the current setting is a\nAssessment\nPSAT/NMSQT &\nPSAT 10\nTest\nReading and Writing\nDomain\nCraft and Structure\nSkill\nText Structure and\nPurpose\nDifficulty",
     "strategy": "Function Map",
-    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch"
+    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch",
+    "topic": "humanities"
   },
   {
     "id": "f88c3808",
@@ -1085,7 +1148,8 @@ const questionBank_CS = [
     "answer": "A",
     "explanation": "Strategy: Two-Filter Method\nChoice A is the best answer because as used in the text, \"assumed\" most nearly means acquired, or came to possess. The text\nportrays a character named Drowne carving a figure out of wood. At first \"irregular and misty,\" or haphazard and indistinct, the\nfigure's outline gradually showed \"distincter grace and beauty\" until the general design of the carved object \"was now obvious to\nthe common eye,\" or plainly recognizable to anyone. In other words, as Drowne continued to carve, the wooden object came to\npossess, or acquired, greater precision, changing from an indistinct outline or shape into a graceful, beautiful, and clearly\nrecognizable form.\nChoice B is incorrect. Although in some contexts \"assumed\" can mean acknowledged, or recognized, it doesn't have that meaning\nin this context because an inanimate object like the wooden figure can't acknowledge its own precision. Choice C is incorrect\nbecause there's nothing in the text to suggest that the wooden figure merely imitated, or mimicked, precision. Rather, the text\nsuggests that as Drowne carved his wooden figure, it gradually became more precise. Choice D is incorrect. Although in some\ncontexts \"assumed\" can mean speculated, or supposed based on incomplete information, it doesn't have that meaning in this\ncontext because an inanimate object like the wooden figure can't speculate about its own precision.",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "social"
   },
   {
     "id": "d60941bc",
@@ -1102,7 +1166,8 @@ const questionBank_CS = [
     "answer": "C",
     "explanation": "Strategy: Two-Filter Method\nChoice C is the best answer because it most logically and precisely completes the text's discussion of the fossil record from the\nCambrian period. In this context, \"abrupt\" means sudden. The text explains that the fossil record reflects the unexpected\nappearance and rapid diversification, or increase in variety, of animal remains during the Cambrian period. This context establishes\nthat these remains' entry into the fossil record was sudden.\nChoice A is incorrect. Although the word \"explosion\" appears in the name of the event marked by the fossil record change, the text\nnever suggests that the change was \"catastrophic,\" or disastrous. In context, \"explosion\" refers to the rapid diversification, or the\nswift increase in variety, of animal remains in the fossil record—a phenomenon that the text presents in a relatively neutral manner,\nwithout commenting on whether it was negative or positive. Choice B is incorrect because the text never suggests that the change\ntoward greater diversification is \"elusive,\" or difficult to locate, in the fossil record. Rather, the text notes that the change occurred\nabout 541 million years ago, suggesting that scientists have indeed been able to locate it. Choice D is incorrect because it wouldn't\nmake sense in context to describe the change in the fossil record as \"imminent,\" or about to occur, since the text indicates that the\nchange already occurred millions of years ago.",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "science"
   },
   {
     "id": "d377baf4",
@@ -1119,7 +1184,8 @@ const questionBank_CS = [
     "answer": "A",
     "explanation": "Strategy: Function Map\nChoice A is the best answer. The author describes Coketown as having streets that are all very similar and residents who live\nsimilarly and do the same work. This repetition of similarities emphasizes how everything in Coketown is alike.\nChoice B is incorrect. While the text mentions that all the residents \"do the same work,\" it never explains what that work is or why\neveryone does it. Besides, the idea that they all do the same work is just one of several similarities among the townspeople\ndescribed in the text. Choice C is incorrect. While the last sentence states that \"every day was the same as yesterday and\ntomorrow, and every year the counterpart of the last and the next,\" it never suggests that people actually \"lose track of time.\" This\nis also too narrow to be the main idea, since time is just one of many aspects of Coketown that the text describes as always being\nthe same. Choice D is incorrect. The text never mentions whether life is simple in Coketown, and the town sounds as though it's\nprobably a pretty dull place to live, rather than a pleasant one.",
     "strategy": "Function Map",
-    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch"
+    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch",
+    "topic": "humanities"
   },
   {
     "id": "2b18fad1",
@@ -1136,7 +1202,8 @@ const questionBank_CS = [
     "answer": "A",
     "explanation": "Strategy: Function Map\nChoice A is the best answer because it most accurately describes the function of the underlined portion in the text. The underlined\nportion (\"which made me sad because that was the only thing Mago had envied me for\") directly expresses Grande's unhappiness\nabout her sister's diminished interest in her Barbie doll. The underlined text specifically identifies that Grande feels sad and\nexplains why Mago's disinterest particularly affects her—because it was the one rare instance where her older sister had envied\nher, rather than the reverse.\nChoice B is incorrect because the underlined portion expresses sadness, not anger. Although there is some correspondence\nbetween the emotions anger and envy and the text does indicate that Grande usually envies her sister, the underlined portion\nstates that Grande feels sad about Mago's disinterest in Grande's Barbie, not angry about Mago's refusal to spend time with her.\nChoice C is incorrect. While the first part of the sentence that contains the underlined portion indicates that Mago has previously\ntaken an interest in Grande's Barbie, implying that the sisters may regularly have played with the Barbie together in the past, the\nunderlined portion doesn't provide an example of this. The underlined portion instead explains why Mago's recently developed\ndisinterest in the Barbie saddens Grande. Choice D is incorrect because neither the underlined portion nor the text as a whole\nexplains why Mago is unwilling to play with Grande. Rather than addressing Mago's motivation or reasoning, the underlined portion\ndescribes Grande's emotional reaction to Mago's disinterest in Grande's Barbie and explains why this lack of interest matters to\nGrande.",
     "strategy": "Function Map",
-    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch"
+    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch",
+    "topic": "humanities"
   },
   {
     "id": "c2b18743",
@@ -1153,7 +1220,8 @@ const questionBank_CS = [
     "answer": "D",
     "explanation": "Strategy: Perspective Synthesis\nChoice D is the best answer because Text 2 presents a possible solution to the problem identified in Text 1—that is, how disparities\nin the criteria used by different countries to define urban settlements make it \"difficult for researchers to compare aspects of\nurbanization in different countries.\" Text 2 describes the creation of a shared framework for studying global urbanization: \"global\ndefinitions of common types of settlements\" and a \"new measure called the 'degree of urbanization'\" that \"allows researchers to\nbetter understand global urbanization rates.\"\nChoice A is incorrect. Although Text 2 mentions \"a group of six international organizations\" that developed criteria and a measure\nrelated to settlements and urbanization, no organization or institution is singled out to perform further research. Choice B is\nincorrect because both texts are about urbanization research and neither mentions any other fields of study. Choice C is incorrect.\nText 2 discusses a possible solution to the terminological problem in global urbanization research, not additional areas of difficulty\nin the field.",
     "strategy": "Perspective Synthesis",
-    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement"
+    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement",
+    "topic": "social"
   },
   {
     "id": "9cbf5f49",
@@ -1170,7 +1238,8 @@ const questionBank_CS = [
     "answer": "B",
     "explanation": "Strategy: Two-Filter Method\nChoice B is the best answer because as used in the text, \"conceivable\" most nearly means capable of being thought of or\nimagined. The text describes a journey that, despite being \"insignificant in distance,\" was \"by no means an easy one\" because of\nthe variety of obstacles that \"nature had determined to throw…in the way.\" To emphasize the difficulty of the journey, the author\nportrays nature as actively scheming to present travelers with every obstacle that can be thought of—i.e., every imaginable\nobstacle.\nChoice A is incorrect because in this context, \"conceivable\" does not mean obvious, or evident. Instead, by referring to \"every\nconceivable obstacle,\" the text suggests a wide variety of challenges by evoking all the potential difficulties nature could present,\nnot just those that the travelers might reasonably expect or foresee. Choice C is incorrect because in this context, \"conceivable\"\ndoes not mean straightforward, or easy to negotiate. The text is not indicating that the obstacles were simple to respond to and\novercome. Rather, the text suggests that a wide range of obstacles made the journey difficult. Choice D is incorrect because in this\ncontext, \"conceivable\" does not mean uninterrupted. Although the text suggests that the obstacles were frequent and numerous, it\ndoes not emphasize the obstacles' continuity; instead, the text conveys their unexpected variety and range.",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "humanities"
   },
   {
     "id": "eb59336c",
@@ -1187,7 +1256,8 @@ const questionBank_CS = [
     "answer": "D",
     "explanation": "Strategy: Two-Filter Method\nChoice D is the best answer because it most logically completes the text's discussion of Jemisin's writing. In this context,\n\"conform to\" means to act in accordance with something. The text suggests that in her science fiction writing, Jemisin's\nwillingness to go against expectations and not use plots and themes that seem to follow a formula reflects how she treats the\nstandard practices of the genre. This context conveys that Jemisin chooses not to act in accordance with those conventions.\nChoice A is incorrect. In this context, \"question\" would mean doubt or object to. The text indicates that Jemisin is willing to go\nagainst expectations and not use formulaic plots and themes in her science fiction writing, suggesting that she may actually\nobject to those conventions of the genre, not that she chooses not to question them. Choice B is incorrect because the text\nindicates that in her science fiction writing, Jemisin is willing to go against expectations and not use formulaic plots and themes.\nRather than suggesting that Jemisin chooses not to \"react to,\" or act in response to, the standard practices of the genre, this\ncontext suggests that she is acting in response to such conventions by deliberately avoiding them. Choice C is incorrect. In this\ncontext, \"perceive\" would mean become aware of or understand. The text indicates that in her science fiction writing, Jemisin is\nwilling to go against expectations and not use formulaic plots and themes. This context conveys that Jemisin is aware of and\ndeliberately avoids those conventions of the genre, not that she chooses not to be aware of them.",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "humanities"
   },
   {
     "id": "82e61f51",
@@ -1204,7 +1274,8 @@ const questionBank_CS = [
     "answer": "B",
     "explanation": "Strategy: Two-Filter Method\nChoice B is the best answer. \"Asserted\" means \"stated confidently.\" Eastlake \"did not hesitate to publish reviews going against\npopular opinion,\" so we can assume that she was confident in sharing her opinions.\nChoice A is incorrect. \"Exposed\" means \"made visible by uncovering\" and, when talking about ideas, tends to be used in relation to\nuncovering the truth. Eastlake was sharing an opinion, not uncovering a truth. Choice C is incorrect. \"Discovered\" means \"found,\"\nbut Eastlake was writing an opinion essay. She was writing her own opinion, not \"discovering\" a new universal truth. Choice D is\nincorrect. \"Doubted\" means \"didn't believe in.\" We're told that Eastlake \"questioned\" the idea that photography could be fine art.\nPlacing \"doubted\" in the blank would actually suggest that Eastlake argued that photos were valuable for creativity and not for\ninformation, which is the opposite of what we were told she believes.",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "humanities"
   },
   {
     "id": "76717567",
@@ -1221,7 +1292,8 @@ const questionBank_CS = [
     "answer": "A",
     "explanation": "Strategy: Function Map\nChoice A is the best answer because it most accurately describes the main purpose of the text. The narrator asserts that she loves\nboth her \"own\" country (Japan) and her \"adopted country\" (the United States) even though the two countries differ \"widely.\" She\nalso indicates that, at first, she would try to explain unfamiliar experiences that she had in the United States using the standards\ningrained in her from growing up in Japan. Thus, the main purpose of the text is to convey the narrator's experience of observing\nand making sense of the differences between two cultures she embraces.\nChoice B is incorrect because the text makes no reference to possible companions. Although the text does indicate that the\nnarrator sometimes used the cultural framework she acquired growing up in Japan to explain some experiences she's had, there is\nno suggestion that this was in service of making friends. And although \"no one seemed to know\" strongly implies that the narrator\nhas interacted with other people in the United States, there is no indication that these conversations involved her discussing\nJapanese customs. Choice C is incorrect because nothing in the text suggests that the narrator was hesitant to ask questions. In\nfact, the narrator indicates that \"no one seemed to know the origin\" of various customs, which provides evidence that, rather than\nbeing hesitant, she sought information from several people. Choice D is incorrect because the text makes no reference to the\nphysical distance between Japan and the United States. Although the narrator indicates that the two countries differ \"widely\" and\nlikens them to \"two separate worlds,\" these descriptions relate to cultural aspects of the countries and the narrator's feelings about\nthe two countries, not the physical distance between them.\nAssessment\nPSAT/NMSQT &\nPSAT 10\nTest\nReading and Writing\nDomain\nCraft and Structure\nSkill\nText Structure and\nPurpose\nDifficulty",
     "strategy": "Function Map",
-    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch"
+    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch",
+    "topic": "humanities"
   },
   {
     "id": "d87106d7",
@@ -1238,7 +1310,8 @@ const questionBank_CS = [
     "answer": "C",
     "explanation": "Strategy: Perspective Synthesis\nChoice C is the best answer. Both authors mention how consumer behaviors have shifted, and how this affects different aspects\nof the music industry. Text 1 states that consumers enjoy purchasing \"lived experiences,\" and that this influences how organizers\ndesign music festivals. Text 2 states that consumers are using streaming services more, and that this reduces album sales and\nincreases the importance of live performances for musicians.\nChoice A is incorrect. Neither text claims that consumers prefer streaming to festivals, or that these are mutually exclusive\noptions. Text 1 implies that festivals are popular and profitable, and Text 2 never suggests that streaming services diminish the\ndemand for live music. Choice B is incorrect. This choice misreads Text 1, which identifies music festivals as just one example of\na broader trend of purchasing \"lived experiences.\" Text 2 doesn't mention growing interest in purchasing experiences, in the music\nindustry or otherwise. Choice D is incorrect. Neither text establishes a cause/effect relationship between the demand for festivals\nand the demand for streaming platforms. Text 1 does not mention streaming platforms at all, and Text 2 does not imply that\nstreaming platforms benefit from the popularity of festivals.",
     "strategy": "Perspective Synthesis",
-    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement"
+    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement",
+    "topic": "social"
   },
   {
     "id": "7f6b148e",
@@ -1255,7 +1328,8 @@ const questionBank_CS = [
     "answer": "C",
     "explanation": "Strategy: Two-Filter Method\nChoice C is the best answer because it most logically completes the text's discussion of Gardley's play. In this context,\n\"comprises\" means constitutes or makes up the totality of, and the text indicates that The House That Will Not Stand had an \"all-\nfemale cast\" that stands in some relationship to \"an array of female characters\" in the play. Because all cast members are female,\nthe characters must be played by these female cast members; therefore the cast constitutes, or comprises, the collection of\ncharacters.\nChoice A is incorrect. In this context, \"engulfs\" would mean encloses or overwhelms, and although it is fairly common to describe\nan actor as embodying (or personifying realistically) a character, there is nothing in the text to suggest that the cast members\nenclosed or overwhelmed the characters they played. Choice B is incorrect because in this context, \"encourages\" would mean\ninspires with courage or hope. Although the text does mention \"a strong mother and several daughters dealing with individual\nstruggles,\" which might suggest that there are moments of encouragement among the characters during the play, there is nothing\nto suggest that the cast members encouraged the characters they portrayed. Choice D is incorrect because, in this context,\n\"provokes\" would mean instigates or incites to anger. Nothing in the text addresses provocation or what it might mean for actors\nto provoke the characters they are playing.",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "humanities"
   },
   {
     "id": "f5d735e4",
@@ -1272,7 +1346,8 @@ const questionBank_CS = [
     "answer": "A",
     "explanation": "Strategy: Function Map\nChoice A is the best answer. The text repeatedly claims that true self-knowledge can't possibly be achieved, and this rhetorical\nquestion emphasizes that point.\nChoice B is incorrect. The underlined question doesn't do this. The text never expresses doubts about the value of self-knowledge\n—rather, the text expresses doubts about the possibility of achieving self-knowledge. Choice C is incorrect. The underlined\nquestion doesn't do this. The text doesn't provide directions for how to achieve self-knowledge—rather, it claims that true self-\nknowledge is impossible to achieve. Choice D is incorrect. The underlined question doesn't do this. The text doesn't ever define\nself-knowledge, and popularity isn't mentioned in the text at all.",
     "strategy": "Function Map",
-    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch"
+    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch",
+    "topic": "science"
   },
   {
     "id": "e36419af",
@@ -1289,7 +1364,8 @@ const questionBank_CS = [
     "answer": "A",
     "explanation": "Strategy: Function Map\nChoice A is the best answer because it most accurately describes how the underlined sentence functions in the text as a whole. In\nthe text, the narrator makes observations about her young niece, Dot, noting that Dot is making progress toward outgrowing\nbabyhood and is growing stronger \"day by day.\" The description of Dot purposefully exercising by \"bouncing for hours\" reinforces\nthe narrator's earlier characterization of Dot. The underlined sentence thus offers a detail that shows how Dot is growing stronger.\nChoice B is incorrect. While a sentence earlier in the text mentions Celestine's psychological state (sadness because Dot is\ngrowing fast), the underlined sentence doesn't focus on Celestine at all. Instead, the sentence focuses on Dot's physical activities\nto show that she is getting stronger. Choice C is incorrect because the underlined sentence describes Dot's behavior, not the\nnarrator's psychological characteristics. While a sentence earlier in the text establishes that the narrator, like Dot, was \"impatient\nwith babyhood,\" the underlined sentence specifically addresses Dot's physical activities in her stroller. Choice D is incorrect. While\nan earlier sentence in the text mentions that Celestine is sad, the underlined sentence doesn't focus on how Celestine feels nor\ndoes it describe a behavior that Celestine engages in. The sentence focuses entirely on Dot's actions, describing her as \"bouncing\nfor hours\" to show that she is growing stronger.",
     "strategy": "Function Map",
-    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch"
+    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch",
+    "topic": "humanities"
   },
   {
     "id": "62bb43f6",
@@ -1306,7 +1382,8 @@ const questionBank_CS = [
     "answer": "D",
     "explanation": "Strategy: Function Map\nChoice D is the best answer because it most accurately describes how the underlined portion functions in the text as a whole. The\nfirst two sentences establish a natural phenomenon: there is a richness of plant life found in the Atacama Desert despite the hard\nsoil that makes it challenging for seeds to germinate. The next sentence, which contains the underlined portion, offers a potential\nexplanation for the phenomenon: local birds dig ground nests exposing seeds to moisture and materials in the soil necessary for\ngermination. The last sentence summarizes a study that compared the fertileness of mounds of dirt dug up by birds to mounds\nthat were undisturbed to support the explanation in the underlined portion. Thus, the underlined portion mainly functions to explain\nhow certain birds promote seed germination in the Atacama Desert soil.\nChoice A is incorrect because the underlined portion doesn't address the topic of the soil's tough crust or its formation. Instead,\nthe text elaborates on the idea that local birds that build ground nests may help seeds germinate in the hard soil. Choice B is\nincorrect because the underlined portion describes how some birds may support seed germination in Atacama Desert soil but\ndoesn't describe how the seeds are deposited into the soil before germination begins.  Choice C is incorrect because neither the\nunderlined portion nor the text as a whole identifies a reason that a particular bird species may choose to dig ground nests in the\nAtacama Desert soil.",
     "strategy": "Function Map",
-    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch"
+    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch",
+    "topic": "other"
   },
   {
     "id": "e1474ac4",
@@ -1323,7 +1400,8 @@ const questionBank_CS = [
     "answer": "D",
     "explanation": "Strategy: Two-Filter Method\nChoice D is the best answer because it most logically completes the text's discussion of the identification of maize's wild ancestor.\nIn this context, to \"confirm\" means to establish the truth or correctness of something. The text explains that maize \"shows so little\nresemblance to any wild plant that genetic research was necessary\" to establish its ancestry, which was ultimately traced to\nteosinte grass. This context conveys the idea that scientific verification was required to establish an ancestral relationship with\ncertainty—that is, to confirm teosinte grass as maize's ancestor.\nChoice A is incorrect because to \"acquire\" means to obtain or gain possession of something. Although their research likely\nrequired scientists to acquire samples of maize and teosinte grass, the text does not suggest that this was the ultimate goal of\ntheir work, which instead probed the connection between the two plants. Choice B is incorrect because to \"develop\" means to\ncreate something or to promote the growth of something, and the ancestral relationship between teosinte grass and maize already\nexisted as a biological fact in the deep past, which scientists then verified through research; because this relationship already\nexisted, the scientists can't be said to have either created it or encouraged its growth. Choice C is incorrect because to \"attract\"\nmeans to entice something or to bring about a relationship or connection between two things, while the ancestral relationship\nbetween teosinte grass and maize already existed as a biological fact; rather than bringing about the relationship between the two\nplants, the scientists instead verified the prior existence of it.",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "science"
   },
   {
     "id": "767a370d",
@@ -1340,7 +1418,8 @@ const questionBank_CS = [
     "answer": "D",
     "explanation": "Strategy: Function Map\nChoice D is the best answer. The author first describes an unresolved question: what effect do bank forests have on stream\nbiodiversity? Then the author presents a study that answers the question: bank forests increase stream biodiversity.\nChoice A is incorrect. This isn't the main purpose of the text. The text never mentions agricultural yields. Choice B is incorrect. This\nisn't the main purpose of the text. The text never mentions other kinds of agricultural environments. Choice C is incorrect. This\nisn't the main purpose of the text. The text never mentions any previously held view about how fish in these streams try to avoid\npredators.",
     "strategy": "Function Map",
-    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch"
+    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch",
+    "topic": "science"
   },
   {
     "id": "1eb7e794",
@@ -1357,7 +1436,8 @@ const questionBank_CS = [
     "answer": "D",
     "explanation": "Strategy: Perspective Synthesis\nChoice D is the best answer. The author of Text 2 agrees with the author of Text 1 that bumblebees may engage in play and\npossibly experience some kind of positive emotional state. However, the author of Text 2 also qualifies this claim by stating that\nemotions in insects, if they do exist, are \"likely very rudimentary.\"\nChoice A is incorrect. While Text 2 states that other studies might indicate \"negative emotional states\" in bees, it does not\ncontradict the findings from the Galpayage study—that the bees might have been having fun. Choice B is incorrect. The author of\nText 2 does not mention or imply that any insects, including bumblebees, are capable of experiencing complex emotional states.\nThe author of Text 2 states that if insects do feel emotions, those emotions are \"likely very rudimentary.\" Choice C is incorrect. The\nauthor of Text 2 does not compare or contrast the behavior or emotions of insects and humans, and neither does the author of\nText 1.",
     "strategy": "Perspective Synthesis",
-    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement"
+    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement",
+    "topic": "science"
   },
   {
     "id": "128b7cff",
@@ -1374,7 +1454,8 @@ const questionBank_CS = [
     "answer": "A",
     "explanation": "Strategy: Function Map\nChoice A is the best answer. The text provides an overview of Florence Price's importance by describing her success at the 1932\nWanamaker Foundation Awards, her blending of Black spirituals and classical European Romantic musical traditions, and the\nrecent performances and recordings of her concertos and symphonies by major orchestras.\nChoice B is incorrect. The text does mention that Price's compositions have been performed and recorded by major orchestras, but\nit doesn't argue that more orchestras should do so. Choice C is incorrect. The text does mention the blending of Black spirituals\nand classical European Romantic musical traditions, but only briefly, as part of a broader overview of Price's career. Choice D is\nincorrect. The text mentions Price's blending of Black spirituals with classical European Romantic musical traditions, but it doesn't\ndirectly compare Price's scores with those of classical European composers.",
     "strategy": "Function Map",
-    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch"
+    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch",
+    "topic": "humanities"
   },
   {
     "id": "68f5dab1",
@@ -1391,7 +1472,8 @@ const questionBank_CS = [
     "answer": "D",
     "explanation": "Strategy: Perspective Synthesis\nChoice D is the best answer. Trever thinks that the \"hyper-realistic portrayal of identifiable people\" interpretation ignores the\nsculptors' imagination and creativity. We can infer that Trevor thinks the facial markings on the sculptures may not have\nrepresented real skin blemishes on real people.\nChoice A is incorrect. The text gives us no reason to think that Trever would respond to the underlined interpretation in this way.\nNeither text compares the depictions of human faces to the depictions of plants or animals, so we have no basis to draw this\nconclusion. Choice B is incorrect. The text gives us no reason to think that Trever would respond to the underlined interpretation in\nthis way. There's nothing in either text about multiple depictions representing the same person, so we have no basis to draw this\nconclusion. Choice C is incorrect. The text gives us no reason to think that Trever would respond to the underlined interpretation in\nthis way. Neither text mentions the state of the vessels (damaged or intact), so we have no basis to draw this conclusion.",
     "strategy": "Perspective Synthesis",
-    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement"
+    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement",
+    "topic": "humanities"
   },
   {
     "id": "4259636f",
@@ -1408,7 +1490,8 @@ const questionBank_CS = [
     "answer": "D",
     "explanation": "Strategy: Function Map\nChoice D is the best answer. The underlined sentence provides a concrete example to ground readers' understanding of the \"deep\nintersubjectivity\" described in the next sentence as central to Austen's work.\nChoice A is incorrect. There is no evaluation made of Austen's skill in this sentence, and no examples are given in the following\nsentence. This choice essentially flips the paragraph: it's this first sentence that provides an example. Choice B is incorrect. There\nare no other Austen protagonists mentioned in this passage, so this couldn't be the answer. Choice C is incorrect. The underlined\nsentence doesn't identify any \"recurring theme,\" but instead simply describes one interaction from one book. This interaction\nexemplifies the literary technique of \"deep intersubjectivity\" that is introduced in the next sentence.",
     "strategy": "Function Map",
-    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch"
+    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch",
+    "topic": "humanities"
   },
   {
     "id": "bac45e57",
@@ -1425,7 +1508,8 @@ const questionBank_CS = [
     "answer": "A",
     "explanation": "Strategy: Perspective Synthesis\nChoice A is the best answer because it provides a statement about the description of the first showing of Arrival of the Train in\nText 1 that, based on the texts, the author of Text 2 would most likely agree with. Text 1 indicates that members of the audience,\nunaccustomed to the new medium of film and believing that they were looking at a real oncoming train, allegedly reacted to the\nfilm with alarm. Text 1 then goes on to treat this anecdote as a factual account of the film's first showing, interpreting it as a\nmoment that marked a \"major cultural shift.\" In contrast, the author of Text 2 indicates that though the story of the film's first\nshowing has become \"canonical,\" or widely accepted, there is no contemporary evidence to support the idea that the audience\nreacted as Text 1 describes. Text 2 goes on to explain that this factually questionable description likely persists because it\nfunctions as a \"founding myth\" that reinforces a widespread belief in the profoundly transformative nature of the invention of film.\nThis indicates that the author of Text 2 would likely see the description in Text 1 as motivated primarily by cultural perceptions\nabout film's significance rather than by documented historical facts.\nAssessment\nPSAT/NMSQT &\nPSAT 10\nTest\nReading and Writing\nDomain\nCraft and Structure\nSkill\nCross-Text\nConnections\nDifficulty",
     "strategy": "Perspective Synthesis",
-    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement"
+    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement",
+    "topic": "humanities"
   },
   {
     "id": "340b33cd",
@@ -1442,7 +1526,8 @@ const questionBank_CS = [
     "answer": "D",
     "explanation": "Strategy: Two-Filter Method\nChoice D is the best answer. When talking about a thing, \"accessible\" means \"easy to understand.\" This sets up the contrast in the\nnext sentence, which tells us that critics mostly focus on art that is \"cryptic or challenging\" (meaning not easy to understand).\nChoice A is incorrect. This doesn't fit the logic of the text. The next sentence tells us that critics focus on art that is mysterious and\nchallenging. If Hannock's paintings are \"innovative\" (meaning advanced and original), then critics probably would comment on\nthem. Choice B is incorrect. This doesn't fit the logic of the text. The next sentence tells us that critics focus on art that is\nmysterious and challenging. If Hannock's paintings are \"subversive\" (meaning disruptive and revolutionary), then critics probably\nwould comment on them. Choice C is incorrect. This doesn't fit the logic of the text. The next sentence tells us that critics focus on\nart that is mysterious and challenging. If Hannock's paintings are \"profound\" (meaning very deep and insightful), then critics\nprobably would comment on them.",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "humanities"
   },
   {
     "id": "cc76d23a",
@@ -1459,7 +1544,8 @@ const questionBank_CS = [
     "answer": "B",
     "explanation": "Strategy: Function Map\nChoice B is the best answer. The text tells a story of a first impression that turned out to be wrong: a serious American savant was\ndismissive of a goofy-looking, wisecracking guest at a British party, and then was shocked to learn that the guest was actually a\nprominent British chemist and inventor.\nChoice A is incorrect. This is too strong and too narrow. Only at the very end is the savant \"thrown aback\" by the fact that the man\nwas Sir Humphry Davy—he's not \"embarrassed about his own behavior.\" Choice C is incorrect. This isn't the main purpose. The text\nnever provides the history of how Sir Humphry Davy came to be famous. Nor does it provide any history for the American savant.\nChoice D is incorrect. This is too narrow. It doesn't include the second half of the text, where the savant gets into a conversation\nwith the man and then finds out that the man is Sir Humphry Davy.",
     "strategy": "Function Map",
-    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch"
+    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch",
+    "topic": "humanities"
   },
   {
     "id": "d53eff07",
@@ -1476,7 +1562,8 @@ const questionBank_CS = [
     "answer": "B",
     "explanation": "Strategy: Two-Filter Method\nChoice B is the best answer because it most logically completes the text's discussion of the fork fern's enormous genome. In this\ncontext, \"superseded\" means surpassed or exceeded by something else. The text establishes that this plant has \"the largest\nknown\" genome among eukaryotes and mentions \"the high biological costs of extremely large genomes,\" suggesting there are\nnatural constraints that make it biologically disadvantageous to maintain such massive genetic material. This context supports\nthe idea that it's unlikely another organism will evolve an even larger genome that would replace this plant's record—that is, its\nstatus as having the largest genome is unlikely to be superseded.\nChoice A is incorrect because in this context, \"protracted\" would mean drawn out over time or space, and the text focuses on the\nrecord size of the New Caledonian fork fern's genome and the fact that extremely large genomes carry \"high biological costs.\" This\ninformation suggests that the biological upper limit for genome size may have been reached and that the New Caledonian fork\nfern's genome is therefore unlikely to be surpassed, or superseded, not that it's unlikely to be protracted. Choice C is incorrect\nbecause in this context, \"curtailed\" would mean cut short or reduced, and the text focuses on the record size of the New\nCaledonian fork fern's genome and the fact that extremely large genomes carry \"high biological costs.\" This information suggests\nthat the biological upper limit for genome size may have been reached and that the New Caledonian fork fern's genome is\ntherefore unlikely to be surpassed, or superseded, not that it's unlikely to be curtailed. Choice D is incorrect because in this context,\n\"obviated\" would mean made unnecessary or redundant, and the text focuses on the record size of the New Caledonian fork fern's\ngenome and the fact that extremely large genomes carry \"high biological costs.\" This information suggests that the biological\nupper limit for genome size may have been reached and that the New Caledonian fork fern's genome is therefore unlikely to be\nsurpassed, or superseded, not that it's unlikely to be obviated.",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "science"
   },
   {
     "id": "d105cd4a",
@@ -1493,7 +1580,8 @@ const questionBank_CS = [
     "answer": "C",
     "explanation": "Strategy: Function Map\nChoice C is the best answer because it most accurately describes the main purpose of the text, which is to describe the family of\nplants known as the silversword alliance and explain why the plants came to exhibit \"an extraordinary range of phenotypes.\" The\ntext introduces the silversword alliance as a family of plants unique to the Hawaiian Islands, presenting those that mature into\nvines and those that mature into shrubs and trees as examples of different phenotypes. The text concludes by explaining that\nthese plants are all descendants of \"a single ancestral tarweed plant\" that arrived 5 million years ago in the Hawaiian Islands,\nwhere a \"wide variety of habitats\" drove the plant's descendants to adapt and thus differentiate themselves, diversifying into a\ngroup of related but distinct species with different physical characteristics.\nChoice A is incorrect. Although the text explains why the plants within the silversword alliance have varied physical characteristics,\nthe text doesn't suggest that tarweed is the ancestor of all plants on the Hawaiian Islands. The text states instead that all\nmembers of the silversword alliance descend from a single tarweed ancestor. Choice B is incorrect because while Dubautia carrii\nis mentioned as an example of a species in the silversword alliance, no details about its particular habitat are provided. And\nalthough the text indicates that the Hawaiian Islands are home to \"a wide variety of habitats,\" it doesn't describe the specific\nhabitat where Dubautia carrii is found. The text discusses the silversword alliance as a whole rather than focusing on Dubautia\ncarrii or any one species within this family. Choice D is incorrect. Although the silversword alliance is only found on the Hawaiian\nIslands and includes \"an extraordinary range of phenotypes,\" the text doesn't claim that all plants on the Hawaiian Islands are part\nof the alliance. Furthermore, the text indicates that these plants all \"descended from a single ancestral tarweed plant,\" not that\nthere are multiple possible candidates for that ancestor plant.\nAssessment\nPSAT/NMSQT &\nPSAT 10\nTest\nReading and Writing\nDomain\nCraft and Structure\nSkill\nText Structure and\nPurpose\nDifficulty",
     "strategy": "Function Map",
-    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch"
+    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch",
+    "topic": "science"
   },
   {
     "id": "74ce749a",
@@ -1510,7 +1598,8 @@ const questionBank_CS = [
     "answer": "A",
     "explanation": "Strategy: Two-Filter Method\nChoice A is the best answer because as used in the text, \"consider\" most nearly means to take into account and follow. The text\nexplains that Marija's job was to make sure that her sister's wedding proceeded in certain ways (\"in due form\") and that she loudly\ndirected everyone's actions all day. The text then indicates that Marija was so focused on ensuring that others \"conformed to the\nproprieties\"—that is, that they behaved in appropriate ways—that she failed to \"consider them herself\"; that is, she didn't take\nstandards of appropriate behavior into account and follow them in her own actions.\nChoice B is incorrect. In some contexts, \"consider\" can mean to think about something in a positive way—which can involve\nadmiration—but the text doesn't suggest that Marija was so busy imposing \"proprieties\" (standards of appropriate behavior) on\nothers that she didn't admire and praise them herself. The context suggests it's more likely that Marija did speak positively of \"due\nform\" and \"the best home traditions\" while ensuring others behaved in certain ways. Choice C is incorrect. In some contexts,\n\"consider\" can mean to come to a decision, but the text doesn't suggest that Marija wasn't able to make a decision for herself\nabout the \"proprieties\" (standards of appropriate behavior) she ensured everyone else conformed to. Rather, the context conveys\nthat Marija knew very clearly which behaviors others should follow as \"due form\" and \"the best home traditions.\" Choice D is\nincorrect. In some contexts, \"consider\" can mean to have an opinion, but the text doesn't suggest that Marija wasn't able to have\nan opinion on the \"proprieties\" (standards of appropriate behavior) she was ensuring others conformed to. Rather, the context\nconveys that Marija had strong feelings about which behaviors were \"due form\" and \"the best home traditions.\"",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "humanities"
   },
   {
     "id": "493479db",
@@ -1527,7 +1616,8 @@ const questionBank_CS = [
     "answer": "D",
     "explanation": "Strategy: Function Map\nChoice D is the best answer. The text as a whole claims that Cruse disagreed with virtually all other Civil Rights scholars and\nactivists. The underlined sentence describes one way that Cruse both did and didn't fit in with those thinkers: he criticized Black\nnationalists, even though he identified as one.\nChoice A is incorrect. The underlined sentence doesn't do this. It describes Cruse's criticisms—it never mentions what Cruse did\nwant the movement to do instead. Choice B is incorrect. This conflicts with the text, which argues that Cruse did disagree with\nalmost all other scholars of the Civil Rights Movement. Choice C is incorrect. This is a step too far. The text never says that Cruse's\nwork caused controversy within the Black nationalist movement.",
     "strategy": "Function Map",
-    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch"
+    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch",
+    "topic": "social"
   },
   {
     "id": "f01cb598",
@@ -1544,7 +1634,8 @@ const questionBank_CS = [
     "answer": "B",
     "explanation": "Strategy: Perspective Synthesis\nChoice B is the best answer. Text 1 introduces Wang and colleagues' study and its surprising results, and then mentions Miller and\nSimpson's hypothesis as a possible way to explain them. Text 2, however, challenges Miller and Simpson's hypothesis by pointing\nout the difficulties of preserving mammoth carcasses on the surface for thousands of years: \"scavengers and weathering\" are the\nadditional details that complicate the Miller/Simpson hypothesis.\nChoice A is incorrect. Neither text compares two different approaches for studying mammoth extinction. Text 1 describes one\nstudy and one hypothesis pertaining to it. Text 2 critiques that hypothesis. Choice C is incorrect. Text 1 does not describe a\ncritique of Wang and colleagues' methodology, but rather an interpretation of their results by Miller and Simpson. Text 2 does not\noffer additional details showing that methodology to be sound, but rather casts doubt on the Miller/Simpson explanation. Choice D\nis incorrect. Both components mentioned here (the new \"undermining\" research and the theory for reconciling this discovery) are\ncontained in Text 1. Text 2 then shows how the attempt to reconcile the standard view and new research is flawed, and still fails to\nexplain the discrepancy.\nAssessment\nPSAT/NMSQT &\nPSAT 10\nTest\nReading and Writing\nDomain\nCraft and Structure\nSkill\nCross-Text\nConnections\nDifficulty",
     "strategy": "Perspective Synthesis",
-    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement"
+    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement",
+    "topic": "science"
   },
   {
     "id": "3067b065",
@@ -1561,7 +1652,8 @@ const questionBank_CS = [
     "answer": "D",
     "explanation": "Strategy: Two-Filter Method\nChoice D is the best answer because it most logically completes the text's discussion of the economist's claim about sales of\npersonal electronic devices. In this context, \"invalidate\" most nearly means nullify or make invalid. The text indicates that\ninterruptions in the supply of microchips for personal electronics \"have challenged\" the economist's claim that sales of personal\nelectronics will show strong growth in the coming months. The text goes on to clarify the effect of the delays on the economist's\nprojection, stating that the delays are very likely to extend the time frame over which the projected growth in sales will occur. This\ncontext suggests that the delays are unlikely to invalidate the economist's projection entirely—the delays will probably alter the\ntime frame of the projection, not nullify it or make it invalid.\nChoice A is incorrect because saying that the delays are unlikely to \"dispute,\" or argue against, the economist's projection wouldn't\nmake sense. Since the delays are an inanimate circumstance, they couldn't argue against a prediction about the sales of personal\nelectronics. Choice B is incorrect because saying that the delays are unlikely to \"withdraw,\" or remove from consideration, the\neconomist's projection wouldn't make sense. Although the economist could withdraw her projection because of the delays, the\ndelays themselves couldn't withdraw her projection since they're an inanimate circumstance and thus can't choose to remove\nsomething from consideration. Choice C is incorrect because there's nothing in the text to suggest that the delays will\n\"underscore,\" or emphasize, the economist's projection. Instead, the text suggests that the delays are likely to extend the time\nframe of the economist's projection but not to undermine the projection entirely.",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "social"
   },
   {
     "id": "c8b920ee",
@@ -1578,7 +1670,8 @@ const questionBank_CS = [
     "answer": "D",
     "explanation": "Strategy: Function Map\nChoice D is the best answer because it best describes the overall structure of the text. The text begins by posing a question about\ntwo different cat species: \"Why do sand cats purr but lions roar?\" The remainder of the text then presents a possible answer to this\nquestion by explaining a hypothesis about differences in these cats' hyoid bone structure. The text details how sand cats have\nrigid hyoids that produce purring sounds when their larynx vibrates, while lions have more flexible hyoids attached to the skull with\na stretchy ligament that enables roaring but may prevent purring.\nChoice A is incorrect because the text doesn't present facts that weaken the theory about two cat species; rather, it asks a\nquestion about two species and then discusses a potential answer. Choice B is incorrect because the text doesn't discuss the\nhabitats of sand cats and lions at all, nor does it mention any changes to their habitats. Choice C is incorrect because the text\ndoesn't describe a behavior shared by the two cat species mentioned. On the contrary, it specifically focuses on the different\nvocalization behaviors of each species (purring versus roaring) and why those differences may exist.",
     "strategy": "Function Map",
-    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch"
+    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch",
+    "topic": "social"
   },
   {
     "id": "da80d2c1",
@@ -1595,7 +1688,8 @@ const questionBank_CS = [
     "answer": "C",
     "explanation": "Strategy: Two-Filter Method\nChoice C is the best answer. An \"anomaly\" is something that deviates from norms or expectations. In this case, the elkhorn coral is\nan anomaly because it can pass on somatic mutations, whereas most other animals can't.\nChoice A is incorrect. A \"hypothesis\" is \"a theory about something,\" but no theories are provided about elkhorn coral in this text,\njust facts. Choice B is incorrect. \"Affinity\" represents \"an inclination or liking toward something.\" As genetic mutations tend to\noccur without any conscious effort, you can't really have an inclination toward passing on somatic mutations. Choice D is\nincorrect. \"Corroboration\" means \"evidence to support or prove something.\" Because elkhorn coral do the opposite of what most\nanimals do, they do not provide corroboration of the theory that somatic mutations can't be passed onto offspring. Rather, they\nshow the opposite.",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "science"
   },
   {
     "id": "7b434da9",
@@ -1612,7 +1706,8 @@ const questionBank_CS = [
     "answer": "C",
     "explanation": "Strategy: Two-Filter Method\nChoice C is the best answer because it most logically completes the text's discussion of architectural influences among\nMesoamerican cities. In this context, \"commonalities with\" means similarities to or shared attributes with. The text indicates that a\nrecently discovered citadel in Tikal includes a close imitation of a famous temple in Teotihuacán (another Mesoamerican city) and\nother evidence of Teotihuacán influence, which suggests that the citadel possesses features that resemble architectural features\nfound in Teotihuacán. This context thus indicates that the Tikal citadel shows commonalities with Teotihuacán architecture.\nChoice A is incorrect because there's nothing in the text that suggests that the Tikal citadel shows \"refinements of,\" or\nimprovements on, Teotihuacán architecture. Although the text suggests that the architecture of Teotihuacán influenced the\narchitecture of the Tikal citadel, and although it's possible that later architectural designs could make improvements on earlier\ndesigns, the text doesn't discuss whether, in imitating Teotihuacán architecture, the Tikal citadel's builders improved on it. Choice\nB is incorrect because describing the citadel in Tikal as showing \"precursors of\" Teotihuacán architecture—or features that\npreceded and foreshadowed those of Teotihuacán architecture—would imply the opposite of what the text suggests about the\nrelationship between the architecture found in Tikal and Teotihuacán. The text claims that the discovery of similarities between the\nTikal citadel and the architecture of Teotihuacán, including a replica of a temple in Teotihuacán, provides evidence of outside\ninfluences on Tikal architecture. If the Tikal citadel was influenced by Teotihuacán architecture, then the Teotihuacán architecture\nmust predate the citadel, not the other way around. In this context, therefore, it wouldn't make sense to say that the Tikal citadel\nshows precursors of Teotihuacán architecture. Choice D is incorrect because the text discusses how the citadel in Tikal indicates\nthe influence of Teotihuacán architecture, which implies that the makers of the Tikal citadel likely admired aspects of Teotihuacán\narchitecture enough to imitate it. Thus, there's no reason to think that the Tikal citadel provides evidence of the Tikal people's\n\"animosities toward,\" or feelings of strong dislike or hostility toward, Teotihuacán architecture.",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "humanities"
   },
   {
     "id": "45c02aa9",
@@ -1629,7 +1724,8 @@ const questionBank_CS = [
     "answer": "B",
     "explanation": "Strategy: Two-Filter Method\nChoice B is the best answer because it most logically completes the text's discussion of how historians have treated rank-and-file\n(ordinary) workers in their analyses. In this context, \"marginalize\" means treat as unimportant or relatively powerless within a\ngroup or society. The text explains that according to Austin McCoy, historians have tended to treat \"political, business, and labor\nleaders\" as the \"major actors\" involved in making changes in organized labor in the period after the Second World War. By\nemphasizing the contributions of these leaders, historians have in effect minimized the contributions of ordinary workers, treating\nthem as relatively unimportant and \"nearly devoid of agency,\" thereby marginalizing them.\nChoice A is incorrect. In this context, \"epitomize\" would mean either serve as an ideal example of something or make into an\nexample of something, neither of which would make sense. In stating that historians have tended to characterize political,\nbusiness, and labor leaders as the primary actors responsible for changes in the post-Second World War labor movement in a\nmanner that minimizes the influence of ordinary workers, the text suggests that historians have tended to present ordinary\nworkers as unimportant to or uninfluential within the movement, not that historians themselves serve as examples of ordinary\nworkers, or that historians in their analyses have made ordinary workers into examples of the changes that occurred. Choice C is\nincorrect because in this context, \"extol\" would mean praise highly or glorify. The text states that historians have tended to present\nordinary workers as being \"nearly devoid of agency,\" thereby minimizing their importance. It therefore wouldn't make sense to say\nthat in doing so, historians have tended to praise or glorify them. Choice D is incorrect because \"substantiate\" would mean verify\nwith evidence, and nothing in the text suggests that historians have verified rank-and-file workers or their contributions in their\nanalyses. If anything, the text suggests the opposite, implying that by minimizing workers' agency in organized labor, historians\nhave likely overlooked evidence demonstrating their influence.",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "social"
   },
   {
     "id": "e90f502d",
@@ -1646,7 +1742,8 @@ const questionBank_CS = [
     "answer": "C",
     "explanation": "Strategy: Perspective Synthesis\nChoice C is the best answer. This is how Cáceres and co. would most likely describe the view presented in Text 1. The view in Text\n1 is that historical diversity affects how diverse an ecological community eventually becomes. But Cáceres and co. did not get this\nresult: they found no difference in eventual diversity between a zooplankton pool that started out diverse and a zooplankton pool\nthat started out with only a single species.\nChoice A is incorrect. Cáceres and co. would probably not describe the view presented in Text 1 this way. The view in Text 1 is that\nhistorical diversity affects how diverse an ecological community eventually becomes. Cáceres and co's findings directly undermine\nthis view: they found no difference in eventual diversity between a zooplankton pool that started out diverse and a zooplankton\npool that started out with only a single species. Choice B is incorrect. Cáceres and co. would probably not describe the view\npresented in Text 1 this way. Their experiment was designed to test this hypothesis, and their findings were \"contrary to their\nexpectations.\" In other words, before the study, they predicted the theory was correct. Choice D is incorrect. Cáceres and co. would\nnot describe the view presented in Text 1 this way. Their research finding directly undermines the view presented in Text 1: so it\ndefinitely doesn't hold true in conditions like those in the study.",
     "strategy": "Perspective Synthesis",
-    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement"
+    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement",
+    "topic": "science"
   },
   {
     "id": "fb16e2c2",
@@ -1663,7 +1760,8 @@ const questionBank_CS = [
     "answer": "B",
     "explanation": "Strategy: Function Map\nChoice B is the best answer because it most accurately describes the overall structure of the text. The text begins by describing a\nstudy's finding about greater short-nosed fruit bats—namely, that high moonlight intensity inhibits the bats' activity—and also\naccounts for that finding, stating that this occurs because the potential increase in foraging success that greater lunar intensity\nenables doesn't offset these bats' increased vulnerability to predators (whose vision is also implied to become more acute under\nintense moonlight). The text goes on to characterize this finding as representative of a general pattern, stating that many nocturnal\nmammals behave similarly in response to changes in lunar intensity. The text concludes by describing an exception to this pattern,\nexplaining that mongoose lemurs display an opposite tendency because they rely heavily on visual foraging. This strategy\npresumably would allow them to derive more benefit from greater lunar intensity than many other nocturnal mammals would,\nresulting in a \"different balance of reward and risk\" than exists for other nocturnal mammals. Therefore, the overall structure of the\ntext is best described as a description and account of a finding, a characterization of that finding as representative of a pattern,\nand then a description and account of an exception to that pattern.\nChoice A is incorrect. Although the text discusses two different responses to variations in moonlight intensity, explaining that as\nmoonlight intensity increases, greater short-nosed fruit bats and many other nocturnal mammals decrease their foraging activity\nbut mongoose lemurs increase their foraging activity, it doesn't leave one of these responses unexplained. The text accounts for\nboth the typical response to increased lunar intensity (reduced activity due to predation risk) and the exception (increased activity\nAssessment\nPSAT/NMSQT &\nPSAT 10\nTest\nReading and Writing\nDomain\nCraft and Structure\nSkill\nText Structure and\nPurpose\nDifficulty",
     "strategy": "Function Map",
-    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch"
+    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch",
+    "topic": "science"
   },
   {
     "id": "64af9749",
@@ -1680,7 +1778,8 @@ const questionBank_CS = [
     "answer": "C",
     "explanation": "Strategy: Two-Filter Method\nChoice C is the best answer because it most logically completes the text's discussion of testing hypotheses regarding usage by\nmeans of text corpora. In this context, \"supposition\" refers to an assumption or hypothesis that is not yet proven. The text explains\nthat text corpora can be used for \"empirical testing of hypotheses regarding the frequency of typical word usage\" and then\nprovides a specific example of using corpus analysis to support a claim about the word \"get.\" The word \"supposition\" precisely\nconveys this idea of an assumption or hypothesis about word frequency that can then be tested against empirical data.\nChoice A is incorrect because it wouldn't make sense to say that someone has a \"recognition\" that the word \"get\" has a high\nincidence in English. Recognition implies acknowledging something already established as true or valid, but the text indicates that\ncorpus analysis is needed to support the claim about \"get,\" suggesting its high frequency wasn't already established or previously\nknown. Choice B is incorrect because it wouldn't make sense to say that someone has a \"scheme\" that the word \"get\" has a high\nincidence in English. A scheme is a plan or systematic arrangement, but the context indicates what's needed is a preliminary\nhypothesis that can be tested with corpus data, not a plan related to word frequency. Choice D is incorrect because it wouldn't\nmake sense to say that someone has a \"synopsis\" that the word \"get\" has a high incidence in English. A synopsis is a summary or\noutline, but the text is discussing an initial hypothesis about word frequency that requires testing, not a condensed statement of\nexisting information.",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "science"
   },
   {
     "id": "e2d13873",
@@ -1697,7 +1796,8 @@ const questionBank_CS = [
     "answer": "D",
     "explanation": "Strategy: Perspective Synthesis\nChoice D is the best answer. According to the author of Text 1, Moore's definition of common sense—things we instinctively know\nare true—includes the belief that we all \"exist in a world with other objects.\" The author of Text 1 describes this notion as both\n\"obvious\" and \"groundbreaking.\"  So it's safe to infer that the author would observe that Moore would respond to external world\nskeptics by arguing that since everyone instinctively knows that things exist outside of their own minds, then external world\nskepticism must be wrong.\nChoice A is incorrect. We can't infer that the author of Text 1 would respond this way to external world skeptics. If anything, the\nauthor of Text 1 seems to agree with Moore. Choice B is incorrect. We can't infer that the author of Text 1 would respond this way\nto external world skeptics. The author of Text 1 never mentions external world skeptics directly, let alone why they have a hard\ntime refuting Moore's position. Choice C is incorrect. We can't infer that the author of Text 1 would respond this way to external\nAssessment\nPSAT/NMSQT &\nPSAT 10\nTest\nReading and Writing\nDomain\nCraft and Structure\nSkill\nCross-Text\nConnections\nDifficulty",
     "strategy": "Perspective Synthesis",
-    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement"
+    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement",
+    "topic": "humanities"
   },
   {
     "id": "17146498",
@@ -1714,7 +1814,8 @@ const questionBank_CS = [
     "answer": "A",
     "explanation": "Strategy: Function Map\nChoice A is the best answer. The text starts by stating what moral philosophy is concerned with and naming two examples of\nworks in the field. Then it describes a shortcoming of some works in that field (they say how but not why), and finally it states that\nother works try to avoid that shortcoming (by including both how and why to live a morally good life).\nChoice B is incorrect. This is too extreme. The text never mentions whether the two works are popular or not, and it never argues\nthat these works don't serve their intended purpose of describing how to live a morally good life. Rather, the text claims that works\nof moral philosophy that don't include both how and why to be moral are not useful to readers who don't already want to be moral.\nChoice C is incorrect. This isn't the overall structure. The text never discusses the history of moral philosophy at all, and it doesn't\npropose any topic for further research. Choice D is incorrect. This isn't the overall structure. The text never discusses which of the\ntwo works is more widely read.",
     "strategy": "Function Map",
-    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch"
+    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch",
+    "topic": "humanities"
   },
   {
     "id": "e28d8e2b",
@@ -1731,7 +1832,8 @@ const questionBank_CS = [
     "answer": "C",
     "explanation": "Strategy: Two-Filter Method\nChoice C is the best answer because it most logically completes the text's discussion of the factors that influence peoples'\ndecisions to move to a different state. As used in this context, \"overshadowed by\" means to be surpassed by or caused to seem\nless important than other factors affecting a move. The text indicates that, according to a US tax policy expert, when people think\nabout an interstate move, state taxes have little effect on their decisions, while employment opportunities, housing availability, and\nclimate have a very strong effect. This context suggests that people consider these other factors to be more important than state\ntaxes. \nChoice A is incorrect because the text indicates that state taxes aren't as important a consideration as other factors when people\nare thinking of moving to another state. The context doesn't suggest that state taxes are \"consistent with,\" or in agreement with\nthese other factors. Choice B is incorrect because it wouldn't make sense in context to say that state taxes are \"representative of,\"\nor typical of, other factors. Taxes aren't an example of employment opportunities, housing availability, and climate, which are the\nother factors listed in the text. Choice D is incorrect because it wouldn't make sense in context to say that state taxes are\n\"irrelevant to,\" or unconnected or unimportant to other factors. State taxes are irrelevant to peoples' decisions, not to other factors.\nIn other words, although the text suggests that state taxes may be irrelevant to people considering a move to another state, the\nother factors mentioned in the text, such as employment opportunities, are unable to have an opinion about state taxes.\nFurthermore, the text indicates that significant differences in state taxes have almost no effect on peoples' choices to move, but\nthey aren't completely unimportant.",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "social"
   },
   {
     "id": "6fae7757",
@@ -1748,7 +1850,8 @@ const questionBank_CS = [
     "answer": "A",
     "explanation": "Strategy: Perspective Synthesis\nChoice A is the best answer. Brierley et al.'s research directly challenges Wright's claim that pastoralism turned the Sahara into a\ndesert, suggesting that, in a Sahara that turned arid 500 years earlier than previously thought, pastoral practices may have actually\n\"preserved vegetation\" rather than depleting it.\nChoice B is incorrect. Brierley et al.'s research actually disputes the idea that any Neolithic peoples' behaviors, including\npastoralism, could have contributed to the Sahara's changing climate. In fact, their research implies that the Neolithic peoples'\npractices did not \"exacerbate aridity\" (i.e., make things worse), but may have slowed environmental changes. Choice C is incorrect.\nBrierley et al.'s research does not acknowledge that pastoralism can have deleterious (i.e., negative) effects on a region's\nvegetation and climate. It only describes one possible beneficial effect: preserving vegetation through practices like selective\ngrazing. Choice D is incorrect. Brierley et al.'s research does not call for more research into factors that likely contributed to the\ndesertification of the Sahara region.",
     "strategy": "Perspective Synthesis",
-    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement"
+    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement",
+    "topic": "science"
   },
   {
     "id": "cdbc0f69",
@@ -1765,7 +1868,8 @@ const questionBank_CS = [
     "answer": "A",
     "explanation": "Strategy: Function Map\nChoice A is the best answer. The text first introduces the album as being a collaboration between Antrobus and Brennan, then\ndescribes the approach taken to produce it, then mentions how critics have said that it calls into question the function of sound.\nChoice B is incorrect. While the text does mention a collection of spoken word poems, it doesn't single out one poem as being\nparticularly noteworthy. Additionally, the text doesn't simply summarize the subject matter—it goes into detail about the content\nand production of the album. Choice C is incorrect. The text doesn't provide biographical information about the two artists, and the\ntext doesn't speculate about the meaning behind the poetry—instead, it relays what some critics have said about the album.\nChoice D is incorrect. The text doesn't provide just an overview of the production techniques used but instead goes into more\ndetail about the content and audio elements of the album, as well as critical response to the album.",
     "strategy": "Function Map",
-    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch"
+    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch",
+    "topic": "humanities"
   },
   {
     "id": "3ca2f8d7",
@@ -1782,7 +1886,8 @@ const questionBank_CS = [
     "answer": "D",
     "explanation": "Strategy: Perspective Synthesis\nChoice D is the best answer because it reflects how the author of Text 1 would most likely respond to Text 2 based on the\ninformation provided. Text 2 discusses how the inconsistent use of credits to identify the contributors to video games can pose an\nobstacle to scholars of the medium, who rely on such credits to answer questions about the medium's development. Text 1 notes\nthat in film and television, on the other hand, credits are used consistently and are valuable to researchers studying the cast and\ncrew members in these mediums. Since Text 1 asserts how the consistent use of credits benefits scholars of film and television, it\ncan be inferred that this text's author would respond to the discussion in Text 2 by observing that the kind of problem faced by\nscholars of video games—the inability to know who contributed to a particular production and how—is, in film and television\nstudies, largely prevented by the widespread practice of credits in these mediums.\nAssessment\nPSAT/NMSQT &\nPSAT 10\nTest\nReading and Writing\nDomain\nCraft and Structure\nSkill\nCross-Text\nConnections\nDifficulty",
     "strategy": "Perspective Synthesis",
-    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement"
+    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement",
+    "topic": "social"
   },
   {
     "id": "9c0c8da4",
@@ -1799,7 +1904,8 @@ const questionBank_CS = [
     "answer": "B",
     "explanation": "Strategy: Two-Filter Method\nChoice B is the best answer. \"Exposure to\" means \"having contact with.\" It makes sense that Prasad and Bainbridge were\ninvestigating whether seeing false versions of images was a cause of false visual memories. Notice how \"exposure to incorrect\nrenditions\" matches the idea of \"familiarity with erroneous versions,\" which appears later in the sentence.\nChoice A is incorrect. \"Compliance with\" means \"going along with a command or directive.\" False versions of images can't give\ncommands or directives, so this doesn't apply. Choice C is incorrect. \"Criteria\" means \"standards by which to judge something.\" It's\nnot clear how people would come to have standards for the wrong version of an image in the first place, let alone how those\nstandards would cause them to falsely remember the correct version. In other words, this choice would result in a confusing,\nunclear sentence. Choice D is incorrect. \"Forfeiture of\" means \"a giving up of something.\" It wouldn't make sense to say that false\nmemories of an image might be caused by giving up the wrong version of the image.",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "social"
   },
   {
     "id": "e65f9b81",
@@ -1816,7 +1922,8 @@ const questionBank_CS = [
     "answer": "C",
     "explanation": "Strategy: Two-Filter Method\nChoice C is the best answer because it most logically completes the text's discussion of the study of female participation in\nhunting among prehistoric peoples. In this context, \"negligible\" means not significant enough to be worth considering. The text\nsays that the study challenged the accepted view of female participation in hunting among prehistoric peoples. The text goes on\nto say that the researchers found that \"in fact, as many as half\" the hunters in the groups studied were female. The phrase \"in fact\"\nestablishes a contrast indicating that the finding that as many as half the hunters were female differs from the accepted view. This\ncontext suggests, then, that the accepted view is that female participation in hunting was negligible. \nChoice A is incorrect because the text indicates that the study challenged the accepted view by showing that as many as half of\nhunters among prehistoric peoples were female, which suggests that the accepted view is that female participation was low, not\nthat female participation was \"inevitable,\" or unavoidable. Nothing in the text suggests that the accepted view is that prehistoric\npeoples could not avoid female participation in hunting. Choice B is incorrect because nothing in the text suggests that the\naccepted view of female participation in hunting among prehistoric peoples is that such participation was \"satisfactory,\" or\nsufficient to meet a requirement or demand. There is no information in the text about any demands or requirements regarding\nfemale participation in hunting, let alone any information about how much female participation in hunting would be enough to\nsatisfy those demands or requirements. Instead, the text indicates that the study challenged the accepted view by showing that as\nmany as half the hunters in the groups studied were female, suggesting that the accepted view is that female participation in\nhunting was low. Choice D is incorrect because the text indicates that the study challenged the accepted view by showing that as\nmany as half of hunters among the prehistoric peoples studied were female, which suggests that the accepted view is that female\nparticipation was low, not that female participation was \"commonplace,\" or ordinary or unremarkable. Although the study under\ndiscussion suggests that female participation may have been commonplace, that study is presented as challenging the accepted\nview, not as reinforcing the accepted view. \nAssessment\nPSAT/NMSQT &\nPSAT 10\nTest\nReading and Writing\nDomain\nCraft and Structure\nSkill\nWords in Context\nDifficulty",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "social"
   },
   {
     "id": "b72d0320",
@@ -1833,7 +1940,8 @@ const questionBank_CS = [
     "answer": "D",
     "explanation": "Strategy: Perspective Synthesis\nChoice D is the best answer. The author of Text 2 acknowledges that nanohybrids may be more toxic than their constituent parts,\nbut also provides an example of a nanohybrid that has reduced toxicity compared to its components: silicon dioxide and zinc oxide\ntogether have all the benefits of zinc oxide nanoparticles without any of the DNA harm zinc oxide has on its own.\nChoice A is incorrect. While the author of Text 2 gives an example of a nanohybrid that isn't as toxic as its constituent parts, they\ndon't argue that the benefit outweighs the risk. They merely argue that \"the effects of nanomaterial conjugation vary by case.\"\nChoice B is incorrect. The author of Text 2 states that the effects of nanomaterial conjugation \"vary by case,\" and that the attention\nthat their potential toxicity has drawn is warranted. If the situation in Text 1 weren't representative, then there would be less\nattention to the potential danger of these materials. Furthermore, neither passage suggests that researchers had expected that\nthey could predict the effects of nanomaterial conjugation. Choice C is incorrect. The author of Text 2 agrees that the potential\ntoxicity of nanohybrids \"has drawn deserved attention,\" so they aren't denying the problem.\nAssessment\nPSAT/NMSQT &\nPSAT 10\nTest\nReading and Writing\nDomain\nCraft and Structure\nSkill\nCross-Text\nConnections\nDifficulty",
     "strategy": "Perspective Synthesis",
-    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement"
+    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement",
+    "topic": "science"
   },
   {
     "id": "19217740",
@@ -1850,7 +1958,8 @@ const questionBank_CS = [
     "answer": "D",
     "explanation": "Strategy: Function Map\nChoice D is the best answer. The text provides an overview of a scholarly work discussing the fashion practices of Black female\nfarmworkers in late 19th- and early 20th-century Texas, and how these practices were influenced by both the fashion ideals of the\ntime and the demands of farmwork.\nChoice A is incorrect. The text never discusses the rate of fashion change among Black female farmworkers. The text also never\ncategorizes Flewellen's findings as \"unexpected.\" Choice B is incorrect. The text actually explains that Black female farmworkers\nwere trying to achieve traditional feminine ideals, not resist them. Choice C is incorrect. The text doesn't evaluate a scholarly work\nbut rather simply describes it. Furthermore, the text is focused on \"agricultural and domestic\" fashion, not urban fashion as this\nchoice suggests.",
     "strategy": "Function Map",
-    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch"
+    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch",
+    "topic": "other"
   },
   {
     "id": "82d80616",
@@ -1867,7 +1976,8 @@ const questionBank_CS = [
     "answer": "D",
     "explanation": "Strategy: Perspective Synthesis\nChoice D is the best answer. Ishii and O'Mahony were trying to isolate the pure umami flavor, while Jünger was trying to recreate\nsoy sauce, which has a mix of flavors that includes umami. Accordingly, the broths from Text 1 are not described as having any\nsoy sauce in them—just \"shiitake mushrooms and kombu seaweed.\" So they probably don't have as much of the dipeptides\ndescribed in Text 2, which were found to be a key part of soy sauce's umami-ness and its saltiness.\nChoice A is incorrect. Neither text supports this. Neither text gets into the diets of people in the United States, nor the diets of\npeople in Japan. Choice B is incorrect. Neither text supports this. Text 2 does talk about the molecular weights of chemical\ncompounds, but there isn't enough information provided about molecular weights in Text 1 to make an inference about what the\nscientists in Text 1 would say. Choice C is incorrect. Neither text supports this. Text 1 briefly mentions that soy sauce is \"made\nAssessment\nPSAT/NMSQT &\nPSAT 10\nTest\nReading and Writing\nDomain\nCraft and Structure\nSkill\nCross-Text\nConnections\nDifficulty",
     "strategy": "Perspective Synthesis",
-    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement"
+    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement",
+    "topic": "science"
   },
   {
     "id": "1ff56d95",
@@ -1884,7 +1994,8 @@ const questionBank_CS = [
     "answer": "C",
     "explanation": "Strategy: Function Map\nChoice C is the best answer because it most accurately describes the main purpose of the text. The text describes two types of\nlibraries in first-century BCE Rome—private libraries controlled by wealthy individuals, and the public libraries like that\ncommissioned by Emperor Augustus—and then notes that \"these two traditions aren't as distinct as they seem.\" It explains that\nboth private-library owners and the emperor saw their libraries as \"extensions of their personal patronage, just on vastly differing\nscales,\" because the emperor's patronage extended to the whole citizenry of Rome. Thus, both private and public libraries in\nancient Rome were fundamentally tied to relevant principles of patronage.\nChoice A is incorrect because the text mentions that Rome's republican period only to say that it \"ended in the first century BCE,\"\nthus it doesn't support any conclusions about possible occurrences \"throughout Rome's republican period.\" Choice B is incorrect.\nThe text neither discusses \"early imperial leaders in Rome,\" nor whether their level of influence was appropriate. Rather it\ndiscusses the end of \"Rome's republican period\" in relation to libraries, who created them, and who got to use them without\npassing judgment on propriety. Choice D is incorrect. Although the text indicates that Rome's republican period \"ended in the first\ncentury BCE,\" a period that also saw the first public library come into use (28 BCE), nothing in the text suggests that private\nlibraries disappeared at that time.",
     "strategy": "Function Map",
-    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch"
+    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch",
+    "topic": "social"
   },
   {
     "id": "16e2ce52",
@@ -1901,7 +2012,8 @@ const questionBank_CS = [
     "answer": "C",
     "explanation": "Strategy: Two-Filter Method\nChoice C is the best answer because it most logically completes the text's discussion of the kinds of mammals alive during the\nMesozoic era. As used in this context, \"diverse\" means to have a significant amount of variety. The text indicates that some\nscientists have suggested that Mesozoic mammals can't be characterized in a certain way, then contrasts the view put forward by\nthose scientists with Luo's research, which shows that Mesozoic mammals \"weren't all ground-dwelling insectivores\" and instead\nwere \"various.\" This context suggests that some scientists have viewed Mesozoic mammals as being all alike, or not a very\ndiverse group. \nChoice A is incorrect because it wouldn't make sense to say that some scientists have suggested that Mesozoic mammals weren't\nvery \"predatory,\" or that they didn't prey on other animals, since the text establishes a contrast between what some scientists have\nsuggested and Luo's research showing that Mesozoic mammals \"weren't all ground-dwelling insectivores.\" This context suggests\nthat some scientists have regarded Mesozoic mammals as all being insectivores, or animals that prey on insects, not that some\nscientists have suggested that Mesozoic mammals didn't prey on other animals. Choice B is incorrect because it wouldn't make\nsense to say that some scientists have suggested that Mesozoic mammals weren't very \"obscure,\" or concealed or not well known,\nsince the text establishes a contrast between what some scientists have suggested and Luo's research showing that Mesozoic\nmammals were a varied group. There's no contrast between saying that the mammals weren't concealed or well known and the\nmammals being varied. Choice D is incorrect because it wouldn't make sense to say that some scientists have suggested that\nMesozoic mammals weren't very \"localized,\" or confined to a particular area, since the text establishes a contrast between what\nsome scientists have suggested and Luo's research showing that Mesozoic mammals were a varied group. There's no contrast\nbetween saying that the mammals weren't localized and the mammals being varied. Although the text mentions mammal fossils\nfound in China, nothing in the discussion of Luo's research addresses the limits of Mesozoic mammal habitats.",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "science"
   },
   {
     "id": "dfd5ee27",
@@ -1918,7 +2030,8 @@ const questionBank_CS = [
     "answer": "B",
     "explanation": "Strategy: Two-Filter Method\nChoice B is the best answer because it most logically completes the text's discussion of Hegel's works. In this context, \"opaque\"\nmeans difficult to understand or unclear. The text creates a contrast between the initial impression given by Hegel's works and\ntheir influence and insight, noting that readers must \"penetrate Hegel's frustratingly dense prose\" to access his important ideas.\nThis context clearly establishes that Hegel's writing is initially challenging to comprehend, or opaque.\nChoice A is incorrect because \"authoritative\" means influential or clearly accurate. Hegel's works may be authoritative, but it\nwouldn't make logical sense in context to say that although his works seem authoritative, they have been influential. Instead, the\ntext focuses on the fact that Hegel's works are challenging to read, but that working through the dense prose can be rewarding.\nChoice C is incorrect because referring to Hegel's works as \"empirical,\" which means factual or verifiable, would suggest that they\nare based on observation or experience rather than theory. The text, however, doesn't address this aspect of Hegel's philosophy.\nInstead, it focuses on the difficulty of understanding his writing. Choice D is incorrect because describing Hegel's works as \"facile,\"\nwhich means superficial or simplistic, would directly contradict the text's characterization of his writing as \"frustratingly dense\"\nand requiring effort to understand.",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "humanities"
   },
   {
     "id": "5d2fe389",
@@ -1935,7 +2048,8 @@ const questionBank_CS = [
     "answer": "D",
     "explanation": "Strategy: Perspective Synthesis\nChoice D is the best answer because it accurately describes how the author of Text 2 would most likely respond to the underlined\nclaim in Text 1. Text 1 indicates that Storey found a genetic mutation in South American chickens from before the European\ninvasion and in Polynesian chickens, which implies that chickens were first brought to South America by Polynesian people. Text 2\nexplains that the genetic mutation Storey found is in chickens from all over the world, thus undercutting the mutation as evidence\nof a Polynesian origin. However, Text 2 goes on to say \"[m]ore recently\" Luzuriaga-Neira and colleagues found multiple genetic\nmarkers shared by South American and Polynesian chickens but \"that European breeds lack,\" which strongly suggests a\nPolynesian origin for the South American chickens. This indicates that the author of Text 2 believes Luzuriaga-Neira's evidence for\na Polynesian origin is compelling while Storey's evidence has been undermined. Thus, the author of Text 2 would most likely agree\nAssessment\nPSAT/NMSQT &\nPSAT 10\nTest\nReading and Writing\nDomain\nCraft and Structure\nSkill\nCross-Text\nConnections\nDifficulty",
     "strategy": "Perspective Synthesis",
-    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement"
+    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement",
+    "topic": "science"
   },
   {
     "id": "0094f813",
@@ -1952,7 +2066,8 @@ const questionBank_CS = [
     "answer": "A",
     "explanation": "Strategy: Two-Filter Method\nChoice A is the best answer. The expression \"reconcile to\" means \"to cause (a person) to accept something difficult or\ndisagreeable.\" The text suggests that John wants his mother to accept his desire to travel, even though she doesn't like that idea.\nChoice B is incorrect. This doesn't make sense. John doesn't want his mother to apologize for his own desire to travel—he wants\nher to accept his desire to travel. Choice C is incorrect. The text doesn't suggest that John wants his mother to match his desire to\ntravel. Rather, he wants her to accept his desire to travel even though she doesn't like it. Choice D is incorrect. This is tempting,\nbecause it seems to pick up on the idea of people \"reconciling\" after a fight, but it actually doesn't make sense. The text never\nsuggests that John's mother was \"united with\" the idea of him traveling in the past—if anything, it seems like she's always been\nagainst it. Besides, it would be strange to say that a person \"reunites with\" a notion.",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "other"
   },
   {
     "id": "3cd6524f",
@@ -1969,7 +2084,8 @@ const questionBank_CS = [
     "answer": "C",
     "explanation": "Strategy: Function Map\nChoice C is the best answer. The text does indeed present Mukerjee's critique of the social sciences—that they were too\nEurocentric—and then provides an example of how he attempted to address the issues he identified: by suggesting a social\nscience model based on the Indian village.\nChoice A is incorrect. The text doesn't discuss Mukerjee's early training or his oversight of the implementation of social policies at\nall. Choice B is incorrect. The text never discusses any other Indian social scientists. Choice D is incorrect. The text never\nmentions other social scientists' responses to Mukerjee's work.",
     "strategy": "Function Map",
-    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch"
+    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch",
+    "topic": "social"
   },
   {
     "id": "0252e6a1",
@@ -1986,7 +2102,8 @@ const questionBank_CS = [
     "answer": "B",
     "explanation": "Strategy: Two-Filter Method\nChoice B is the best answer because it most logically completes the text's discussion of residential mobility decisions. In this\ncontext, \"mediated by\" means influenced or affected by something. The text establishes that increasing household spending\npower (an economic factor) produced \"mixed effects\" on mobility decisions. The text then explains that residential choices are\n\"not fully reducible to economic factors,\" which means that these decisions don't simply rely on how much money is available to\nspend on a residential move but on other factors as well. According to the text, noneconomic considerations, such as access to\nsocial networks, also play a significant role. Thus, \"mediated by\" accurately captures this relationship where noneconomic factors\ninfluence what might otherwise be purely economic decisions.\nChoice A is incorrect because \"transposed with\" would suggest that economic and noneconomic factors are being switched or\ninterchanged when making residential mobility decisions, which wouldn't make logical sense in this context. The text indicates\nthat these factors coexist and jointly influence such decisions. Choice C is incorrect. The phrase \"decoupled from\" means\nseparated or disconnected from, which would suggest that economic factors are completely separate from noneconomic factors.\nThis would contradict the text's main point that residential mobility decisions involve multiple factors being considered\nsimultaneously rather than in isolation. Choice D is incorrect because \"antecedent to,\" which means something prior or earlier,\nwould indicate that noneconomic factors come before economic ones in time or sequence. The text doesn't establish this\nchronological relationship. Instead, the text indicates that economic factors (household spending power) and noneconomic\nfactors (access to social networks) simultaneously influence residential mobility decisions.",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "social"
   },
   {
     "id": "3dcdd94f",
@@ -2003,7 +2120,8 @@ const questionBank_CS = [
     "answer": "D",
     "explanation": "Strategy: Perspective Synthesis\nChoice D is the best answer. Lacadena's theory is that Nahuatl script symbols signified syllables, but the consensus described in\nText 2 is that they can signify either symbols or full words, depending on the context. So the author of Text 2 would likely consider\nLacadena's theory too simplistic: it's missing the importance of the context in determining the meaning of a symbol.\nChoice A is incorrect. This conflicts with Text 1's description of Lacadena's theory. Lacadena's theory is that Nahuatl script\nsymbols signified syllables. Choice B is incorrect. This conflicts with Text 1's description of Lacadena's theory. Text 1 states that\nLacadena's theory differed from what earlier scholars believed. Choice C is incorrect. We can't infer that this is how the author of\nText 2 would characterize Lacadena's theory. Neither text mentions how or even if the script changed over time.",
     "strategy": "Perspective Synthesis",
-    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement"
+    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement",
+    "topic": "humanities"
   },
   {
     "id": "b2bd1f67",
@@ -2020,7 +2138,8 @@ const questionBank_CS = [
     "answer": "A",
     "explanation": "Strategy: Two-Filter Method\nChoice A is the best answer. \"Negating\" means \"reversing\" or \"making invalid.\" Proving that Vermeer worked with students would\nreverse the view of him as a solitary artist.\nChoice B is incorrect. \"Prefiguring\" means \"being an early indicator of.\" There already existed views of Vermeer as a solitary painter,\nso a new painting would not be an early indicator of those views. Rather, a painting proving that Vermeer had a student would\ncontradict those earlier views. Choice C is incorrect. \"Entrenching\" means \"solidifying.\" A painting proving that Vermeer had a\nstudent would not solidify views of him as solitary, but would rather contradict those views. Choice D is incorrect. \"Substantiating\"\nmeans \"supporting with proof.\" A painting proving that Vermeer had a student would not support views of him as solitary, but\nwould rather contradict those views.",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "social"
   },
   {
     "id": "733d2605",
@@ -2037,7 +2156,8 @@ const questionBank_CS = [
     "answer": "D",
     "explanation": "Strategy: Function Map\nChoice D is the best answer because it best describes the overall structure of the text. The first part of the text presents the\nfavorable opinions that others hold of Mr. Ely: the laity of Milby regard him as having \"remarkable powers and learning\" and\nassume that he also impresses people in London, while his fellow clergy see him as \"a discreet and agreeable fellow.\" The text\nthen goes on to describe Mr. Ely's behaviors that enable him to cultivate and preserve his positive reputation. The text conveys that\nhe avoids confrontations, abstaining from \"warm discussion[s]\" (that is, heated or contentious ones); that he avoids offending\nanyone by \"rarely [saying] what he thought himself\" and by refraining from openly ridiculing anyone; and that he doesn't give\nanyone any reason to ridicule or belittle his own character (\"he never gave any one an opportunity of laughing at him\"). In other\nwords, these are all behaviors that suggest that Mr. Ely avoids doing anything that might make people dislike him or think poorly of\nhim. Thus, the text begins by presenting the favorable view that people have of Mr. Ely and then describes the behaviors that\nenable him to maintain that favorable view.\nChoice A is incorrect because the text doesn't describe any events that caused people's regard for Mr. Ely to diminish. Instead, the\ntext explains that the people of Milby hold him in high regard and describes behaviors that suggest how he cultivates that regard.\nChoice B is incorrect because the text doesn't suggest that Mr. Ely's neighbors are more naïve than Londoners are or that they've\nAssessment\nPSAT/NMSQT &\nPSAT 10\nTest\nReading and Writing\nDomain\nCraft and Structure\nSkill\nText Structure and\nPurpose\nDifficulty",
     "strategy": "Function Map",
-    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch"
+    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch",
+    "topic": "social"
   },
   {
     "id": "e19a5d1f",
@@ -2054,7 +2174,8 @@ const questionBank_CS = [
     "answer": "B",
     "explanation": "Strategy: Perspective Synthesis\nChoice B is the best answer. Author 1 describes the puzzle that physicists still can't solve: at a microscopic level, the \"laws of\nphysics\" suggest that we should be able to reverse processes that are not reversible at a macroscopic level (and, maybe, turn back\ntime!). The experiment confirmed that those processes are not reversible even on the microscopic level, but it didn't explain why.\nThis supports Author 1's point that physicists still don't fully understand how things work at a microscopic level—maybe the laws\nneed to be revised.\nChoice A is incorrect. We can't infer that the author of Text 1 would respond this way to the experiment. Text 2 does name two of\nthe physicists involved in the experiment, but it never suggests that they disagree on anything. Choice C is incorrect. This is the\nopposite of what the experiment suggests. The experiment confirmed that the macroscopic-level law (\"these things can't be\nreversed—like time\") was still true on the microscopic level—meaning it supports the current understanding of physics at a\nAssessment\nPSAT/NMSQT &\nPSAT 10\nTest\nReading and Writing\nDomain\nCraft and Structure\nSkill\nCross-Text\nConnections\nDifficulty",
     "strategy": "Perspective Synthesis",
-    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement"
+    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement",
+    "topic": "science"
   },
   {
     "id": "1e7c4c03",
@@ -2071,7 +2192,8 @@ const questionBank_CS = [
     "answer": "B",
     "explanation": "Strategy: Perspective Synthesis\nChoice B is the best answer. Both texts are critical of The Guns of August, but for different reasons: the author of Text 1 argues\nthat Tuchman missed an important factor leading up to the war because she didn't consult secondary sources, and the author of\nText 2 argues that Tuchman's main thesis is \"reductive,\" which is a close synonym for \"overly simplistic.\"\nChoice A is incorrect. This doesn't accurately describe the difference. This choice's summary of Text 1 is accurate, but Text 2 never\nsays that Tuchman's most interesting claims result from her original research. Choice C is incorrect. This doesn't accurately\ndescribe the difference. Text 1 never says that The Guns of August is worthwhile to read despite its research weaknesses. Text 2\ndoes call out a weakness of Tuchman's interpretation of events, but it also praises her analysis of primary sources. Choice D is\nincorrect. This doesn't accurately describe the difference. Text 1 actually says that Tuchman \"fails to address\" the influence of\nAssessment\nPSAT/NMSQT &\nPSAT 10\nTest\nReading and Writing\nDomain\nCraft and Structure\nSkill\nCross-Text\nConnections\nDifficulty",
     "strategy": "Perspective Synthesis",
-    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement"
+    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement",
+    "topic": "social"
   },
   {
     "id": "0c61d9c0",
@@ -2088,7 +2210,8 @@ const questionBank_CS = [
     "answer": "B",
     "explanation": "Strategy: Function Map\nChoice B is the best answer. The text starts with a general statement that introduces Shannon, then describes a specific\ncontribution from one of his papers, then provides a quote that illustrates just how important this contribution was.\nChoice A is incorrect. This isn't the overall structure. The text only mentions very briefly, in parentheses, that \"binary digit\" was\nshortened to \"bit.\" It doesn't go into detail about this name change, and it doesn't discuss any \"common usage\" of the name at all.\nChoice C is incorrect. This isn't the overall structure. Shannon's employment at Bell Labs is only mentioned once, very briefly: the\ntext never goes into detail about his career there, and it never mentions any recognition he received there. Choice D is incorrect.\nThis is too narrow. Overall, the text is about Shannon's importance in his field, not just this one paper of his.",
     "strategy": "Function Map",
-    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch"
+    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch",
+    "topic": "other"
   },
   {
     "id": "c51b865d",
@@ -2105,7 +2228,8 @@ const questionBank_CS = [
     "answer": "C",
     "explanation": "Strategy: Function Map\nChoice C is the best answer because it most accurately states the main purpose of the text, which is to convey the speaker's\nlonging for the ocean to impart a sense of inner tranquility, or peace. The text begins by expressing the speaker's strong desire to\nbe on the ocean, appealing directly to the waves to rock the speaker to sleep. The poem then describes the \"slumberous lullaby\"\nformed by the sound of the waves and the winds on which the speaker wishes to be carried \"gently...between a peaceful sea and\nsky.\" All these details serve to emphasize the speaker's desire for the ocean to give them a sense of inner tranquility.\nChoice A is incorrect. Given the poem's expression of a longing to achieve tranquility by drifting on the ocean, it can be inferred\nthat the speaker desires to escape something unpleasant in daily life. However, the poem doesn't refer directly to any such\nhardship—ongoing or otherwise. And since the poem doesn't establish that the speaker is experiencing a desire to escape ongoing\nhardship, it can't be said that such a desire increases in intensity. Choice B is incorrect. The speaker does express a desire for the\nserenity of being rocked to sleep by the ocean, and it can be inferred that this desire is a response to demands that make the\nspeaker's daily life stressful. However, the poem doesn't refer directly to such demands or contrast them with the tranquility of\ndrifting on the ocean. Choice D is incorrect because the text doesn't suggest the speaker has any qualms, or reservations, about\nbeing transported by the ocean. On the contrary, the speaker actively desires to \"drift far out\" and be carried by the waves and\nwind. Moreover, the poem doesn't suggest that this drifting would have any particular destination.\nAssessment\nPSAT/NMSQT &\nPSAT 10\nTest\nReading and Writing\nDomain\nCraft and Structure\nSkill\nText Structure and\nPurpose\nDifficulty",
     "strategy": "Function Map",
-    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch"
+    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch",
+    "topic": "humanities"
   },
   {
     "id": "3f9c1be4",
@@ -2122,7 +2246,8 @@ const questionBank_CS = [
     "answer": "C",
     "explanation": "Strategy: Two-Filter Method\nChoice C is the best answer because as used in the text, \"contracted\" most nearly means developed. The text explains that Mr.\nBrooke has a \"too rambling habit of mind,\" which the text likens to a disease, saying he is thought to have contracted it. To contract\na disease means to acquire or develop a disease. In other words, the text indicates that Mr. Brooke is believed to have acquired, or\ndeveloped, the habit of mind described in the text.\nChoice A is incorrect. Although \"contracted\" can mean limited or restricted in some contexts, here Mr. Brooke is said to draw\nunpredictable conclusions, suggesting that he exhibits this \"too rambling habit of mind,\" not that it has been somehow limited or\nrestricted. Choice B is incorrect. Although the text describes Mr. Brooke's habit of mind, nothing suggests that those are his\ndescriptions or, indeed, that he described his habit of mind at all. Choice D is incorrect because settled means calmed or\nmitigated, but here Mr. Brooke is said to draw unpredictable conclusions, suggesting that he exhibits this \"too rambling habit of\nmind,\" not that it has been somehow calmed or mitigated.",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "humanities"
   },
   {
     "id": "2a6209ef",
@@ -2139,7 +2264,8 @@ const questionBank_CS = [
     "answer": "C",
     "explanation": "Strategy: Two-Filter Method\nChoice C is the best answer because it most logically completes the text's discussion of research on income inequality in the\n2010s. In this context, \"mitigate\" means to make less severe or reduce the negative effects of something. The text first identifies a\nshortcoming in the research: a \"myopic focus on a few countries\" despite claims of \"global relevance.\" The text then explains that\nresearchers later gained access to new data from previously excluded regions (Africa and Eastern Europe). This context supports\nthe idea that with these new data, researchers would be able to reduce, or mitigate, the identified shortcoming by incorporating a\nbroader range of geographic regions into their studies of income inequality.\nChoice A is incorrect because in this context, \"presuppose\" would mean to assume in advance that something is true, and it\nwouldn't make logical sense to say that researchers later assumed as true in advance a shortcoming they had already\nencountered. Choice B is incorrect because in this context, \"categorize\" would mean to classify or place into groups. The text\nindicates that researchers did something about the shortcoming that characterized research on income inequality in the 2010s—\nlimited geographic scope—after they gained access to new data from previously excluded regions. Categorizing a shortcoming\ndoesn't require access to or analysis of new data; it could be done without any new information, but by analyzing new data,\nresearchers went beyond merely categorizing the shortcoming and instead took action to address it. Choice D is incorrect\nbecause in this context, \"validate\" would mean to confirm or substantiate something. The text indicates that researchers did\nsomething about a known shortcoming of research on income inequality in the 2010s—limited geographic scope—after they\ngained access to new data from previously excluded regions. Confirming an already known shortcoming doesn't require access to\nor analysis of new data; it could be done without any new information, but by analyzing new data, researchers went beyond merely\nvalidating the shortcoming and instead took action to make the shortcoming less severe.",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "social"
   },
   {
     "id": "c93c43dc",
@@ -2156,7 +2282,8 @@ const questionBank_CS = [
     "answer": "D",
     "explanation": "Strategy: Function Map\nChoice D is the best answer. The text describes an experiment wherein space scientists compared plant growth in terrestrial and\nlunar soil conditions. It then discusses the findings of the study, including the fact that all the seeds germinated but that the plants\ngrown in lunar soil exhibited signs of stress.\nChoice A is incorrect. The text doesn't address this question, and never describes any specific characteristics of either soil. It\nmerely describes the outcome of an experiment that exposed a plant species to lunar soil conditions. Choice B is incorrect. The\ntext never compares methods of assessing indicators of stress—instead, it simply mentions several stress indicators observed in\nthe study (red pigmentation, reduced leaf size, and inhibited growth rates). Choice C is incorrect. The text doesn't present any\nevidence that we could never achieve seed germination in lunar habitats, and in fact states that the seeds in the lunar soil did\ngerminate.",
     "strategy": "Function Map",
-    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch"
+    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch",
+    "topic": "science"
   },
   {
     "id": "8a991dc8",
@@ -2173,7 +2300,8 @@ const questionBank_CS = [
     "answer": "B",
     "explanation": "Strategy: Function Map\nChoice B is the best answer. The text begins by stating a problem with research on the status of Choctaw women in the 1600s and\n1700s: written primary sources underestimate the power they had in their traditional roles. Then it presents one historian's\nsolution: looking to oral tradition and archeological findings for more insight into these roles.\nChoice A is incorrect. This isn't the overall structure. The text never says that research should avoid written primary sources, just\nthat research should also use oral tradition and archeological sites as sources. Choice C is incorrect. This isn't the overall\nstructure. The text never mentions the advantages of using written primary sources. Choice D is incorrect. This isn't the overall\nstructure. The text never says that the status of Choctaw women during the 1600s and 1700s is too challenging to research. And it\ndoesn't mention any other topics to research instead.",
     "strategy": "Function Map",
-    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch"
+    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch",
+    "topic": "humanities"
   },
   {
     "id": "697dcd7e",
@@ -2190,7 +2318,8 @@ const questionBank_CS = [
     "answer": "C",
     "explanation": "Strategy: Two-Filter Method\nChoice C is the best answer because as used in the text, \"endure\" most nearly means tolerate. In the text, Cecily and Algernon\ndiscuss parting, or saying goodbye. Cecily remarks on the deep pain of saying goodbye to people whom one has only known\nbriefly and then comments on the equanimity, or calm steadiness, one experiences when separated from old friends. The text sets\nup an ironic contrast: one can easily tolerate, or put up with, the absence of close friends, but even a very short separation from a\nnew acquaintance is unbearable.\nChoice A is incorrect. Nothing in the text suggests that Cecily associates regret, or a feeling of sorrow, with the absence of old\nfriends. Rather, the text sets up an ironic contrast between the feeling of calm steadiness one feels when separated from old\nfriends and the unbearable pain of being separated from new acquaintances. Choice B is incorrect. Although in some contexts\n\"endure\" can mean persist, or proceed stubbornly, it doesn't have that meaning in this context because what is being endured is\nthe absence of old friends. Whereas one can persist despite the absence of someone else, one can't persist the absence itself.\nChoice D is incorrect because the text doesn't convey that Cecily encourages, or urges, old friends to be absent. Although it may\nbe that Cecily prefers new acquaintances to friends she has known for a long time, the text focuses on her feelings as a result of\nothers' absences, not on her treatment of others.",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "other"
   },
   {
     "id": "8ece0047",
@@ -2207,7 +2336,8 @@ const questionBank_CS = [
     "answer": "D",
     "explanation": "Strategy: Function Map\nChoice D is the best answer. The text defines horizontal gene transfer and then gives one possibility for how it happens in\nvertebrates (via infection by parasites). The underlined part describes how that mechanism could work.\nChoice A is incorrect. The underlined portion doesn't do this.  Parasites are only described as the mechanism that does the\ntransferring, not the species that gives or receives the genes. Choice B is incorrect. The underlined portion doesn't do this.  The\ntext never discusses which genes are more likely to be transferred. Choice C is incorrect. The underlined portion doesn't do this.\n The text never discusses how horizontal gene transfer occurs among invertebrates.",
     "strategy": "Function Map",
-    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch"
+    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch",
+    "topic": "science"
   },
   {
     "id": "5888a6f4",
@@ -2224,7 +2354,8 @@ const questionBank_CS = [
     "answer": "B",
     "explanation": "Strategy: Two-Filter Method\nChoice B is the best answer because it most logically completes the text's discussion of the significance of the 2014\narchaeological finding at El Algar. In this context, \"concede\" means to admit something is true after first resisting that admission.\nThe text indicates that some researchers believe \"Bronze Age societies were ruled by men.\" But the Bronze Age burial of a woman\nat El Algar included \"valuable objects signaling a high position of power,\" which would raise the possibility that \"women may have\nalso held leadership roles.\" Thus, the text is calling into question the notion that only men were leaders in these societies and\nspeculating that people holding this view may reconsider their opinion.\nChoice A is incorrect because \"waive\" means to refrain from insisting that something, such as a right or a requirement, be\nobserved; the word isn't used, however, in contexts where someone acknowledges that an opinion they hold may be invalid, as is\nthe case in the text. Choice C is incorrect. According to the text, the finding from the El Algar burial site undermines the view that\nBronze Age societies were exclusively ruled by men. However, \"refute\" means to demonstrate that something is false and would\nnot make sense in context. Lull and team's finding supports the view that women may have also held leadership roles, not that\nthey did not participate in such roles. Choice D is incorrect because in this context, \"require\" means to demand or specify as\nmandatory. However, it would not make sense for contemporary researchers to demand that Bronze Age \"women may have also\nheld leadership roles.\"",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "social"
   },
   {
     "id": "e70d7578",
@@ -2241,7 +2372,8 @@ const questionBank_CS = [
     "answer": "C",
     "explanation": "Strategy: Perspective Synthesis\nChoice C is the best answer. Text 2 states that the researchers used cosmogenic nuclide dating to \"avoid the potential for\nmisdating\" caused by the geology of Sterkfontein, which Text 1 describes as \"challenging\" and unreliable.\nChoice A is incorrect. Neither text suggests that the A. africanus fossils have been \"corrupted,\" but only that traditional dating\nmethods are difficult in Sterkfontein because of floods and soil mixing where the fossils were found. Nothing is implied to have\ncompromised the fossils themselves. Choice B is incorrect. This choice misreads Text 2. Text 2 agrees that stratigraphy and other\nmethods are prone to error in the context of Sterkfontein: there's a \"potential for misdating\" when evaluating age based on soil\nlayers and bones. Choice D is incorrect. Text 2 does not state that cosmogenic nuclide dating is applied to the fossils directly but\nrather to the breccia that surrounds them.",
     "strategy": "Perspective Synthesis",
-    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement"
+    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement",
+    "topic": "science"
   },
   {
     "id": "d10ee7a0",
@@ -2258,7 +2390,8 @@ const questionBank_CS = [
     "answer": "B",
     "explanation": "Strategy: Two-Filter Method\nChoice B is the best answer because it most logically completes the text's description of efforts to explain the existence of planets\nin binary star systems. As used in this context, describing an explanation as \"a straightforward\" one would mean that the\nexplanation is direct and uncomplicated. The text asserts that since it should be \"nearly impossible\" for planets to form in binary\nstar systems, it's \"not surprising\" that there isn't a straightforward explanation for the existence of planets in such systems; the\nfact that one potential approach involves \"complex\" factors offers further contextual support for this idea.\nChoice A is incorrect because it would not make sense in context to say that there isn't \"a discernible\" explanation—meaning an\nexplanation capable of being perceived—for the existence of planets in binary star systems. The text discusses just such an\nexplanation offered by Roman Rafikov and Kedron Silsbee, which indicates that their explanation can be discerned. Choice C is\nincorrect because the text emphasizes how difficult it is to explain the existence of planets in binary star systems, suggesting that\nthe situation isn't marked by the lack of \"an inconclusive\" explanation—an explanation that does not resolve the issue—but rather\nthat if any explanations have been offered, they've likely been inconclusive ones. Choice D is incorrect because nothing in the text\nsuggests that there is a lack of \"an unbiased,\" or impartial and unprejudiced, explanation for the existence of planets in binary star\nsystems. The text indicates that it's difficult to explain the existence of planets in such systems and it describes one attempt to do\nso, but there is no evidence that explanations from Roman Rafikov and Kedron Silsbee or others are biased.",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "science"
   },
   {
     "id": "4531fbbf",
@@ -2275,7 +2408,8 @@ const questionBank_CS = [
     "answer": "C",
     "explanation": "Strategy: Two-Filter Method\nChoice C is the best answer. We're told that charities that pay donors back for nuisance costs will attract a few large donors\ninstead of many small donors. This suggests that nuisance costs are not linked to donation size.\nChoice A is incorrect. This doesn't fit the logic of the text. If nuisance costs are supplemental to (meaning in addition to) donation\nsize, that wouldn't result in charities that compensate donors for those costs attracting a few large donors over many small\ndonors. Choice B is incorrect. This doesn't fit the logic of the text. If nuisance costs can predict donation size, that wouldn't\nnecessarily result in charities that compensate donors for those costs attracting a few large donors over many small donors.\nChoice D is incorrect. This doesn't fit the logic of the text. If nuisance costs are subsumed in (meaning included in) donation size,\nthat wouldn't result in charities that compensate donors for those costs attracting a few large donors over many small donors.",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "social"
   },
   {
     "id": "d60bc86d",
@@ -2292,7 +2426,8 @@ const questionBank_CS = [
     "answer": "D",
     "explanation": "Strategy: Function Map\nChoice D is the best answer because it most accurately describes the main purpose of the text. The text notes that although some\nstudies have suggested that posture may have an effect on cognition, this phenomenon should not be overstated. In other words,\nthe text begins by urging caution and restraint when discussing the effects of posture on cognition, implying that even though\nsome studies have shown posture to affect cognition, we should not assume that posture always affects cognition or does so in a\nstrong way. The text goes on to discuss O'Brien and Ahmed's study as a \"case in point\" (that is, as an example of the point made\npreviously). According to the text, O'Brien and Ahmed hypothesized that since standing is more cognitively demanding than sitting,\nstanding subjects in their experiment would respond differently to decision-making tasks than sitting subjects would, which would\nshow an effect of posture on cognition. What the researchers actually found, however, was that the standing and sitting subjects\nperformed the same—posture did not affect cognition. By presenting a circumstance in which posture does not appear to affect\ncognition, the discussion of O'Brien and Ahmed's study shows why it is important not to overstate the phenomenon. The purpose\nof the text, therefore, is to discuss O'Brien and Ahmed's study to illustrate why caution is needed when making claims about\nposture's effects on cognition.\nChoice A is incorrect because the text discusses O'Brien and Ahmed's study as an example of why caution is needed when\ndiscussing posture's effects on cognition, not as an example of how research findings related to posture and cognition are often\nmisunderstood. Although the text does warn against misunderstanding the scope of the relationship between posture and\nAssessment\nPSAT/NMSQT &\nPSAT 10\nTest\nReading and Writing\nDomain\nCraft and Structure\nSkill\nText Structure and\nPurpose\nDifficulty",
     "strategy": "Function Map",
-    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch"
+    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch",
+    "topic": "social"
   },
   {
     "id": "9492c926",
@@ -2309,7 +2444,8 @@ const questionBank_CS = [
     "answer": "A",
     "explanation": "Strategy: Function Map\nChoice A is the best answer. The underline phrase qualifies (meaning adds limits or conditions to) the description of Mr. Verloc as\n\"steady like a rock,\" adding that he is a \"soft\" rock.\nChoice B is incorrect. In fact, the passage never mentions Mr. Verloc experiencing any internal struggles. Choice C is incorrect. The\nunderlined phrase doesn't contrast Mr. Verloc with his surroundings, but is instead modifying the description of him as a rock.\nChoice D is incorrect. The underlined phrase doesn't reveal a private opinion Mr. Verloc holds: instead, it further describes his\ncharacter for the reader.",
     "strategy": "Function Map",
-    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch"
+    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch",
+    "topic": "humanities"
   },
   {
     "id": "df9f6fc6",
@@ -2326,7 +2462,8 @@ const questionBank_CS = [
     "answer": "A",
     "explanation": "Strategy: Two-Filter Method\nChoice A is the best answer because it most logically completes the text's discussion of driver attitudes toward a toll increase. In\nthis context, \"receptive to\" would mean open to or willing to consider something. The text focuses on drivers who think the current\ntoll for the Lewis and Clark Bridge is too high, suggesting that advocates for increasing that toll would have better success\npresenting their arguments to \"a more persuadable segment of the population\" rather than to those drivers. This context suggests\nthat the drivers who strongly believe the toll is already too high are not persuadable—that is, that they are unlikely to be willing to\nconsider the toll-increase proposal.\nChoice B is incorrect because \"apprised of\" means informed about or made aware of something, and nothing in the text suggests\nthat the drivers who think a toll is already too high wouldn't be informed of a proposal for an even higher toll; in fact, the text\nimplies that advocates of the proposal would \"direct their arguments\" in favor of the increase to those drivers, even though they\nwould likely be more successful focusing on people who are more open to hearing their arguments. Choice C is incorrect. In this\ncontext, \"incensed by\" would mean angered or outraged by something. The text focuses on drivers who feel that a current toll is\ntoo high, and it wouldn't make sense to suggest that those drivers would be unlikely to be angered by a proposal for the toll to be\nincreased; indeed, drivers who think the toll is already too high likely would be angered by a move to raise it even higher. Choice D\nis incorrect. In this context, \"cited in\" would mean referred to or mentioned in something. Although it's reasonable to suggest that a\nproposal to raise a toll might not make any mention of drivers who think the toll is already too high, the text focuses on how those\ndrivers and other people are likely to react to arguments in favor of the proposal, not on whether those drivers would be cited in the\nproposal itself.",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "social"
   },
   {
     "id": "fb54c4a0",
@@ -2343,7 +2480,8 @@ const questionBank_CS = [
     "answer": "C",
     "explanation": "Strategy: Perspective Synthesis\nChoice C is the best answer because it reflects how the author of Text 2 would most likely respond to the assessment of Orlando\nin Text 1. Both authors agree that Orlando is unusual for Woolf: Text 1 states that the novel examines its characters' psychologies\nmore superficially than Woolf's other novels do, and Text 2 describes it as being lighter in tone. However, while Text 1 calls Orlando\nan \"oddity\" and mentions that Woolf \"began it as a joke,\" Text 2 asserts that Orlando engages the same themes as Woolf's other\ngreat novels. Hence, the author of Text 2 would most likely accept that Orlando differs from Woolf's other novels but would also\ninsist on its importance in the context of Woolf's work as a writer.\nChoice A is incorrect. Text 2 does suggest that the humor in Orlando is effective. However, there's nothing in Text 2 to suggest that\nthe author would agree that Woolf's talents were best suited to serious novels. Rather, the author of Text 2 compares Orlando\nfavorably to other novels by Woolf that are implied to be darker in tone. Choice B is incorrect because the author of Text 2 does not\nindicate that Orlando is less impressive than Woolf's other novels, but instead points out that it engages the same themes as other\nAssessment\nPSAT/NMSQT &\nPSAT 10\nTest\nReading and Writing\nDomain\nCraft and Structure\nSkill\nCross-Text\nConnections\nDifficulty",
     "strategy": "Perspective Synthesis",
-    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement"
+    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement",
+    "topic": "humanities"
   },
   {
     "id": "ecbd6424",
@@ -2360,7 +2498,8 @@ const questionBank_CS = [
     "answer": "B",
     "explanation": "Strategy: Two-Filter Method\nChoice B is the best answer. A person who is \"dogmatic\" believes strongly that their principles and opinions are true. Because Du\nBois and Locke are implied to have one \"unified vision\" of Black American identity that they prioritize over the \"diverse\nperspectives\" of different writers, they can be described as dogmatic.\nChoice A is incorrect. \"Proficient\" means \"skilled.\" Du Bois and Locke are contrasted with Johnson, but nothing in the text suggests\nthat Johnson was not skilled at making editorial decisions. Based on the text, the three editors just have different styles; they're\nnot necessarily more or less skilled. Choice C is incorrect. \"Ambiguous\" means \"unclear\" or \"open to multiple interpretations.\"\nHowever, it's actually Johnson who encouraged multiple interpretations (\"diverse perspectives\"). Since Du Bois and Locke are said\nto \"diverge\" from Johnson, we can assume that the views they published were not ambiguous, but instead clear and firm (a \"unified\nvision\"). Choice D is incorrect. \"Unpretentious\" means \"not trying to impress others with greater skill or importance than is actually\npossessed.\" Du Bois and Locke are contrasted with Johnson, but nothing in the text suggests that Johnson is pretentious (trying\nto impress others).",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "humanities"
   },
   {
     "id": "74e7cada",
@@ -2377,7 +2516,8 @@ const questionBank_CS = [
     "answer": "B",
     "explanation": "Strategy: Perspective Synthesis\nChoice B is the best answer. Siraj's hypothesis is that the Chicxulub impactor was a long-period comet. But Artemieva points to the\niridium found in the crater and in \"geological layers that were deposited worldwide after the impact\" as evidence that it was\nactually an asteroid, not a long-period comet.\nChoice A is incorrect. We can't infer that this is how Artemieva would respond to Siraj's hypothesis. Text 2 never discusses\nwhether Wild 2 is representative of long-period comets in general. Rather, Text 2 presents Artemieva's argument that the Chicxulub\nimpactor was an asteroid, not a long-term comet. Choice C is incorrect. We can't infer that this is how Artemieva would respond to\nSiraj's hypothesis. Siraj's hypothesis doesn't make this connection: rather, Siraj hypothesizes that the Chicxulub impactor was a\nlong-term comet. Choice D is incorrect. We can't infer that this is how Artemieva would respond to Siraj's hypothesis. \"Soil\nsamples from sites distant from the Chicxulub crater\" is too vague. Only soil samples from sites that are connected to the impact\nin some way are involved in either hypothesis.",
     "strategy": "Perspective Synthesis",
-    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement"
+    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement",
+    "topic": "science"
   },
   {
     "id": "a68eb278",
@@ -2394,7 +2534,8 @@ const questionBank_CS = [
     "answer": "D",
     "explanation": "Strategy: Function Map\nChoice D is the best answer. This best describes the overall structure of the text. In the first half of the text, the speaker describes\nour attempts to control nature: cultivating, taming, and irrigating different kinds of land. In the second half, the speaker states that\nwe can never tame the sea or the beach. \nChoice A is incorrect. This doesn't describe the overall structure of the text. The speaker never argues that we should not interfere\nwith nature. Rather, the speaker says that we are able to tame many different kinds of land, but we are unable to tame the sea or\nbeaches. Choice B is incorrect. This doesn't describe the overall structure of the text. The speaker never describes our cultivation,\ntaming, and irrigation of land as \"temporary.\" Rather, the speaker says that we are able to tame many different kinds of land, but we\nare unable to tame the sea or beaches. Choice C is incorrect. This doesn't describe the overall structure of the text. The speaker\nnever describes our cultivation, taming, and irrigation of land as an \"admirable\" approach to nature.\" Rather, the speaker says that\nwe are able to tame many different kinds of land, but we are unable to tame the sea or beaches.",
     "strategy": "Function Map",
-    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch"
+    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch",
+    "topic": "humanities"
   },
   {
     "id": "ae31c343",
@@ -2411,7 +2552,8 @@ const questionBank_CS = [
     "answer": "D",
     "explanation": "Strategy: Two-Filter Method\nChoice D is the best answer because it most logically completes the text's discussion of how rising prices affected demand for\nvintage cassette tapes. In this context, \"engendering\" means producing or causing to exist. The text indicates that the effect of a\ndramatic increase in the price of vintage cassettes was counterintuitive, or contrary to what would typically be expected. Generally,\nwhen prices rise, demand falls—but the text indicates that in this case, buyers who previously had no interest in cassettes\n\"thronged the market\" (that is, many of them began purchasing cassettes) because they saw the cassettes as potential\ninvestments. This context conveys that the rising prices surprisingly produced significant demand, producing many new buyers for\nvintage cassettes.\nChoice A is incorrect because the text focuses on a rise in prices of vintage cassettes, and it wouldn't make sense to describe the\nprice increase itself—rather than sellers of vintage cassettes—as \"exploiting,\" or unfairly or selfishly taking advantage of, demand.\nFurther, wanting to take advantage of new demand would be a motivation for a price increase, not a counterintuitive effect of it.\nChoice B is incorrect. In this context, \"monetizing\" would mean utilizing as a source of profit, and it wouldn't make sense to\ndescribe a price increase itself, rather than sellers of vintage cassettes, as using demand as a source of profit; moreover, seeking\nto profit when there's new demand would be a reason for price increases, not a counterintuitive effect of them. Choice C is\nincorrect. In this context, \"appraising\" would mean assessing the value or significance of something. The text focuses on a rise in\nprices of vintage cassettes, and while it would be reasonable to suggest that sellers might have appraised demand for those\ncassettes, it wouldn't make sense to suggest that a price increase itself could do such an assessment; moreover, an appraisal of\ndemand would most likely precede a price increase rather than be an effect of it.",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "social"
   },
   {
     "id": "13c5c4c2",
@@ -2428,7 +2570,8 @@ const questionBank_CS = [
     "answer": "B",
     "explanation": "Strategy: Two-Filter Method\nChoice B is the best answer because it most logically completes the text's discussion of Jha and Kremen's finding about bees'\nforaging behavior. In this context, \"homogeneous\" means uniform or of the same kind. The text indicates that some models\npredict that the distance that bees travel when they're foraging declines as the density of flowers increases. The text goes on to\nsay, however, that Jha and Kremen identified a circumstance in which bees don't behave this way. Specifically, if bees encounter\n\"patches of low species richness\"—that is, patches in which the flowers are largely from the same species—they'll travel beyond\nthose patches to get varied food resources. This context thus suggests that bees don't behave as some models predict if the\ndense patches of flowers the bees encounter are homogeneous. \nChoice A is incorrect because the text indicates that Jha and Kremen found that bees will behave differently than some models\npredict if the bees encounter flower patches that are not rich in species, not if the flowers are \"depleted,\" or emptied or reduced in\nquality or quantity. Although it could be true that bees are likely to leave depleted patches in search of more resources, the text\ndoesn't indicate that Jha and Kremen investigated that possibility. Choice C is incorrect because there's no information in the text\nsuggesting that bees will not behave as some models predict if flowers in patches are \"immature,\" or not fully developed. Instead,\nthe text indicates that Jha and Kremen found that bees will behave contrary to some models' predictions if the flower patches are\nnot rich in species. Choice D is incorrect because the text indicates that bees' behavior will be inconsistent with the predictions of\nsome models if the flower patches that the bees encounter are of low species richness, not if the flowers are in patches that are\n\"dispersed,\" or widely scattered. Although the text does describe bees as leaving patches that are not rich in species to forage\nelsewhere, there's no suggestion that Jha and Kremen found that the distance between dense flower patches affects whether the\nbees behave as some models predict.",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "social"
   },
   {
     "id": "92852f09",
@@ -2445,7 +2588,8 @@ const questionBank_CS = [
     "answer": "D",
     "explanation": "Strategy: Two-Filter Method\nChoice D is the best answer because it most logically completes the text's discussion of gender roles in Shakespeare's comedies.\nAs used in this context, \"prescribed\" would mean laid down as rules. The text indicates that the characters in the comedies often\ndefy gender roles that are \"socially dictated\" (even if most characters do return to those roles eventually) and that scholars have\nbeen very interested in these acts of defiance. This context indicates that what the characters are rebelling against are standards\nof behavior prescribed by the society of the time.  \nChoice A is incorrect because saying that expectations about gender were \"interjected,\" or suddenly inserted between other things,\nwouldn't make sense in context. There's no suggestion in the text that the issue of gender roles was inserted between other things\nor was an interruption in a larger discussion. Choice B is incorrect because the text indicates that Shakespeare depicts characters\nrebelling against expectations about gender that have been \"socially dictated,\" not expectations that society has \"committed,\" or\ncarried out, entrusted, or promised. Choice C is incorrect because the text indicates that Shakespeare depicts characters rebelling\nagainst expectations about gender that have been \"socially dictated,\" not expectations that have been \"illustrated,\" or clarified with\nexamples. Although it's possible for expectations about gender roles to be illustrated, there's nothing in the text to indicate that\ncharacters in Shakespeare's comedies rebel against illustrations of gender expectations.",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "humanities"
   },
   {
     "id": "9c0074c0",
@@ -2462,7 +2606,8 @@ const questionBank_CS = [
     "answer": "A",
     "explanation": "Strategy: Perspective Synthesis\nChoice A is the best answer. Text 1 states that Sykes felt Fletcher's contributions to the play were obvious because he had a\ndistinct style in his other plays. Text 2 states that scholars generally agree \"on the basis of style\" that Fletcher wrote most of the\nthree middle acts. Both texts imply that Fletcher's writing has a unique, readily identifiable style that can be used to distinguish his\nwork from others.\nChoice B is incorrect. While Text 1 refers to the women in Massinger plays, neither text compares the women of Fletcher's plays to\nthe women of Massinger's plays. Text 2 doesn't mention Massinger at all. Choice C is incorrect. Text 1 states that Sykes disputed\nthat Shakespeare coauthored the play, and implied that it was coauthored by Fletcher and Massinger instead. Sykes, therefore,\nwould disagree that The Two Noble Kinsmen belongs in a Shakespeare compilation. Choice D is incorrect. Text 1 doesn't suggest\nthat Massinger was inspired by Shakespeare, and Text 2 doesn't mention Massinger at all.",
     "strategy": "Perspective Synthesis",
-    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement"
+    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement",
+    "topic": "science"
   },
   {
     "id": "55c05ddf",
@@ -2479,7 +2624,8 @@ const questionBank_CS = [
     "answer": "B",
     "explanation": "Strategy: Two-Filter Method\nChoice B is the best answer because it most logically completes the text's discussion of business marketing practices. In this\ncontext, \"optimize\" means make the most effective possible use of available opportunities. The text indicates that though\nbusinesses typically try to promote themselves, they don't always make use of effective tools for doing so, pointing to research\nshowing that 33 percent of restaurants failed to use a free listing service that increased revenue by 5 percent on average for\nrestaurants that did use the service. The text therefore suggests that by foregoing a free and effective marketing tool, some\nbusinesses aren't making the best use of, or optimizing, marketing opportunities.\nChoice A is incorrect because in this context, \"adorn\" would mean decorate or enhance the appearance of, and there's nothing in\nthe text to suggest that by failing to use a free and effective promotional tool, some businesses aren't enhancing the appearance\nof their own marketing. The example in the text illustrates that some businesses aren't utilizing an effective marketing opportunity,\nnot that they aren't improving the appearance of their marketing. Choice C is incorrect because in this context, \"endorse\" would\nmean openly approve or recommend, and the text's discussion of the fact that some businesses have overlooked an effective\nmarketing tool doesn't support the idea that those businesses therefore don't approve of their own marketing. Choice D is\nincorrect because in this context, saying that businesses don't \"counteract\" their marketing would suggest that they don't actively\nundermine it or make it ineffective. The text begins by stating that businesses typically try to promote themselves but then\ncontinues to imply that some businesses fail to take advantage of good opportunities to do so, citing the example of businesses\nthat failed to use a free and effective marketing tool. Though it's possible that those businesses that did use the site therefore\ndidn't unintentionally counteract their own marketing, the first sentence conveys that the text's focus is on things that some\nbusinesses do and that some businesses don't do when trying to promote themselves, and it wouldn't make sense to say that any\nbusinesses would actively try to undermine their own marketing in pursuit of that goal.",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "social"
   },
   {
     "id": "8f528a85",
@@ -2496,7 +2642,8 @@ const questionBank_CS = [
     "answer": "B",
     "explanation": "Strategy: Function Map\nChoice B is the best answer because it most accurately describes the main purpose of the text, which is to foreground Queen\nDido's strong emotional response to Aeneas's story. Throughout, the text emphasizes how deeply the queen is affected by both\nAeneas's tale and persona. At the outset, the speaker explicitly states that \"anxious cares...seiz'd the queen\" and then uses the\nmetaphor of fire (\"within her veins a flame unseen\" and \"secret fire\") to evoke the warmth of Dido's feelings for Aeneas. In addition,\nthe line \"His words, his looks, imprinted in her heart\" suggests the deep impression that Aeneas's story makes on Dido, eliciting\npassion for him (\"improv[ing] the passion\") and empathy for his suffering (\"increas[ing] the smart\").\nChoice A is incorrect because there's no indication in the text that Dido is skeptical of Aeneas's account, much less that she's\ntrying to conceal that skepticism. On the contrary, the text shows her being moved by his words and developing feelings for him.\nChoice C is incorrect. While the text mentions that Dido is impressed by Aeneas's \"valor, acts, and birth,\" which might suggest (but\ndoesn't necessarily entail) intellectual engagement, the text doesn't represent Dido's engagement with Aeneas in a manner that\nsuggests a balance between emotion and intellect. Rather, the text primarily emphasizes her emotional response—specifically her\nattraction to Aeneas and her emotional investment in his story, indicating that his \"valor, acts, and birth inspire / Her soul with love,\nand fan the secret fire\" and that his words and looks elicit passion and empathy. Choice D is incorrect because the text doesn't\nsuggest that Dido is worried about Aeneas discovering a secret she is concealing from him. Though the text begins by mentioning\nDido's \"anxious cares,\" this refers to her growing passion for Aeneas and pity for his suffering, not to worry about a secret she is\nconcealing. The text's reference to a \"flame unseen\" and \"secret fire\" points to Dido's growing feelings for Aeneas that develop as\nAssessment\nPSAT/NMSQT &\nPSAT 10\nTest\nReading and Writing\nDomain\nCraft and Structure\nSkill\nText Structure and\nPurpose\nDifficulty",
     "strategy": "Function Map",
-    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch"
+    "trapName": "Topic Match Function Miss · Part-for-Whole · Intensity Mismatch",
+    "topic": "humanities"
   },
   {
     "id": "67aeed94",
@@ -2513,7 +2660,8 @@ const questionBank_CS = [
     "answer": "B",
     "explanation": "Strategy: Two-Filter Method\nChoice B is the best answer because it most logically completes the text's description of how Pico feels about the natural world. In\nthis context, to say that Pico portrays his \"ambivalence toward\" nature would mean that he portrays his mixed feelings about\nnature. The text explains that Pico \"honors the centrality of nature\" and also makes it clear that he doesn't enjoy being in nature.\nThis context suggests that Pico feels ambivalence toward nature.\nChoice A is incorrect because saying that Pico portrays his \"responsiveness to\" nature would mean that he portrays himself as\nquick to react to nature, which isn't supported by the text. Instead, the text focuses on Pico's mixed feelings toward nature,\ndescribing him as both honoring nature's role in his tribe's beliefs and expressing his personal dislike for being in nature. Choice C\nis incorrect because saying that Pico portrays his \"renunciation of\" nature would mean that he portrays himself as rejecting nature,\nwhich isn't supported by the text. The text conveys that Pico demonstrates both positive and negative responses toward nature,\nnot that he's giving it up completely. Choice D is incorrect because saying that Pico portrays his \"mastery over\" nature would mean\nthat he portrays himself as having control over nature, which isn't supported by the text. The text focuses on Pico's mixed feelings\nabout nature; nothing in the text suggests that Pico feels mastery over nature.",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "humanities"
   },
   {
     "id": "8f0cc7a7",
@@ -2530,7 +2678,8 @@ const questionBank_CS = [
     "answer": "C",
     "explanation": "Strategy: Two-Filter Method\nChoice C is the best answer. The first sentence tells us that video meetings are \"less conducive to\" (meaning less good for)\nbrainstorming. This suggests that the video meeting participants' focus is bad for their creativity. \"Impede\" means \"delay\" or\n\"prevent,\" which works perfectly in this context.\nChoice A is incorrect. This choice is too positive to fit the context. The first sentence tells us that video meetings are \"less\nconducive to\" (meaning less good for) brainstorming. This suggests that the video meeting participants' focus is bad for their\ncreativity. Choice B is incorrect. This choice doesn't make sense. The participants' intense focus on the screen is the subject of the\nmissing verb. It wouldn't make sense to say that their over-focusing \"criticizes\" their creativity. Choice D is incorrect. \"Construct\"\nmeans \"build\" or \"make,\" which is too positive to fit the context. The first sentence tells us that video meetings are \"less conducive\nto\" (meaning less good for) brainstorming. This suggests that the video meeting participants' focus is bad for their creativity.",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "science"
   },
   {
     "id": "f1be2bd1",
@@ -2547,7 +2696,8 @@ const questionBank_CS = [
     "answer": "D",
     "explanation": "Strategy: Two-Filter Method\nChoice D is the best answer. The text tells us that the samples are too \"small scale\" to reflect the composition of the asteroid,\nwhich probably doesn't show the same variation on a large scale. This suggests that the mineral composition of the samples are\nunlikely to be exactly the same from sample to sample.\nChoice A is incorrect. \"Neglected\" means \"suffering a lack of proper care\" or \"abandoned,\" which doesn't work here. The text never\nsuggests that the distribution of minerals in the samples would be neglected, so this statement doesn't logically follow. Choice B\nis incorrect. \"Redundant\" means \"not or no longer useful or needed,\" which is too strong. The text doesn't suggest that the variation\nbetween the samples isn't a useful finding at all—just that we can't assume that the large-scale composition of the asteroid will\nshow the same variation. But the composition of the samples might be useful for something else. Choice C is incorrect. \"Ongoing\"\nmeans \"still in progress,\" which doesn't make sense: the distribution of minerals in a sample can't be \"ongoing.\"",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "science"
   },
   {
     "id": "1f38cdb9",
@@ -2564,7 +2714,8 @@ const questionBank_CS = [
     "answer": "A",
     "explanation": "Strategy: Perspective Synthesis\nChoice A is the best answer. The author of Text 2 argues that Morrison's use of the sermon is not only influenced by Ellison, but\nalso by a \"community-wide strategy of resistance\" to literary conventions practiced by Black American authors. Ellison, Text 2\nalleges, is only one of many influences on Morrison.\nChoice B is incorrect. Neither text specifically mentions sermons in works by authors other than Morrison or Ellison, only a\ntendency towards eroding \"the division between oral and written forms\" among Black American writers. Choice C is incorrect. Both\ntexts describe similarities between the works of Ellison and Morrison, and neither points out instances of divergence. Text 2\nsimply suggests that Morrison was influenced by more than just Ellison. Choice D is incorrect. While Text 2 does discuss\nMorrison's resistance to certain literary conventions, it's unclear what it would mean for the underlined claim to be \"indebted\" to\nthat tradition. This choice recycles language from the text, but not in a way that makes any coherent point.",
     "strategy": "Perspective Synthesis",
-    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement"
+    "trapName": "One-Sided Focus · Qualification as Disagreement · Shared Topic = Agreement",
+    "topic": "humanities"
   },
   {
     "id": "92fc161a",
@@ -2581,7 +2732,8 @@ const questionBank_CS = [
     "answer": "B",
     "explanation": "Strategy: Two-Filter Method\nChoice B is the best answer because it most logically completes the text's discussion of the utility of the Oase 1 fossil to\npaleoanthropologists. As used in this context, \"discern\" means to detect or recognize something, especially something hidden or\nobscure. The text indicates that the Oase 1 fossil can help paleoanthropologists recognize patterns in the evolutionary process\nand shed light on (\"illuminate\") the period in which Oase 1 lived. Thus, the fossil will enable researchers to gain insights into, or\ndiscern, facts that are still not well understood.\nChoice A is incorrect because in this context, \"exploit\" would suggest that the paleoanthropologists are using \"steps in the\nevolution of hominids,\" which does not make logical sense. Rather, the text is about how the Oase 1 fossil could help\npaleoanthropologists learn about hominid evolution and the Pleistocene epoch more generally. Choice C is incorrect because in\nthis context, \"prioritize\" would suggest that either the paleoanthropologists are placing more importance on \"steps in the evolution\nof hominids\" than they are on something else not identified in the text or that they are placing these steps in some sort of order.\nRather, the text is about how the Oase 1 fossil could help paleoanthropologists learn about hominid evolution and the Pleistocene\nepoch more generally. Choice D is incorrect because to say that paleoanthropologists could \"yield\" or generate \"steps in the\nevolution of hominids\" doesn't make sense. The researchers may develop new insights into those evolutionary steps, but they do\nnot create those steps themselves. Rather, the context makes it clear that they are detecting or discovering patterns based on their\nstudy of the Oase 1 fossil.",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "science"
   },
   {
     "id": "608d9ef2",
@@ -2598,6 +2750,7 @@ const questionBank_CS = [
     "answer": "B",
     "explanation": "Strategy: Two-Filter Method\nChoice B is the best answer. Based on the text, we're looking for a word that means something similar to \"mak[ing] use of insights\nand techniques from all those fields.\" \"Transcending\" means \"going beyond,\" so \"transcending traditional boundaries\" would mean\ncrossing into all those various fields of research, which is exactly the meaning we want.\nChoice A is incorrect. This isn't a logical word choice. Based on the text, we're looking for a word that means something similar to\n\"mak[ing] use of insights and techniques from all those fields.\" To \"epitomize\" means to \"be a perfect example of,\" so \"epitomizing\ntraditional boundaries\" would mean the opposite of what we want: keeping the fields of research separate. Choice C is incorrect.\nThis isn't a logical word choice. Based on the text, we're looking for a word that means something similar to \"mak[ing] use of\ninsights and techniques from all those fields.\" \"Anticipating\" means \"expecting\" or \"waiting for,\" and would result in a confusing\nsentence with an unclear meaning. Choice D is incorrect. This isn't a logical word choice. Based on the text, we're looking for a\nword that means something similar to \"mak[ing] use of insights and techniques from all those fields.\" \"Reinforcing traditional\nboundaries\" would mean the opposite: keeping the fields of research separate.",
     "strategy": "Two-Filter Method",
-    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch"
+    "trapName": "Familiar Definition · Fancy Synonym · Connotation Mismatch",
+    "topic": "social"
   }
 ];
