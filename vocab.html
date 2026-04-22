@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SAT Vocabulary — Joshua</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg:           #f1f5f9;
+    --surface:      #ffffff;
+    --surface2:     #f8fafc;
+    --border:       #e2e8f0;
+    --text:         #0f172a;
+    --text-muted:   #64748b;
+    --shadow:       0 1px 3px rgba(0,0,0,.08), 0 1px 2px rgba(0,0,0,.06);
+    --shadow-lg:    0 4px 6px -1px rgba(0,0,0,.10), 0 2px 4px -2px rgba(0,0,0,.10);
+
+    --trap-hue:      #d97706;
+    --trap-bg:       #fffbeb;
+    --trap-border:   #fde68a;
+    --trap-chip:     #fef3c7;
+
+    --verb-hue:      #2563eb;
+    --verb-bg:       #eff6ff;
+    --verb-border:   #bfdbfe;
+    --verb-chip:     #dbeafe;
+
+    --adj-hue:       #059669;
+    --adj-bg:        #ecfdf5;
+    --adj-border:    #a7f3d0;
+    --adj-chip:      #d1fae5;
+
+    --noun-hue:      #7c3aed;
+    --noun-bg:       #f5f3ff;
+    --noun-border:   #ddd6fe;
+    --noun-chip:     #ede9fe;
+
+    --conn-hue:      #db2777;
+    --conn-border:   #fbcfe8;
+
+    --ok-hue:        #16a34a;
+    --ok-bg:         #f0fdf4;
+    --ok-border:     #bbf7d0;
+
+    --radius:        0.75rem;
+    --radius-sm:     0.5rem;
+  }
+
+  [data-theme="dark"] {
+    --bg:          #0f172a;
+    --surface:     #1e293b;
+    --surface2:    #162032;
+    --border:      #334155;
+    --text:        #f1f5f9;
+    --text-muted:  #94a3b8;
+    --shadow:      0 1px 3px rgba(0,0,0,.35);
+    --shadow-lg:   0 4px 6px -1px rgba(0,0,0,.5);
+
+    --trap-bg:     #1c1107;
+    --trap-border: #78350f;
+    --trap-chip:   #292113;
+
+    --verb-bg:     #0c1a3d;
+    --verb-border: #1e3a8a;
+    --verb-chip:   #172554;
+
+    --adj-bg:      #052e1c;
+    --adj-border:  #064e3b;
+    --adj-chip:    #063726;
+
+    --noun-bg:     #1a0f3d;
+    --noun-border: #4c1d95;
+    --noun-chip:   #2e1065;
+
+    --conn-border: #9d174d;
+
+    --ok-bg:       #052e1c;
+    --ok-border:   #166534;
+  }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.5;
+    min-height: 100vh;
+  }
+
+  /* ── HEADER ─────────────────────────────────────────────── */
+  .site-header {
+    position: sticky; top: 0; z-index: 100;
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    box-shadow: var(--shadow);
+    padding: 0.65rem 1.5rem;
+  }
+  .header-row {
+    display: flex; align-items: center; gap: 0.875rem;
+  }
+  .site-logo {
+    font-size: 0.78rem; font-weight: 800;
+    color: var(--verb-hue); letter-spacing: 0.06em;
+    text-transform: uppercase; white-space: nowrap;
+  }
+  .progress-wrap {
+    flex: 1; display: flex; align-items: center; gap: 0.65rem;
+  }
+  .prog-bg {
+    flex: 1; height: 6px; background: var(--border);
+    border-radius: 9999px; overflow: hidden;
+  }
+  .prog-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--verb-hue), var(--ok-hue));
+    border-radius: 9999px; width: 0%;
+    transition: width 0.4s ease;
+  }
+  .prog-label {
+    font-size: 0.75rem; font-weight: 700;
+    color: var(--text-muted); white-space: nowrap;
+  }
+  .header-btns { display: flex; gap: 0.4rem; align-items: center; }
+  .icon-btn {
+    width: 32px; height: 32px; border-radius: 50%;
+    border: 1px solid var(--border); background: var(--surface2);
+    color: var(--text-muted); cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 0.9rem; transition: all 0.15s;
+  }
+  .icon-btn:hover { background: var(--border); color: var(--text); }
+  .search-wrap { position: relative; }
+  .search-input {
+    width: 260px; padding: 0.4rem 0.7rem 0.4rem 2rem;
+    border: 1px solid var(--border); border-radius: 9999px;
+    font-family: inherit; font-size: 0.85rem;
+    background: var(--surface2); color: var(--text); outline: none;
+    transition: border-color 0.15s, box-shadow 0.15s;
+  }
+  .search-input:focus {
+    border-color: var(--verb-hue);
+    box-shadow: 0 0 0 3px rgba(37,99,235,0.12);
+  }
+  .search-icon {
+    position: absolute; left: 0.6rem; top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-muted); pointer-events: none; font-size: 0.75rem;
+  }
+
+  /* ── MAIN ────────────────────────────────────────────────── */
+  main {
+    max-width: 1100px; margin: 0 auto;
+    padding: 1.5rem 1.25rem 5rem;
+  }
+
+  /* ── DAILY 5 ─────────────────────────────────────────────── */
+  .daily-strip {
+    background: linear-gradient(135deg, #2563eb 0%, #7c3aed 100%);
+    color: white; border-radius: var(--radius);
+    padding: 0.875rem 1.25rem; margin-bottom: 1.5rem;
+    display: flex; align-items: center; gap: 0.875rem; flex-wrap: wrap;
+  }
+  .daily-label {
+    font-size: 0.7rem; font-weight: 800;
+    text-transform: uppercase; letter-spacing: 0.08em;
+    opacity: 0.8; white-space: nowrap;
+  }
+  .daily-words { display: flex; flex-wrap: wrap; gap: 0.35rem; flex: 1; }
+  .daily-pill {
+    background: rgba(255,255,255,0.18); border: 1px solid rgba(255,255,255,0.28);
+    color: white; border-radius: 9999px; padding: 0.18rem 0.65rem;
+    font-size: 0.8rem; font-weight: 600; cursor: pointer; transition: background 0.15s;
+  }
+  .daily-pill:hover { background: rgba(255,255,255,0.3); }
+  .daily-new-btn {
+    background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3);
+    color: white; border-radius: var(--radius-sm);
+    padding: 0.3rem 0.7rem; font-family: inherit;
+    font-size: 0.78rem; font-weight: 600; cursor: pointer;
+    transition: background 0.15s; white-space: nowrap;
+  }
+  .daily-new-btn:hover { background: rgba(255,255,255,0.28); }
+
+  /* ── STUDY TIP ───────────────────────────────────────────── */
+  details.study-tip {
+    background: var(--surface2); border: 1px solid var(--border);
+    border-left: 3px solid var(--verb-hue);
+    border-radius: var(--radius-sm);
+    padding: 0.7rem 1rem; margin-bottom: 1.5rem;
+    font-size: 0.85rem;
+  }
+  details.study-tip summary {
+    font-size: 0.8rem; font-weight: 700; color: var(--verb-hue);
+    cursor: pointer; list-style: none;
+    display: flex; align-items: center; gap: 0.4rem;
+  }
+  details.study-tip summary::-webkit-details-marker { display: none; }
+  .tip-body { margin-top: 0.6rem; color: var(--text-muted); line-height: 1.65; }
+  .tip-body ol { padding-left: 1.2rem; }
+  .tip-body li { margin-bottom: 0.3rem; }
+
+  /* ── SECTION CARD ────────────────────────────────────────── */
+  .vocab-section {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 1.25rem 1.5rem;
+    margin-bottom: 1.5rem; box-shadow: var(--shadow);
+  }
+  .section-head {
+    display: flex; align-items: center; gap: 0.65rem;
+    margin-bottom: 1rem; padding-bottom: 0.6rem;
+    border-bottom: 2px solid var(--border);
+  }
+  .sec-num {
+    width: 26px; height: 26px; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 0.72rem; font-weight: 800; color: white; flex-shrink: 0;
+  }
+  .sec-title { font-size: 1rem; font-weight: 700; }
+  .sec-badge {
+    font-size: 0.65rem; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.07em; padding: 0.18rem 0.55rem;
+    border-radius: 9999px; color: white;
+  }
+  .sec-count {
+    margin-left: auto; font-size: 0.75rem;
+    color: var(--text-muted); font-weight: 600;
+  }
+
+  /* ── FLIP CARDS ──────────────────────────────────────────── */
+  .trap-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(195px, 1fr));
+    gap: 0.75rem;
+  }
+  .flip-card { height: 134px; perspective: 1000px; cursor: pointer; user-select: none; }
+  .flip-inner {
+    position: relative; width: 100%; height: 100%;
+    transition: transform 0.52s cubic-bezier(0.4,0,0.2,1);
+    transform-style: preserve-3d;
+  }
+  .flip-card.flipped .flip-inner { transform: rotateY(180deg); }
+  .flip-front, .flip-back {
+    position: absolute; inset: 0; border-radius: var(--radius-sm);
+    padding: 0.8rem; backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    display: flex; flex-direction: column; justify-content: space-between;
+  }
+  .flip-front {
+    background: var(--trap-bg); border: 1.5px solid var(--trap-border);
+  }
+  .flip-back {
+    background: var(--trap-hue); border: 1.5px solid var(--trap-hue);
+    transform: rotateY(180deg); color: white;
+  }
+  .flip-card.learned .flip-front {
+    background: var(--ok-bg); border-color: var(--ok-hue);
+  }
+  .flip-card.learned .flip-back {
+    background: var(--ok-hue); border-color: var(--ok-hue);
+  }
+  .card-word {
+    font-size: 1rem; font-weight: 700; color: var(--trap-hue);
+  }
+  .flip-card.learned .card-word { color: var(--ok-hue); }
+  .card-fam-label {
+    font-size: 0.6rem; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.07em; color: var(--text-muted); margin-top: 0.25rem;
+  }
+  .card-fam-text { font-size: 0.8rem; color: var(--text-muted); }
+  .card-hint { font-size: 0.62rem; color: var(--trap-hue); opacity: 0.55; text-align: right; }
+  .flip-card.learned .card-hint { color: var(--ok-hue); }
+  .card-dsat-label {
+    font-size: 0.6rem; font-weight: 700;
+    text-transform: uppercase; letter-spacing: 0.07em; opacity: 0.75;
+  }
+  .card-dsat-text {
+    font-size: 0.85rem; font-weight: 600; flex: 1;
+    display: flex; align-items: center; padding: 0.25rem 0;
+  }
+  .card-ok-btn {
+    align-self: flex-end;
+    background: rgba(255,255,255,0.18); border: 1px solid rgba(255,255,255,0.35);
+    color: white; border-radius: 9999px; padding: 0.12rem 0.55rem;
+    font-family: inherit; font-size: 0.68rem; font-weight: 700;
+    cursor: pointer; transition: background 0.15s;
+  }
+  .card-ok-btn:hover { background: rgba(255,255,255,0.32); }
+  .card-tick {
+    position: absolute; top: 0.45rem; right: 0.45rem;
+    width: 16px; height: 16px; background: var(--ok-hue); border-radius: 50%;
+    color: white; font-size: 0.6rem; font-weight: 800;
+    display: none; align-items: center; justify-content: center; z-index: 2;
+  }
+  .flip-card.learned .card-tick { display: flex; }
+
+  /* ── WORD CHIPS ──────────────────────────────────────────── */
+  .chip-grid { display: flex; flex-wrap: wrap; gap: 0.38rem; }
+  .chip {
+    padding: 0.28rem 0.72rem; border-radius: 9999px;
+    font-size: 0.8rem; font-weight: 500; cursor: pointer;
+    border: 1.5px solid transparent; transition: all 0.14s; user-select: none;
+  }
+  .chip.verb { background: var(--verb-chip); border-color: var(--verb-border); color: var(--verb-hue); }
+  .chip.adj  { background: var(--adj-chip);  border-color: var(--adj-border);  color: var(--adj-hue);  }
+  .chip.noun { background: var(--noun-chip); border-color: var(--noun-border); color: var(--noun-hue); }
+  .chip.learned {
+    background: var(--ok-bg)   !important;
+    border-color: var(--ok-hue) !important;
+    color: var(--ok-hue)        !important;
+    text-decoration: line-through; opacity: 0.65;
+  }
+  .chip.hide { display: none; }
+  .no-match {
+    font-size: 0.83rem; color: var(--text-muted);
+    padding: 0.4rem 0; display: none;
+  }
+
+  /* ── CONNECTOR TABLE ─────────────────────────────────────── */
+  .conn-table { width: 100%; border-collapse: collapse; }
+  .conn-table th {
+    text-align: left; font-size: 0.7rem; font-weight: 700;
+    text-transform: uppercase; letter-spacing: 0.07em;
+    color: var(--text-muted); padding: 0.45rem 0.75rem;
+    border-bottom: 2px solid var(--border);
+  }
+  .conn-table td {
+    padding: 0.52rem 0.75rem; border-bottom: 1px solid var(--border); font-size: 0.88rem;
+  }
+  .conn-table tr:last-child td { border-bottom: none; }
+  .conn-word { font-weight: 700; color: var(--conn-hue); font-size: 0.93rem; }
+  .conn-rel  { color: var(--text-muted); }
+
+  /* ── RESET ───────────────────────────────────────────────── */
+  .reset-wrap { text-align: center; margin-top: 1.5rem; }
+  .reset-btn {
+    background: none; border: 1px solid var(--border); border-radius: var(--radius-sm);
+    padding: 0.38rem 1rem; font-family: inherit; font-size: 0.78rem;
+    color: var(--text-muted); cursor: pointer; transition: all 0.14s;
+  }
+  .reset-btn:hover { border-color: #ef4444; color: #ef4444; }
+
+  /* ── RESPONSIVE ──────────────────────────────────────────── */
+  @media (max-width: 640px) {
+    .site-header { padding: 0.55rem 1rem; }
+    .search-input { width: 180px; }
+    .trap-grid { grid-template-columns: repeat(auto-fill, minmax(155px, 1fr)); }
+    .flip-card { height: 144px; }
+    main { padding: 1rem 1rem 4rem; }
+    .vocab-section { padding: 1rem; }
+    .daily-strip { padding: 0.75rem 1rem; }
+  }
+  </style>
+</head>
+<body>
+
+<!-- ════════════════════════════════════════════════════════════
+     HEADER
+     ════════════════════════════════════════════════════════════ -->
+<header class="site-header">
+  <div class="header-row">
+    <span class="site-logo">📘 SAT Vocab</span>
+    <div class="progress-wrap">
+      <div class="prog-bg"><div class="prog-fill" id="progFill"></div></div>
+      <span class="prog-label" id="progLabel">0 / 335 learned</span>
+    </div>
+    <div class="header-btns">
+      <div class="search-wrap">
+        <span class="search-icon">🔍</span>
+        <input type="search" id="searchInput" class="search-input" placeholder="Find a word…" autocomplete="off">
+      </div>
+      <button class="icon-btn" id="themeBtn" title="Toggle dark mode">🌙</button>
+    </div>
+  </div>
+</header>
+
+<!-- ════════════════════════════════════════════════════════════
+     MAIN
+     ════════════════════════════════════════════════════════════ -->
+<main>
+
+  <!-- Daily 5 -->
+  <div class="daily-strip">
+    <span class="daily-label">Today's 5</span>
+    <div class="daily-words" id="daily5"></div>
+    <button class="daily-new-btn" id="daily5Btn">New 5 →</button>
+  </div>
+
+  <!-- Study tip -->
+  <details class="study-tip">
+    <summary>💡 How to use this list</summary>
+    <div class="tip-body">
+      <ol>
+        <li><strong>Section 1 first.</strong> Tap a card to reveal the DSAT meaning, then mark it learned.</li>
+        <li><strong>Five words a day.</strong> Click any chip in Sections 2–4 to mark it learned. Strikethrough = done.</li>
+        <li><strong>Learn two things per word:</strong> the meaning, and the tone/intensity — mild / moderate / strong; positive / negative / neutral.</li>
+        <li><strong>The DSAT tests which meaning fits this passage</strong> — not what the word means by itself.</li>
+      </ol>
+    </div>
+  </details>
+
+  <!-- Section 1 — Trap Words -->
+  <div class="vocab-section">
+    <div class="section-head">
+      <div class="sec-num" style="background:var(--trap-hue)">1</div>
+      <span class="sec-title">Multi-Meaning Trap Words</span>
+      <span class="sec-badge" style="background:var(--trap-hue)">Highest Priority</span>
+      <span class="sec-count" id="s1count">0 / 23 learned</span>
+    </div>
+    <div class="trap-grid" id="trapGrid"></div>
+  </div>
+
+  <!-- Section 2 — Verbs -->
+  <div class="vocab-section">
+    <div class="section-head">
+      <div class="sec-num" style="background:var(--verb-hue)">2</div>
+      <span class="sec-title">High-Frequency Verbs</span>
+      <span class="sec-count" id="s2count"></span>
+    </div>
+    <div class="chip-grid" id="verbGrid"></div>
+    <p class="no-match" id="verbNone">No matching words.</p>
+  </div>
+
+  <!-- Section 3 — Adjectives -->
+  <div class="vocab-section">
+    <div class="section-head">
+      <div class="sec-num" style="background:var(--adj-hue)">3</div>
+      <span class="sec-title">High-Frequency Adjectives</span>
+      <span class="sec-count" id="s3count"></span>
+    </div>
+    <div class="chip-grid" id="adjGrid"></div>
+    <p class="no-match" id="adjNone">No matching words.</p>
+  </div>
+
+  <!-- Section 4 — Nouns -->
+  <div class="vocab-section">
+    <div class="section-head">
+      <div class="sec-num" style="background:var(--noun-hue)">4</div>
+      <span class="sec-title">High-Frequency Nouns</span>
+      <span class="sec-count" id="s4count"></span>
+    </div>
+    <div class="chip-grid" id="nounGrid"></div>
+    <p class="no-match" id="nounNone">No matching words.</p>
+  </div>
+
+  <!-- Section 5 — Connectors -->
+  <div class="vocab-section">
+    <div class="section-head">
+      <div class="sec-num" style="background:var(--conn-hue)">5</div>
+      <span class="sec-title">Cross-Passage Connectors</span>
+    </div>
+    <table class="conn-table">
+      <thead><tr><th>Word</th><th>Relationship it signals</th></tr></thead>
+      <tbody id="connBody"></tbody>
+    </table>
+  </div>
+
+  <div class="reset-wrap">
+    <button class="reset-btn" id="resetBtn">Reset all progress</button>
+  </div>
+
+</main>
+
+<script>
+// ─────────────────────────────────────────────────────────────────
+// DATA
+// ─────────────────────────────────────────────────────────────────
+
+const TRAP = [
+  { word:'account (for)', familiar:'a record',           dsat:'to explain, to be the cause of'           },
+  { word:'address',       familiar:'a location',          dsat:'to deal with (a problem)'                 },
+  { word:'assume',        familiar:'to suppose',          dsat:'to take on (a role, a responsibility)'    },
+  { word:'check',         familiar:'to verify',           dsat:'to restrain, to halt'                     },
+  { word:'contract',      familiar:'an agreement',        dsat:'to acquire / develop (a disease, a habit)'},
+  { word:'convey',        familiar:'to transport',        dsat:'to communicate (an idea)'                 },
+  { word:'employ',        familiar:'to hire',             dsat:'to use, to make use of'                   },
+  { word:'exploit',       familiar:'to take advantage',   dsat:'to use productively'                      },
+  { word:'form',          familiar:'a shape',             dsat:'a custom, a convention'                   },
+  { word:'found',         familiar:'past of "find"',      dsat:'to establish'                             },
+  { word:'ground',        familiar:'the earth',           dsat:'a basis, a reason'                        },
+  { word:'harbor',        familiar:'a port',              dsat:'to hold (feelings, a belief)'             },
+  { word:'novel',         familiar:'a book',              dsat:'new, unprecedented'                       },
+  { word:'observe',       familiar:'to watch',            dsat:'to remark, to comment'                    },
+  { word:'plant',         familiar:'vegetation',          dsat:'to place deliberately'                    },
+  { word:'qualify',       familiar:'to be eligible',      dsat:'to limit, to restrict'                    },
+  { word:'reservation',   familiar:'a booking',           dsat:'a doubt, a hesitation'                    },
+  { word:'scheme',        familiar:'a plot',              dsat:'a system, an arrangement'                 },
+  { word:'spare',         familiar:'extra',               dsat:'to refrain from harming'                  },
+  { word:'subject',       familiar:'a topic',             dsat:'to expose (to something)'                 },
+  { word:'sustain',       familiar:'to continue',         dsat:'to support, to uphold'                    },
+  { word:'uniform',       familiar:'matching clothing',   dsat:'consistent, unvarying'                    },
+  { word:'yield',         familiar:'to give way',         dsat:'to produce, to generate'                  },
+];
+
+const VERBS = ['abate','accentuate','adhere','admonish','advocate','allude','amend','articulate','ascertain','aspire','assert','assess','attest','attribute','calibrate','capitulate','coerce','compel','concede','conform','confound','conflate','consolidate','contend','contemplate','corroborate','cultivate','curtail','debunk','deceive','deflect','degrade','delineate','denigrate','deplete','deploy','deter','devise','discern','disparage','dispel','disseminate','dissipate','diverge','elicit','elucidate','embrace','emulate','enact','endorse','endow','engender','entail','entreat','evoke','exacerbate','exemplify','exert','expedite','explicate','facilitate','fluctuate','formulate','foster','hinder','illustrate','impede','impose','incite','induce','inhibit','invoke','juxtapose','lament','manifest','meander','mediate','mitigate','obfuscate','oscillate','permeate','perturb','posit','postulate','preclude','proliferate','promulgate','provoke','rebuke','reconcile','rectify','refine','refute','reinforce','relegate','renounce','repudiate','rescind','scrutinize','solicit','speculate','spur','stimulate','substantiate','supplant','sustain','synthesize','transgress','underscore','undermine','validate','vindicate','warrant','yield'];
+
+const ADJS = ['abstract','adept','aesthetic','ambiguous','ambivalent','amicable','analogous','apt','arbitrary','atypical','austere','benevolent','candid','coherent','conducive','conspicuous','contentious','contingent','conventional','credible','cynical','decisive','detrimental','didactic','diligent','discrete','disparate','dispassionate','distinct','dubious','earnest','eccentric','eclectic','eloquent','empirical','ephemeral','equivocal','erratic','esoteric','extensive','feasible','flagrant','hypothetical','idealistic','impartial','imperative','impervious','impetuous','incisive','indifferent','indispensable','inevitable','inexorable','inherent','innovative','intrinsic','keen','lavish','lethargic','marginal','meager','momentous','mundane','mutable','naive','nominal','nostalgic','notorious','noxious','nuanced','obscure','obsolete','ominous','onerous','ostensible','pertinent','pervasive','placid','plausible','poignant','potent','pragmatic','preliminary','pristine','profound','prominent','reluctant','resolute','rife','rigorous','robust','salient','sanguine','scrupulous','secular','skeptical','sparse','sporadic','staid','stark','subservient','subtle','superficial','superfluous','susceptible','tangible','tedious','tentative','tenuous','theoretical','tractable','tranquil','transient','trifling','ubiquitous','unprecedented','venerable','viable','vigorous','volatile'];
+
+const NOUNS = ['acquisition','adversary','ambiguity','analogy','anecdote','anomaly','apathy','aversion','bias','candor','catalyst','consensus','constraint','continuum','contradiction','conviction','crux','dearth','deference','demeanor','dilemma','discord','discrepancy','disparity','doctrine','dogma','fallacy','hierarchy','hubris','hypothesis','idiosyncrasy','implication','inclination','indifference','inference','insight','intuition','juncture','maxim','misgiving','nadir','nuance','paradigm','paradox','paucity','penchant','phenomenon','plight','posterity','precedent','premise','proponent','provision','rationale','reluctance','reservation','sentiment','stigma','surge','threshold','tirade','upheaval','vestige','volition','zeal'];
+
+const CONN = [
+  { word:'concede',     rel:'acknowledging an opposing point'          },
+  { word:'corroborate', rel:'providing supporting evidence'            },
+  { word:'counter',     rel:'opposing a claim'                         },
+  { word:'qualify',     rel:'limiting or narrowing a claim'            },
+  { word:'refute',      rel:'directly disproving'                      },
+  { word:'supplement',  rel:'adding to'                                },
+  { word:'undermine',   rel:'weakening'                                },
+  { word:'reinforce',   rel:'strengthening'                            },
+  { word:'illustrate',  rel:'giving an example of'                     },
+  { word:'reconcile',   rel:'bringing opposing views into agreement'   },
+];
+
+const TOTAL = TRAP.length + VERBS.length + ADJS.length + NOUNS.length;
+
+// ─────────────────────────────────────────────────────────────────
+// PERSISTENCE
+// ─────────────────────────────────────────────────────────────────
+
+const SK = 'wayne_vocab_v1';
+const DK = 'wayne_daily_v1';
+const TK = 'wayne_theme_v1';
+
+function loadLearned() {
+  try { return new Set(JSON.parse(localStorage.getItem(SK)) || []); }
+  catch(e) { return new Set(); }
+}
+function save(set) {
+  try { localStorage.setItem(SK, JSON.stringify([...set])); } catch(e) {}
+}
+
+let learned = loadLearned();
+
+// ─────────────────────────────────────────────────────────────────
+// PROGRESS
+// ─────────────────────────────────────────────────────────────────
+
+function updateProgress() {
+  const n   = learned.size;
+  const pct = Math.round((n / TOTAL) * 100);
+  document.getElementById('progFill').style.width    = pct + '%';
+  document.getElementById('progLabel').textContent   = `${n} / ${TOTAL} learned`;
+
+  const s1 = TRAP.filter(t  => learned.has(t.word)).length;
+  const s2 = VERBS.filter(w => learned.has(w)).length;
+  const s3 = ADJS.filter(w  => learned.has(w)).length;
+  const s4 = NOUNS.filter(w => learned.has(w)).length;
+
+  document.getElementById('s1count').textContent = `${s1} / ${TRAP.length} learned`;
+  document.getElementById('s2count').textContent = `${s2} / ${VERBS.length} learned`;
+  document.getElementById('s3count').textContent = `${s3} / ${ADJS.length} learned`;
+  document.getElementById('s4count').textContent = `${s4} / ${NOUNS.length} learned`;
+}
+
+// ─────────────────────────────────────────────────────────────────
+// SECTION 1 — FLIP CARDS
+// ─────────────────────────────────────────────────────────────────
+
+function buildTrap() {
+  const grid = document.getElementById('trapGrid');
+  TRAP.forEach(item => {
+    const isLearned = learned.has(item.word);
+    const card = document.createElement('div');
+    card.className = 'flip-card' + (isLearned ? ' learned' : '');
+    card.dataset.word = item.word;
+
+    card.innerHTML = `
+      <div class="flip-inner">
+        <div class="flip-front">
+          <div class="card-tick">✓</div>
+          <div>
+            <div class="card-word">${item.word}</div>
+            <div class="card-fam-label">Familiar meaning</div>
+            <div class="card-fam-text">${item.familiar}</div>
+          </div>
+          <div class="card-hint">tap to reveal ↺</div>
+        </div>
+        <div class="flip-back">
+          <div class="card-dsat-label">DSAT tests this meaning</div>
+          <div class="card-dsat-text">${item.dsat}</div>
+          <button class="card-ok-btn">${isLearned ? '✓ Learned' : 'Mark learned'}</button>
+        </div>
+      </div>`;
+
+    card.addEventListener('click', e => {
+      if (e.target.closest('.card-ok-btn')) return;
+      card.classList.toggle('flipped');
+    });
+
+    card.querySelector('.card-ok-btn').addEventListener('click', e => {
+      e.stopPropagation();
+      const w = item.word;
+      if (learned.has(w)) {
+        learned.delete(w);
+        card.classList.remove('learned');
+        e.target.textContent = 'Mark learned';
+      } else {
+        learned.add(w);
+        card.classList.add('learned');
+        e.target.textContent = '✓ Learned';
+      }
+      save(learned);
+      updateProgress();
+    });
+
+    grid.appendChild(card);
+  });
+}
+
+// ─────────────────────────────────────────────────────────────────
+// SECTIONS 2–4 — CHIPS
+// ─────────────────────────────────────────────────────────────────
+
+function buildChips(words, gridId, type) {
+  const grid = document.getElementById(gridId);
+  words.forEach(word => {
+    const chip = document.createElement('span');
+    chip.className = `chip ${type}${learned.has(word) ? ' learned' : ''}`;
+    chip.textContent = word;
+    chip.dataset.word = word;
+    chip.addEventListener('click', () => {
+      if (learned.has(word)) { learned.delete(word); chip.classList.remove('learned'); }
+      else                   { learned.add(word);    chip.classList.add('learned');    }
+      save(learned);
+      updateProgress();
+    });
+    grid.appendChild(chip);
+  });
+}
+
+// ─────────────────────────────────────────────────────────────────
+// SECTION 5 — CONNECTORS
+// ─────────────────────────────────────────────────────────────────
+
+function buildConn() {
+  const tbody = document.getElementById('connBody');
+  CONN.forEach(item => {
+    const tr = document.createElement('tr');
+    tr.innerHTML = `<td><span class="conn-word">${item.word}</span></td>
+                    <td class="conn-rel">${item.rel}</td>`;
+    tbody.appendChild(tr);
+  });
+}
+
+// ─────────────────────────────────────────────────────────────────
+// DAILY 5
+// ─────────────────────────────────────────────────────────────────
+
+function getDaily5() {
+  const today = new Date().toDateString();
+  try {
+    const s = JSON.parse(localStorage.getItem(DK));
+    if (s && s.date === today && Array.isArray(s.words) && s.words.length === 5) return s.words;
+  } catch(e) {}
+  return freshDaily(today);
+}
+
+function freshDaily(key) {
+  const pool = [
+    ...TRAP.map(t => t.word), ...VERBS, ...ADJS, ...NOUNS
+  ];
+  const unlearned = pool.filter(w => !learned.has(w));
+  const src = unlearned.length >= 5 ? unlearned : pool;
+  const words = src.slice().sort(() => Math.random() - 0.5).slice(0, 5);
+  try { localStorage.setItem(DK, JSON.stringify({ date: key, words })); } catch(e) {}
+  return words;
+}
+
+function renderDaily(words) {
+  const container = document.getElementById('daily5');
+  container.innerHTML = '';
+  words.forEach(word => {
+    const pill = document.createElement('span');
+    pill.className = 'daily-pill';
+    pill.textContent = word;
+    pill.title = 'Scroll to word';
+    pill.addEventListener('click', () => {
+      const el = document.querySelector(`[data-word="${CSS.escape(word)}"]`);
+      if (!el) return;
+      el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      const prev = el.style.boxShadow;
+      el.style.boxShadow = '0 0 0 3px #f59e0b, 0 0 0 6px rgba(245,158,11,0.25)';
+      setTimeout(() => el.style.boxShadow = prev, 1800);
+    });
+    container.appendChild(pill);
+  });
+}
+
+// ─────────────────────────────────────────────────────────────────
+// SEARCH
+// ─────────────────────────────────────────────────────────────────
+
+function handleSearch(q) {
+  q = q.trim().toLowerCase();
+
+  // Trap cards
+  document.querySelectorAll('#trapGrid .flip-card').forEach(card => {
+    card.style.display = (!q || card.dataset.word.toLowerCase().includes(q)) ? '' : 'none';
+  });
+
+  // Chip grids
+  [['verbGrid','verbNone'], ['adjGrid','adjNone'], ['nounGrid','nounNone']].forEach(([gid, nid]) => {
+    let vis = 0;
+    document.querySelectorAll(`#${gid} .chip`).forEach(chip => {
+      const show = !q || chip.dataset.word.toLowerCase().includes(q);
+      chip.classList.toggle('hide', !show);
+      if (show) vis++;
+    });
+    document.getElementById(nid).style.display = (q && vis === 0) ? 'block' : 'none';
+  });
+}
+
+// ─────────────────────────────────────────────────────────────────
+// THEME
+// ─────────────────────────────────────────────────────────────────
+
+function applyTheme(t) {
+  document.documentElement.setAttribute('data-theme', t);
+  document.getElementById('themeBtn').textContent = t === 'dark' ? '☀️' : '🌙';
+  try { localStorage.setItem(TK, t); } catch(e) {}
+}
+
+function initTheme() {
+  const saved = localStorage.getItem(TK);
+  if (saved) applyTheme(saved);
+  else if (window.matchMedia('(prefers-color-scheme: dark)').matches) applyTheme('dark');
+}
+
+// ─────────────────────────────────────────────────────────────────
+// RESET
+// ─────────────────────────────────────────────────────────────────
+
+function resetAll() {
+  if (!confirm('Reset all learned words? This cannot be undone.')) return;
+  learned.clear(); save(learned);
+  document.querySelectorAll('.chip').forEach(c => c.classList.remove('learned'));
+  document.querySelectorAll('.flip-card').forEach(card => {
+    card.classList.remove('learned', 'flipped');
+    const btn = card.querySelector('.card-ok-btn');
+    if (btn) btn.textContent = 'Mark learned';
+  });
+  updateProgress();
+}
+
+// ─────────────────────────────────────────────────────────────────
+// INIT
+// ─────────────────────────────────────────────────────────────────
+
+initTheme();
+buildTrap();
+buildChips(VERBS, 'verbGrid', 'verb');
+buildChips(ADJS,  'adjGrid',  'adj');
+buildChips(NOUNS, 'nounGrid', 'noun');
+buildConn();
+updateProgress();
+renderDaily(getDaily5());
+
+document.getElementById('daily5Btn').addEventListener('click', () => {
+  renderDaily(freshDaily(new Date().toDateString() + '_' + Date.now()));
+});
+document.getElementById('searchInput').addEventListener('input', e => handleSearch(e.target.value));
+document.getElementById('themeBtn').addEventListener('click', () => {
+  applyTheme(document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+});
+document.getElementById('resetBtn').addEventListener('click', resetAll);
+</script>
+</body>
+</html>
